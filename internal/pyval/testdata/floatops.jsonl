@@ -1,0 +1,600 @@
+{"k": "floatops", "in": ["round", "cd613e30d8f16adf"], "out": "-56746649181362161416151731055162145894234659034984102412318408704"}
+{"k": "floatops", "in": ["floordiv", "407e942e05408428", "c004000000000000"], "out": "c068800000000000"}
+{"k": "floatops", "in": ["divmod", "c0f009a800000000", "c004000000000000"], "out": ["40d9a90000000000", "bfe0000000000000"]}
+{"k": "floatops", "in": ["roundn", "9f80be13af347213", 5], "out": "8000000000000000"}
+{"k": "floatops", "in": ["divmod", "dbdd95d2333dbbe4", "4008000000000000"], "out": ["dbc3b936ccd3d298", "0000000000000000"]}
+{"k": "floatops", "in": ["floordiv", "407e0ec329d650ac", "4008000000000000"], "out": "4064000000000000"}
+{"k": "floatops", "in": ["mod", "1bdaf75ccb917062", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["round", "4077202d5e387a7c"], "out": "370"}
+{"k": "floatops", "in": ["roundn", "40818c791e75a284", 10], "out": "40818c791e75a401"}
+{"k": "floatops", "in": ["int", "c0f8a3e000000000"], "out": "-100926"}
+{"k": "floatops", "in": ["roundn", "4108f43800000000", 17], "out": "4108f43800000000"}
+{"k": "floatops", "in": ["floordiv", "dc476d8720e872ed", "7e37e43c8800759c"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["mod", "406fa3851eb851ec", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["round", "406111328b6adc48"], "out": "137"}
+{"k": "floatops", "in": ["divmod", "40b5e97ae147ae14", "c019b2d21a6f5e26"], "out": ["c08b500000000000", "c01695c9217f1dbc"]}
+{"k": "floatops", "in": ["int", "410ab0f800000000"], "out": "218655"}
+{"k": "floatops", "in": ["int", "39453e7a3e80f219"], "out": "0"}
+{"k": "floatops", "in": ["mod", "c08210b22556b435", "3fe0000000000000"], "out": "3fda6ed54a5e5800"}
+{"k": "floatops", "in": ["round", "a42aaa3c918f5601"], "out": "0"}
+{"k": "floatops", "in": ["roundn", "e2f61288666ff62f", 5], "out": "e2f61288666ff62f"}
+{"k": "floatops", "in": ["mod", "639fcac6e5b9a285", "3ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "d9ef96e6026df251", -1], "out": "d9ef96e6026df251"}
+{"k": "floatops", "in": ["floordiv", "c08d7046c7af8c1b", "c004000000000000"], "out": "4077800000000000"}
+{"k": "floatops", "in": ["roundn", "4061b592d2adb618", 300], "out": "4061b592d2adb618"}
+{"k": "floatops", "in": ["int", "01b71859a8c92660"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "4080caa17414d4e6", "4008000000000000"], "out": "4066600000000000"}
+{"k": "floatops", "in": ["round", "c08587c4b706f00c"], "out": "-689"}
+{"k": "floatops", "in": ["floordiv", "4111334400000000", "bfece65f8dcae010"], "out": "c1130b9c00000000"}
+{"k": "floatops", "in": ["round", "2d60b0d8e642f64b"], "out": "0"}
+{"k": "floatops", "in": ["round", "065b09d312e10f3c"], "out": "0"}
+{"k": "floatops", "in": ["mod", "40794fae6e7a6ba4", "c004000000000000"], "out": "bf94646165170000"}
+{"k": "floatops", "in": ["round", "40b14f2b851eb852"], "out": "4431"}
+{"k": "floatops", "in": ["mod", "407ef4e5f7c24eb0", "4008000000000000"], "out": "3fd397df093ac000"}
+{"k": "floatops", "in": ["mod", "6ca3d7ef210a2ea8", "01a56e1fc2f8f359"], "out": "0186f1c281b90484"}
+{"k": "floatops", "in": ["floordiv", "40c198deb851eb85", "3fe0000000000000"], "out": "40d198c000000000"}
+{"k": "floatops", "in": ["divmod", "4074fb1c002a82f8", "3fe0000000000000"], "out": ["4084f80000000000", "3fc8e0015417c000"]}
+{"k": "floatops", "in": ["divmod", "4076f92e25856e20", "7e37e43c8800759c"], "out": ["0000000000000000", "4076f92e25856e20"]}
+{"k": "floatops", "in": ["roundn", "c0b8f3947ae147ae", 1], "out": "c0b8f3999999999a"}
+{"k": "floatops", "in": ["int", "ad380b3246225cd3"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "c06b6e3e4d13df8c", "01a56e1fc2f8f359"], "out": "feb47ae226953463"}
+{"k": "floatops", "in": ["floordiv", "c0e5a32333333333", "01a56e1fc2f8f359"], "out": "ff30279495713eb9"}
+{"k": "floatops", "in": ["floordiv", "910eb07f5e557129", "bff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["int", "407038909ae1fb48"], "out": "259"}
+{"k": "floatops", "in": ["mod", "26d7805f27b53354", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["roundn", "e52f27532de1a2d5", 10], "out": "e52f27532de1a2d5"}
+{"k": "floatops", "in": ["floordiv", "40bf4c6000000000", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["floordiv", "40725ef000000000", "01a56e1fc2f8f359"], "out": "7ebb6e875c2b7f09"}
+{"k": "floatops", "in": ["floordiv", "e713deae278fe40a", "3fe0000000000000"], "out": "e723deae278fe40a"}
+{"k": "floatops", "in": ["floordiv", "d53ec66630fbcfd4", "01a56e1fc2f8f359"], "out": "fff0000000000000"}
+{"k": "floatops", "in": ["roundn", "4085cbb800000000", -308], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "5a4667391a88d0b2"], "out": "7582606873811347806226259682304983266402727593716447853197295573848850419035166457809612780963852749607453741802687722202071040"}
+{"k": "floatops", "in": ["mod", "c0f473a99999999a", "bff0000000000000"], "out": "bfe3333333340000"}
+{"k": "floatops", "in": ["floordiv", "aabd650ec1f293bf", "c004000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "c0c1955d70a3d70a", "01a56e1fc2f8f359"], "out": "019a7d21aaf21036"}
+{"k": "floatops", "in": ["divmod", "40698d1eb851eb85", "01a56e1fc2f8f359"], "out": ["7eb313abe48de307", "01486a6132134d00"]}
+{"k": "floatops", "in": ["mod", "c08d90be00000000", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["mod", "c0a19d0000000000", "3ff0000000000000"], "out": "3fe0000000000000"}
+{"k": "floatops", "in": ["mod", "c0e8990000000000", "bff0000000000000"], "out": "8000000000000000"}
+{"k": "floatops", "in": ["mod", "411b160600000000", "4008000000000000"], "out": "4004000000000000"}
+{"k": "floatops", "in": ["round", "6f1f3def6b377967"], "out": "185026811737289564569066677221018599949476381337241843461011041487487526960639758811231446319923436735148501408604611988885461844674065077233355204576862532079368690811001839899023302305940979097297219506198747592479758088142848"}
+{"k": "floatops", "in": ["round", "10a88ac998e6a3ec"], "out": "0"}
+{"k": "floatops", "in": ["divmod", "40750f351a624b88", "7ff0000000000000"], "out": ["0000000000000000", "40750f351a624b88"]}
+{"k": "floatops", "in": ["round", "c1053df400000000"], "out": "-174014"}
+{"k": "floatops", "in": ["int", "40f52d2000000000"], "out": "86738"}
+{"k": "floatops", "in": ["floordiv", "40c21ba000000000", "01a56e1fc2f8f359"], "out": "7f0b0a042983551a"}
+{"k": "floatops", "in": ["mod", "40da010000000000", "bff808fcad0b4ea0"], "out": "bff650d2a1f97960"}
+{"k": "floatops", "in": ["floordiv", "c0f1d17000000000", "c004000000000000"], "out": "40dc824000000000"}
+{"k": "floatops", "in": ["divmod", "5b956769ef721467", "401e807a060df168"], "out": ["5b66748ad0a923c9", "400f5695a269ae40"]}
+{"k": "floatops", "in": ["divmod", "bcfeb60cf976be78", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["floordiv", "4cd84f7fa3cc6e10", "c004000000000000"], "out": "ccc372cc8309f1a6"}
+{"k": "floatops", "in": ["int", "4054e80000000000"], "out": "83"}
+{"k": "floatops", "in": ["floordiv", "c112d71400000000", "bff0000000000000"], "out": "4112d71400000000"}
+{"k": "floatops", "in": ["int", "874da3eb0a541c0a"], "out": "0"}
+{"k": "floatops", "in": ["divmod", "407b23e000000000", "01a56e1fc2f8f359"], "out": ["7ec4435bf29cdbbf", "0190c4dd5330650e"]}
+{"k": "floatops", "in": ["roundn", "17b1514005d57e0c", -310], "out": "0000000000000000"}
+{"k": "floatops", "in": ["divmod", "0c108cf00709d3d2", "c004000000000000"], "out": ["bff0000000000000", "c004000000000000"]}
+{"k": "floatops", "in": ["floordiv", "407f16189374bc6a", "3ff8af56bfd78340"], "out": "4074200000000000"}
+{"k": "floatops", "in": ["round", "c08b8fe4ed71b5f4"], "out": "-882"}
+{"k": "floatops", "in": ["roundn", "c0777c5eba40d42e", -310], "out": "8000000000000000"}
+{"k": "floatops", "in": ["floordiv", "36098db903c74eac", "7e37e43c8800759c"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "c07b3e9400000000"], "out": "-436"}
+{"k": "floatops", "in": ["divmod", "410436b800000000", "bff0000000000000"], "out": ["c10436b800000000", "8000000000000000"]}
+{"k": "floatops", "in": ["int", "40d1c1d000000000"], "out": "18183"}
+{"k": "floatops", "in": ["int", "c067918000000000"], "out": "-188"}
+{"k": "floatops", "in": ["roundn", "40826b6b2673cb1c", -2], "out": "4082c00000000000"}
+{"k": "floatops", "in": ["int", "41124bc000000000"], "out": "299760"}
+{"k": "floatops", "in": ["floordiv", "4109b80200000000", "c004000000000000"], "out": "c0f4934000000000"}
+{"k": "floatops", "in": ["round", "404e88d4fdf3b646"], "out": "61"}
+{"k": "floatops", "in": ["round", "771790e0336e3bb4"], "out": "47492016615183122427420365504561862591162048927938033129026111196964168299961308858026260518068651310217224175942012349213724863063968666907455787511819807940102636235849371233147924649934142329611840925534040600633019534470305243784405521087405963189039631175778304"}
+{"k": "floatops", "in": ["roundn", "407ee1551881b1e0", -2], "out": "407f400000000000"}
+{"k": "floatops", "in": ["mod", "c051738000000000", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["mod", "c07f3a978d4fdf3b", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["roundn", "c08a766200000000", 300], "out": "c08a766200000000"}
+{"k": "floatops", "in": ["mod", "408bae7a00000000", "4019e79b69de2450"], "out": "4014326fc1fcb580"}
+{"k": "floatops", "in": ["roundn", "c006c7f7670b0b00", 17], "out": "c006c7f7670b0b00"}
+{"k": "floatops", "in": ["roundn", "c05faf306ae0a6b8", -400], "out": "8000000000000000"}
+{"k": "floatops", "in": ["mod", "c0ec009800000000", "bff0000000000000"], "out": "bfe8000000000000"}
+{"k": "floatops", "in": ["divmod", "c12a733400000000", "7e37e43c8800759c"], "out": ["bff0000000000000", "7e37e43c8800759c"]}
+{"k": "floatops", "in": ["roundn", "c083d3215c41bba8", 10], "out": "c083d3215c41bc91"}
+{"k": "floatops", "in": ["int", "4125233200000000"], "out": "692633"}
+{"k": "floatops", "in": ["int", "90f7fc44750819a4"], "out": "0"}
+{"k": "floatops", "in": ["int", "4df9c9f5f149f10d"], "out": "43454225762155597145070550934234015366465920335964608595997589766144"}
+{"k": "floatops", "in": ["mod", "40ea425555555555", "bff0000000000000"], "out": "bfd5555555560000"}
+{"k": "floatops", "in": ["roundn", "40b28bcf5c28f5c3", -308], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "c12006cc00000000"], "out": "-525158"}
+{"k": "floatops", "in": ["round", "c08400668c2aed87"], "out": "-640"}
+{"k": "floatops", "in": ["round", "4b4c36fda8196ac2"], "out": "5404883429482561335925830933632413284597081876606222336"}
+{"k": "floatops", "in": ["int", "c0fb9c8c00000000"], "out": "-113096"}
+{"k": "floatops", "in": ["round", "c1058032aaaaaaab"], "out": "-176134"}
+{"k": "floatops", "in": ["mod", "bebb4411539c0c7c", "3fe0000000000000"], "out": "3fdffff92efbab19"}
+{"k": "floatops", "in": ["int", "c08c6a13b4f0be02"], "out": "-909"}
+{"k": "floatops", "in": ["round", "c06816147ae147ae"], "out": "-193"}
+{"k": "floatops", "in": ["round", "6218ed7f2dc8e353"], "out": "358872549362796190864031078043003489143365886221021504112055957118484544886299776606663607645380309758491943630055860027232393660452930913961692818026862649899220992"}
+{"k": "floatops", "in": ["divmod", "3892a3f4dd1b4c83", "3fe0000000000000"], "out": ["0000000000000000", "3892a3f4dd1b4c83"]}
+{"k": "floatops", "in": ["divmod", "4082306400000000", "bff0000000000000"], "out": ["c082380000000000", "bfee700000000000"]}
+{"k": "floatops", "in": ["floordiv", "ab3698539c9015f3", "01a56e1fc2f8f359"], "out": "e980dea429e78e55"}
+{"k": "floatops", "in": ["roundn", "2d5247e25f9391dc", -1], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "c07451bd33956d64", "3ff0000000000000"], "out": "3fec8598d5253800"}
+{"k": "floatops", "in": ["int", "fc1761e1573a30a6"], "out": "-56967072799286660934275360735765617889608121706108653165108207541770899564356981851861633796271401957176628624463421767681311598808419930133367093164220188848902400711483145582259206377779348119170782541827604837907723593680558542196399460322638761209021798795001139473864481809700336173056"}
+{"k": "floatops", "in": ["floordiv", "40fe66f000000000", "3ff7f262afc6f338"], "out": "40f4502000000000"}
+{"k": "floatops", "in": ["roundn", "c0e96ae000000000", 10], "out": "c0e96ae000000000"}
+{"k": "floatops", "in": ["roundn", "255fbb2bc45cd6dc", 0], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "c08ee1b168ff9f54"], "out": "-988"}
+{"k": "floatops", "in": ["int", "c1156f9600000000"], "out": "-351205"}
+{"k": "floatops", "in": ["floordiv", "442ecc20e7f324ce", "7ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "f7033d5c0a722352"], "out": "-19386712505636326664837907292390565845593435958944321897859180756996959961376809883577518440623467974714302205863483940781193669005879540145688577410291521754144710964920957750237232637548166582386514260426658393051669230517868642287099630531057625699788166063456256"}
+{"k": "floatops", "in": ["roundn", "477e00c042da9b01", 2], "out": "477e00c042da9b01"}
+{"k": "floatops", "in": ["round", "64744a2c1d522d11"], "out": "80292295363775687324985822829701738526501305611259485785795918823019663277280002540265970168939675765917500288010035681189495855950692475175095704548073344639962126775815766016"}
+{"k": "floatops", "in": ["divmod", "ee2d55e9938bfa2e", "3fe0000000000000"], "out": ["ee3d55e9938bfa2e", "0000000000000000"]}
+{"k": "floatops", "in": ["round", "c08d8b88210dd582"], "out": "-945"}
+{"k": "floatops", "in": ["mod", "c0f80a6000000000", "4008000000000000"], "out": "4000000000000000"}
+{"k": "floatops", "in": ["roundn", "406b6619e90d29a8", 0], "out": "406b600000000000"}
+{"k": "floatops", "in": ["mod", "273b78b31c260a7d", "3ff0000000000000"], "out": "273b78b31c260a7d"}
+{"k": "floatops", "in": ["int", "3ee5323cdabc83da"], "out": "0"}
+{"k": "floatops", "in": ["mod", "c0e3a65800000000", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["int", "40852f0444c4150c"], "out": "677"}
+{"k": "floatops", "in": ["divmod", "c0dbfd2ccccccccd", "4008000000000000"], "out": ["c0c2a90000000000", "3ff4ccccccccc000"]}
+{"k": "floatops", "in": ["round", "40094643944b1500"], "out": "3"}
+{"k": "floatops", "in": ["floordiv", "202d5bfa23351011", "01a56e1fc2f8f359"], "out": "5e75eb82a8c5529f"}
+{"k": "floatops", "in": ["int", "4088d827a0f09d54"], "out": "795"}
+{"k": "floatops", "in": ["divmod", "40f32d8555555555", "01a56e1fc2f8f359"], "out": ["7f3ca300e46224f7", "019c9e0d98d2ee80"]}
+{"k": "floatops", "in": ["mod", "40f5eb5333333333", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["roundn", "4076044fd91f1ea0", 0], "out": "4076000000000000"}
+{"k": "floatops", "in": ["floordiv", "4088f665e1922b3a", "01a56e1fc2f8f359"], "out": "7ed2a324081ed435"}
+{"k": "floatops", "in": ["roundn", "f1b7fb8020e6ed11", -400], "out": "8000000000000000"}
+{"k": "floatops", "in": ["divmod", "a862bbe9fe114c18", "bff0000000000000"], "out": ["0000000000000000", "a862bbe9fe114c18"]}
+{"k": "floatops", "in": ["divmod", "bff8d0e560418937", "3ff0000000000000"], "out": ["c000000000000000", "3fdcbc6a7ef9db24"]}
+{"k": "floatops", "in": ["mod", "c0ddee9000000000", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["floordiv", "cf75efe1aeab967f", "7e37e43c8800759c"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["round", "40fcb73000000000"], "out": "117619"}
+{"k": "floatops", "in": ["floordiv", "4cbe4fb504256a18", "c0204a95bd3a7f8f"], "out": "cc8dc4ef96054747"}
+{"k": "floatops", "in": ["round", "a16683bebd33afb9"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "4087425c28f5c28f", "c004000000000000"], "out": "c072a00000000000"}
+{"k": "floatops", "in": ["roundn", "40d3417800000000", 0], "out": "40d3418000000000"}
+{"k": "floatops", "in": ["floordiv", "407876ccb300c5a8", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["mod", "c0877c8a3f42ead0", "4008000000000000"], "out": "3ff6eb817a2a6000"}
+{"k": "floatops", "in": ["floordiv", "c12d7d4c00000000", "3fe0000000000000"], "out": "c13d7d4c00000000"}
+{"k": "floatops", "in": ["mod", "4078c8c400000000", "01a56e1fc2f8f359"], "out": "019db3c96677fbac"}
+{"k": "floatops", "in": ["round", "4113c95a00000000"], "out": "324182"}
+{"k": "floatops", "in": ["roundn", "406ab9f180a8f948", 0], "out": "406ac00000000000"}
+{"k": "floatops", "in": ["mod", "407e014c2d5388f4", "c004000000000000"], "out": "c00359e9563b8600"}
+{"k": "floatops", "in": ["divmod", "f44b155624c5c0fc", "4008000000000000"], "out": ["f4320e396dd92b53", "3ff0000000000000"]}
+{"k": "floatops", "in": ["int", "874024a43bb5accc"], "out": "0"}
+{"k": "floatops", "in": ["round", "45918ae174437e76"], "out": "1357285401803524401222647808"}
+{"k": "floatops", "in": ["divmod", "c08d886c242303bc", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["roundn", "40538057956f32b0", -400], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c10433e000000000", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["mod", "c081d7a7ef9db22d", "4008000000000000"], "out": "40005810624dd300"}
+{"k": "floatops", "in": ["int", "3e32fe9a4bf90080"], "out": "0"}
+{"k": "floatops", "in": ["int", "c086c283126e978d"], "out": "-728"}
+{"k": "floatops", "in": ["round", "c08d75c909620fa1"], "out": "-943"}
+{"k": "floatops", "in": ["int", "cf15c19724533f91"], "out": "-9609975045678064096961711018033350415104097472257280903489323650198274048"}
+{"k": "floatops", "in": ["roundn", "408a9cc0dc983d1a", 10], "out": "408a9cc0dc983e47"}
+{"k": "floatops", "in": ["divmod", "40781dc7238bddfc", "bff0000000000000"], "out": ["c078200000000000", "bfc1c6e3a1102000"]}
+{"k": "floatops", "in": ["round", "82517e4ad3e2000f"], "out": "0"}
+{"k": "floatops", "in": ["int", "b093f2828d5c11c4"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "c07151eaead9ae62", "7ff0000000000000"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["mod", "c0f631a333333333", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["round", "c080f4e1c806c69a"], "out": "-543"}
+{"k": "floatops", "in": ["mod", "40efb07000000000", "c004000000000000"], "out": "bfe0000000000000"}
+{"k": "floatops", "in": ["roundn", "408b0a264fcdb8ea", 300], "out": "408b0a264fcdb8ea"}
+{"k": "floatops", "in": ["divmod", "21786bdd3b7367cb", "bff0000000000000"], "out": ["bff0000000000000", "bff0000000000000"]}
+{"k": "floatops", "in": ["divmod", "65de0035759c8f3f", "bff0000000000000"], "out": ["e5de0035759c8f3f", "8000000000000000"]}
+{"k": "floatops", "in": ["floordiv", "c113051800000000", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["round", "4089ba20c49ba5e3"], "out": "823"}
+{"k": "floatops", "in": ["int", "c0809b38b74d6ece"], "out": "-531"}
+{"k": "floatops", "in": ["roundn", "c05d1c71a1d41ef0", -400], "out": "8000000000000000"}
+{"k": "floatops", "in": ["round", "70d9842c6d5d4106"], "out": "40565270434981362077388899806755310315796531030555422237271183387306674142235963482847893366456607140433659789686442259552315902827277220376944873930955891719854628824582331293128458032874160025647255189366013336816922296654339984326656"}
+{"k": "floatops", "in": ["divmod", "01cf40f3da2c2b04", "bff0000000000000"], "out": ["bff0000000000000", "bff0000000000000"]}
+{"k": "floatops", "in": ["divmod", "407bd562d0513244", "7ff0000000000000"], "out": ["0000000000000000", "407bd562d0513244"]}
+{"k": "floatops", "in": ["int", "c0f709f800000000"], "out": "-94367"}
+{"k": "floatops", "in": ["int", "33d386429b9d3414"], "out": "0"}
+{"k": "floatops", "in": ["round", "407648a686601a14"], "out": "357"}
+{"k": "floatops", "in": ["round", "4085f89343b88086"], "out": "703"}
+{"k": "floatops", "in": ["roundn", "c0da393800000000", 400], "out": "c0da393800000000"}
+{"k": "floatops", "in": ["floordiv", "c0bf0a2e147ae148", "3ff0000000000000"], "out": "c0bf0b0000000000"}
+{"k": "floatops", "in": ["floordiv", "cb3d1e486a1e6aa5", "bff0000000000000"], "out": "4b3d1e486a1e6aa5"}
+{"k": "floatops", "in": ["round", "40b8cf051eb851ec"], "out": "6351"}
+{"k": "floatops", "in": ["floordiv", "2fce93a5f5e1b384", "c021b0765763ce53"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["mod", "41127706aaaaaaab", "7ff0000000000000"], "out": "41127706aaaaaaab"}
+{"k": "floatops", "in": ["round", "f77f8cf444f1adf7"], "out": "-4069338531440724798964576634593294455449817298559361618354605049422816534202508342993888549205280923505085607633335362890317456974050950077536896325249707174346943131416880440977214872354667617752686575974462677791992625473086140563144869419130103783090117689804324864"}
+{"k": "floatops", "in": ["roundn", "c088e2197192e904", 1], "out": "c088e26666666666"}
+{"k": "floatops", "in": ["mod", "40be5e0000000000", "c01e3e44857250aa"], "out": "c018496c647e3b52"}
+{"k": "floatops", "in": ["divmod", "c085dd3caf2dc94c", "3ff0000000000000"], "out": ["c085e00000000000", "3fd61a8691b5a000"]}
+{"k": "floatops", "in": ["floordiv", "c0f8911800000000", "bff0000000000000"], "out": "40f8911000000000"}
+{"k": "floatops", "in": ["round", "40fe2f6200000000"], "out": "123638"}
+{"k": "floatops", "in": ["mod", "406a764dd2f1a9fc", "bff0000000000000"], "out": "bfd3645a1cac0800"}
+{"k": "floatops", "in": ["divmod", "c0febe0aaaaaaaab", "3fe0000000000000"], "out": ["c10ebe1000000000", "3fd5555555540000"]}
+{"k": "floatops", "in": ["mod", "c0f78ca000000000", "c004000000000000"], "out": "bfe0000000000000"}
+{"k": "floatops", "in": ["roundn", "40da097333333333", -2], "out": "40da130000000000"}
+{"k": "floatops", "in": ["divmod", "85f7a838429a1c49", "3fe0000000000000"], "out": ["bff0000000000000", "3fe0000000000000"]}
+{"k": "floatops", "in": ["divmod", "c06bfa5e353f7cee", "3fe0000000000000"], "out": ["c07c000000000000", "3fc6872b020c4800"]}
+{"k": "floatops", "in": ["roundn", "c06788d800000000", -2], "out": "c069000000000000"}
+{"k": "floatops", "in": ["roundn", "40f19d8000000000", 1], "out": "40f19d8000000000"}
+{"k": "floatops", "in": ["round", "40fe133000000000"], "out": "123187"}
+{"k": "floatops", "in": ["floordiv", "c10e2eb2aaaaaaab", "c004000000000000"], "out": "40f8255000000000"}
+{"k": "floatops", "in": ["int", "c08d8c5c20eabd9c"], "out": "-945"}
+{"k": "floatops", "in": ["roundn", "404e531a5a12ef4b", 5], "out": "404e531a4bdba0a5"}
+{"k": "floatops", "in": ["round", "c111d88600000000"], "out": "-292386"}
+{"k": "floatops", "in": ["roundn", "ed1ba042538a7eb2", -2], "out": "ed1ba042538a7eb2"}
+{"k": "floatops", "in": ["int", "408e870a7f7d4bf6"], "out": "976"}
+{"k": "floatops", "in": ["int", "40837c20c49ba5e3"], "out": "623"}
+{"k": "floatops", "in": ["mod", "c0c1dbee147ae148", "c004000000000000"], "out": "bff5c28f5c290000"}
+{"k": "floatops", "in": ["mod", "407b352667ef61b0", "bff0000000000000"], "out": "bfe5b330213ca000"}
+{"k": "floatops", "in": ["int", "5c0a75a8f1941d3b"], "out": "2403983567791647921702568150003268901936749470552389465869125418838690899670976283952590811024135608521015751443312501222642085785501696"}
+{"k": "floatops", "in": ["int", "4089c9e0d1ade308"], "out": "825"}
+{"k": "floatops", "in": ["roundn", "2c4dc096fe14b95f", 17], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "408af62a9dda9cc8", "40126dd0fce54fa4"], "out": "3ff37698c734dcd0"}
+{"k": "floatops", "in": ["divmod", "c0e98c9800000000", "3ff0000000000000"], "out": ["c0e98ca000000000", "3fd0000000000000"]}
+{"k": "floatops", "in": ["floordiv", "3e2939a98324f9a9", "7ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["int", "c060832800000000"], "out": "-132"}
+{"k": "floatops", "in": ["divmod", "c068fb0a103afb60", "c004000000000000"], "out": ["4053c00000000000", "c002c2840ebed800"]}
+{"k": "floatops", "in": ["floordiv", "40862a33ee30dad8", "c004000000000000"], "out": "c071c00000000000"}
+{"k": "floatops", "in": ["roundn", "275a2f2bd1d3533e", -310], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "901440b8d28ed8b7", -1], "out": "8000000000000000"}
+{"k": "floatops", "in": ["int", "4105d32800000000"], "out": "178789"}
+{"k": "floatops", "in": ["mod", "0014e2a826d03b82", "01a56e1fc2f8f359"], "out": "0014e2a826d03b82"}
+{"k": "floatops", "in": ["floordiv", "40883d9d71ac3098", "01a56e1fc2f8f359"], "out": "7ed2192e060b1925"}
+{"k": "floatops", "in": ["int", "c08277d0aba9013e"], "out": "-590"}
+{"k": "floatops", "in": ["floordiv", "9dac19aec36a5959", "c004000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "1f0e58c1801435be", 2], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "c0e9dfd000000000"], "out": "-52990"}
+{"k": "floatops", "in": ["roundn", "40853d8dba897ad2", 3], "out": "40853d8d4fdf3b64"}
+{"k": "floatops", "in": ["int", "539f1b2bfe863b80"], "out": "64885070196970450150284263640213421766068306871455545034018803553671148723733879206050103558144"}
+{"k": "floatops", "in": ["mod", "c08c2aac8ef86589", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["divmod", "c0fd2ab400000000", "3fe0000000000000"], "out": ["c10d2ab800000000", "3fd0000000000000"]}
+{"k": "floatops", "in": ["divmod", "c0bc4568f5c28f5c", "c004000000000000"], "out": ["40a69c0000000000", "c00347ae147ae000"]}
+{"k": "floatops", "in": ["int", "4088c25f08b54588"], "out": "792"}
+{"k": "floatops", "in": ["mod", "98f448486ae082ac", "3ff0000000000000"], "out": "3ff0000000000000"}
+{"k": "floatops", "in": ["roundn", "46076356d6a84696", 10], "out": "46076356d6a84696"}
+{"k": "floatops", "in": ["mod", "40f6306400000000", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["mod", "c08d82e800000000", "01a56e1fc2f8f359"], "out": "0189029a55ec1e4c"}
+{"k": "floatops", "in": ["int", "0ddd9f10629150df"], "out": "0"}
+{"k": "floatops", "in": ["round", "c93770c9d656de38"], "out": "-522742397252148348026002982416644870760300544"}
+{"k": "floatops", "in": ["roundn", "404c1ac000000000", 5], "out": "404c1abfdb4cc250"}
+{"k": "floatops", "in": ["roundn", "14403339bd3ecb23", -2], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "40501a316f3ab5e0", "7ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "41136a7155555555", "bff0000000000000"], "out": "bfe5555555580000"}
+{"k": "floatops", "in": ["int", "c10364fa00000000"], "out": "-158879"}
+{"k": "floatops", "in": ["round", "407d95c2a2081e44"], "out": "473"}
+{"k": "floatops", "in": ["roundn", "c082527c5d02954e", 5], "out": "c082527c5ac471b4"}
+{"k": "floatops", "in": ["floordiv", "c07e03a9fbe76c8b", "3fe0000000000000"], "out": "c08e080000000000"}
+{"k": "floatops", "in": ["round", "4074807ae147ae14"], "out": "328"}
+{"k": "floatops", "in": ["floordiv", "c08464e174eeb098", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["round", "411c6ab400000000"], "out": "465581"}
+{"k": "floatops", "in": ["int", "c0d935399999999a"], "out": "-25812"}
+{"k": "floatops", "in": ["divmod", "c081dd86c7113618", "3fe0000000000000"], "out": ["c091e00000000000", "3fd3c9c7764f4000"]}
+{"k": "floatops", "in": ["floordiv", "4081af3ac8643c1c", "c004000000000000"], "out": "c06c600000000000"}
+{"k": "floatops", "in": ["divmod", "c0f3e23b33333333", "3ff0000000000000"], "out": ["c0f3e24000000000", "3fd3333333340000"]}
+{"k": "floatops", "in": ["round", "c07dec471a6e990e"], "out": "-479"}
+{"k": "floatops", "in": ["floordiv", "c0719010b5b8c236", "01a56e1fc2f8f359"], "out": "feba399f64ded893"}
+{"k": "floatops", "in": ["round", "c069b48000000000"], "out": "-206"}
+{"k": "floatops", "in": ["mod", "40d22d4000000000", "7e37e43c8800759c"], "out": "40d22d4000000000"}
+{"k": "floatops", "in": ["mod", "c052b1ce8f63deb0", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["int", "c0564ec46c387a08"], "out": "-89"}
+{"k": "floatops", "in": ["roundn", "4014632e08977f00", 300], "out": "4014632e08977f00"}
+{"k": "floatops", "in": ["roundn", "c086b23f8710a8a3", 3], "out": "c086b23f7ced9168"}
+{"k": "floatops", "in": ["divmod", "c074dc77b53c671a", "01a56e1fc2f8f359"], "out": ["febf2680aa70eb70", "019aabc84cc486f4"]}
+{"k": "floatops", "in": ["divmod", "408acaf788919a2e", "3ff0000000000000"], "out": ["408ac80000000000", "3fd7bc448cd17000"]}
+{"k": "floatops", "in": ["mod", "40802f7f63657f46", "01a56e1fc2f8f359"], "out": "019bfd8a153589b6"}
+{"k": "floatops", "in": ["floordiv", "40b09e0000000000", "40049ac4848117b0"], "out": "4099cc0000000000"}
+{"k": "floatops", "in": ["round", "e9abb4e137908ff2"], "out": "-1060400093135368577928029335776754978939755165471183272483058989683306211268315402689577975974308556878604033099371101331853774828735662402866679962452520028953465588948734301461792184639301431284727808"}
+{"k": "floatops", "in": ["roundn", "c061596000000000", 17], "out": "c061596000000000"}
+{"k": "floatops", "in": ["divmod", "c0f2767600000000", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["roundn", "c08db81400000000", -2], "out": "c08f400000000000"}
+{"k": "floatops", "in": ["floordiv", "c10c856000000000", "3fe0000000000000"], "out": "c11c856000000000"}
+{"k": "floatops", "in": ["mod", "b0483be1baa599d3", "3ff0000000000000"], "out": "3ff0000000000000"}
+{"k": "floatops", "in": ["floordiv", "4071ff4d13fd111c", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["divmod", "6cb7b6a4b7eeeaa2", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["floordiv", "321c0a07b1658308", "3fe0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "40ed486400000000", 0], "out": "40ed486000000000"}
+{"k": "floatops", "in": ["floordiv", "785fb3e94c6811cc", "bff0000000000000"], "out": "f85fb3e94c6811cc"}
+{"k": "floatops", "in": ["round", "c08713ed916872b0"], "out": "-738"}
+{"k": "floatops", "in": ["mod", "05685cde03ea6318", "c004000000000000"], "out": "c004000000000000"}
+{"k": "floatops", "in": ["floordiv", "c0e0f03400000000", "3fe0000000000000"], "out": "c0f0f04000000000"}
+{"k": "floatops", "in": ["mod", "c0baeac28f5c28f6", "3ff0000000000000"], "out": "3fceb851eb850000"}
+{"k": "floatops", "in": ["divmod", "c0f6134400000000", "3fe0000000000000"], "out": ["c106134800000000", "3fd0000000000000"]}
+{"k": "floatops", "in": ["mod", "494a2c5f85deeaca", "4008000000000000"], "out": "3ff0000000000000"}
+{"k": "floatops", "in": ["floordiv", "c10555c400000000", "4008000000000000"], "out": "c0ec726000000000"}
+{"k": "floatops", "in": ["divmod", "406b29f800000000", "c004000000000000"], "out": ["c055c00000000000", "bfc8200000000000"]}
+{"k": "floatops", "in": ["mod", "407d70a4afcf2c34", "3ff0000000000000"], "out": "3fa495f9e5868000"}
+{"k": "floatops", "in": ["mod", "c0876dc1fe53ee9c", "3fe0000000000000"], "out": "3fd1f00d608b2000"}
+{"k": "floatops", "in": ["roundn", "406eb47d40170b48", 300], "out": "406eb47d40170b48"}
+{"k": "floatops", "in": ["int", "4060f0eeec633a68"], "out": "135"}
+{"k": "floatops", "in": ["floordiv", "ae5a47518952c8b6", "c004000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["int", "c0c027228f5c28f6"], "out": "-8270"}
+{"k": "floatops", "in": ["int", "c0f169a4cccccccd"], "out": "-71322"}
+{"k": "floatops", "in": ["int", "c0fe720400000000"], "out": "-124704"}
+{"k": "floatops", "in": ["int", "c07b8e14cb4e0868"], "out": "-440"}
+{"k": "floatops", "in": ["mod", "0f6efacfc9282e60", "c004000000000000"], "out": "c004000000000000"}
+{"k": "floatops", "in": ["floordiv", "5f73186f3909d836", "3fe0000000000000"], "out": "5f83186f3909d836"}
+{"k": "floatops", "in": ["round", "cdc145fb71429c54"], "out": "-3638195928748313268309794498965310992271583302801689500088377802752"}
+{"k": "floatops", "in": ["mod", "a6921c7b080435d5", "c01a5244a9dd546c"], "out": "a6921c7b080435d5"}
+{"k": "floatops", "in": ["mod", "41125ce200000000", "01a56e1fc2f8f359"], "out": "018918a19e10c9f0"}
+{"k": "floatops", "in": ["mod", "801ee870fb33b394", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["int", "c0b7a4599999999a"], "out": "-6052"}
+{"k": "floatops", "in": ["roundn", "c0893ed4fdf3b646", 400], "out": "c0893ed4fdf3b646"}
+{"k": "floatops", "in": ["round", "c0892d53d81d02c5"], "out": "-806"}
+{"k": "floatops", "in": ["roundn", "d7fd1a704ceb39c2", -310], "out": "8000000000000000"}
+{"k": "floatops", "in": ["round", "17c86e7c3cf3a8c4"], "out": "0"}
+{"k": "floatops", "in": ["int", "4800f4ceb65d2c69"], "out": "721240351704988039870974899693383843840"}
+{"k": "floatops", "in": ["floordiv", "c08c2ffe76a4a1e7", "7e37e43c8800759c"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["divmod", "c0c9d76000000000", "c004000000000000"], "out": ["40b4ac0000000000", "bfe8000000000000"]}
+{"k": "floatops", "in": ["roundn", "7b64363066ceee7c", -1], "out": "7b64363066ceee7c"}
+{"k": "floatops", "in": ["floordiv", "c06e59dcb8eeaebc", "c004000000000000"], "out": "4058400000000000"}
+{"k": "floatops", "in": ["floordiv", "c09ca3ae147ae148", "3ff0000000000000"], "out": "c09ca40000000000"}
+{"k": "floatops", "in": ["round", "9ed42635cc878be6"], "out": "0"}
+{"k": "floatops", "in": ["roundn", "4089e06c00000000", -310], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "40f516999999999a", "4008000000000000"], "out": "3ff99999999a0000"}
+{"k": "floatops", "in": ["divmod", "9ef1a348e27aaa94", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["mod", "ae6b48341f57708b", "bff0000000000000"], "out": "ae6b48341f57708b"}
+{"k": "floatops", "in": ["mod", "c04d5c447747b030", "3ffab8495b9c0b00"], "out": "3ff661c1f8fb8600"}
+{"k": "floatops", "in": ["floordiv", "e3995dcaeb7429a2", "c004000000000000"], "out": "63844b08bc5cee1b"}
+{"k": "floatops", "in": ["divmod", "40809a10624dd2f2", "bff0000000000000"], "out": ["c080a00000000000", "bfe7be76c8b43800"]}
+{"k": "floatops", "in": ["floordiv", "4089d071aa18183c", "3ff0000000000000"], "out": "4089d00000000000"}
+{"k": "floatops", "in": ["int", "d0a5b7d9b3cee7a1"], "out": "-321893346826006172447314844063748068132379637545747320677282887874360097399373824"}
+{"k": "floatops", "in": ["round", "40d8bd3000000000"], "out": "25333"}
+{"k": "floatops", "in": ["int", "f6940c617f6a914f"], "out": "-157824760245143583021281143135460605067681031005605957865440647646151034880018846383759839307975315267502471535048974619032339613383444040005287966697518597166652773755045060318433848016088839548982135777314487548653006647771828374716985087020633512064762893041664"}
+{"k": "floatops", "in": ["int", "e0df1330ab5c26c6"], "out": "-426646644418747235333729666079651568960565632415759000382587315770583330096776534530755520397630270261147754528720417391081710298680019929495931966039112286208"}
+{"k": "floatops", "in": ["int", "40330a0e8fc0d7a0"], "out": "19"}
+{"k": "floatops", "in": ["mod", "c12b2df800000000", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["round", "beed95ca8b452dc1"], "out": "0"}
+{"k": "floatops", "in": ["round", "c0c8421000000000"], "out": "-12420"}
+{"k": "floatops", "in": ["divmod", "c076d05404e7a5a2", "3fe0000000000000"], "out": ["c086d80000000000", "3fdeafec61697800"]}
+{"k": "floatops", "in": ["int", "4069a51eb851eb85"], "out": "205"}
+{"k": "floatops", "in": ["mod", "7f2f0c59f7d8fdac", "3fe0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["divmod", "4123def000000000", "c0206b784d4ecdc0"], "out": ["c0f35cf000000000", "c01e372d42223c80"]}
+{"k": "floatops", "in": ["mod", "3d467154d467866b", "7e37e43c8800759c"], "out": "3d467154d467866b"}
+{"k": "floatops", "in": ["floordiv", "4067b945d7b72d38", "bff0000000000000"], "out": "c067c00000000000"}
+{"k": "floatops", "in": ["divmod", "40857bb645a1cac1", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["roundn", "c088873333333333", 10], "out": "c088873333333333"}
+{"k": "floatops", "in": ["mod", "4087f796296f9f7c", "c004000000000000"], "out": "bfe1a75a41821000"}
+{"k": "floatops", "in": ["mod", "40f01cdccccccccd", "3ff0000000000000"], "out": "3fe99999999a0000"}
+{"k": "floatops", "in": ["int", "c07bdfa000000000"], "out": "-445"}
+{"k": "floatops", "in": ["mod", "c08e574600000000", "4008000000000000"], "out": "3ff1740000000000"}
+{"k": "floatops", "in": ["floordiv", "40fc9b6e00000000", "3ff0000000000000"], "out": "40fc9b6000000000"}
+{"k": "floatops", "in": ["mod", "4070eccc5d8ced5c", "01a56e1fc2f8f359"], "out": "01995ea0e4991b88"}
+{"k": "floatops", "in": ["mod", "c053730b7820d080", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["floordiv", "4083b26666666666", "3ff0000000000000"], "out": "4083b00000000000"}
+{"k": "floatops", "in": ["int", "073deaca0991a5ab"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "40e375a000000000", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["mod", "d6f0bc0b002a4243", "c004000000000000"], "out": "8000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c08c964f5e062d82", "bff0000000000000"], "out": "408c900000000000"}
+{"k": "floatops", "in": ["floordiv", "40be64fd70a3d70a", "3fe0000000000000"], "out": "40ce648000000000"}
+{"k": "floatops", "in": ["round", "59848fe660015ed2"], "out": "1699088110162470134690505491639693977095332541099003545990988164951682379064392339921798155798436038334615835375528059076608"}
+{"k": "floatops", "in": ["mod", "4276ec85c3c8c39d", "01a56e1fc2f8f359"], "out": "01a4ff8c676cc555"}
+{"k": "floatops", "in": ["int", "c0c0ebe000000000"], "out": "-8663"}
+{"k": "floatops", "in": ["round", "4128bb4800000000"], "out": "810404"}
+{"k": "floatops", "in": ["int", "c0daa2c800000000"], "out": "-27275"}
+{"k": "floatops", "in": ["round", "40cec96000000000"], "out": "15763"}
+{"k": "floatops", "in": ["int", "c0b2ff8000000000"], "out": "-4863"}
+{"k": "floatops", "in": ["int", "c07ab7fc00000000"], "out": "-427"}
+{"k": "floatops", "in": ["divmod", "d0f7b6d351191ffa", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["divmod", "40f845cb33333333", "7ff0000000000000"], "out": ["0000000000000000", "40f845cb33333333"]}
+{"k": "floatops", "in": ["mod", "c048eb7d770c3fc0", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["divmod", "b9d40764f83cf0a6", "4008000000000000"], "out": ["bff0000000000000", "4008000000000000"]}
+{"k": "floatops", "in": ["mod", "c0ec8b4aaaaaaaab", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["floordiv", "2e66fbbb8a77ecd2", "bff0000000000000"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["divmod", "40770ba3002d5354", "3fe0000000000000"], "out": ["4087080000000000", "3fcd18016a9aa000"]}
+{"k": "floatops", "in": ["roundn", "08ba2a2152220e8f", 2], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "407131d9b989a3dc"], "out": "275"}
+{"k": "floatops", "in": ["int", "b2d9a04ca9b0c6e3"], "out": "0"}
+{"k": "floatops", "in": ["roundn", "c07074f800000000", -1], "out": "c070400000000000"}
+{"k": "floatops", "in": ["mod", "408d19dc838ef632", "7e37e43c8800759c"], "out": "408d19dc838ef632"}
+{"k": "floatops", "in": ["divmod", "ad6f6ff5672a7b72", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["int", "4211d0d9f7c2ddf8"], "out": "19129597424"}
+{"k": "floatops", "in": ["round", "c0f9a8b800000000"], "out": "-105100"}
+{"k": "floatops", "in": ["roundn", "c08432f265fa320e", 17], "out": "c08432f265fa320e"}
+{"k": "floatops", "in": ["divmod", "407f58c4f1474508", "01a56e1fc2f8f359"], "out": ["7ec76761544d5206", "0166bb3702d50b90"]}
+{"k": "floatops", "in": ["round", "4086f82832c2dd3c"], "out": "735"}
+{"k": "floatops", "in": ["mod", "40f8675b33333333", "01a56e1fc2f8f359"], "out": "0191163887fcb35e"}
+{"k": "floatops", "in": ["mod", "40e47e0000000000", "01a56e1fc2f8f359"], "out": "019e0df82eaf9860"}
+{"k": "floatops", "in": ["divmod", "c11c07b800000000", "4008000000000000"], "out": ["c102afd000000000", "0000000000000000"]}
+{"k": "floatops", "in": ["floordiv", "4a21e772c6f0ae0e", "01a56e1fc2f8f359"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["roundn", "c088608f682279e5", 300], "out": "c088608f682279e5"}
+{"k": "floatops", "in": ["roundn", "c066c699f3cabdd8", 10], "out": "c066c699f3cac0ee"}
+{"k": "floatops", "in": ["mod", "4119581e00000000", "c004000000000000"], "out": "bfe0000000000000"}
+{"k": "floatops", "in": ["int", "c059653d47097b60"], "out": "-101"}
+{"k": "floatops", "in": ["divmod", "147fcfb26af3be85", "7ff0000000000000"], "out": ["0000000000000000", "147fcfb26af3be85"]}
+{"k": "floatops", "in": ["floordiv", "c07ceaaaaaaaaaab", "01a56e1fc2f8f359"], "out": "fec596e95d906a47"}
+{"k": "floatops", "in": ["mod", "4126301400000000", "4008000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["int", "410eae8aaaaaaaab"], "out": "251345"}
+{"k": "floatops", "in": ["divmod", "c0c250accccccccd", "01a56e1fc2f8f359"], "out": ["ff0b593b4f03103a", "01823178db5b4440"]}
+{"k": "floatops", "in": ["roundn", "d3475e316ce8b16d", -2], "out": "d3475e316ce8b16d"}
+{"k": "floatops", "in": ["mod", "408db951eb851eb8", "3ff0000000000000"], "out": "3fc51eb851eb8000"}
+{"k": "floatops", "in": ["round", "c0899709d23bffb4"], "out": "-819"}
+{"k": "floatops", "in": ["floordiv", "c0e3724000000000", "7e37e43c8800759c"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["roundn", "c0e5f4c666666666", 3], "out": "c0e5f4c666666666"}
+{"k": "floatops", "in": ["int", "323084dca728fc59"], "out": "0"}
+{"k": "floatops", "in": ["int", "c08ee59470c3c10c"], "out": "-988"}
+{"k": "floatops", "in": ["int", "568e291747e21a84"], "out": "8854155693100760799004222015796112952387525653570113217233120476184460324330817871663461280503402394202144768"}
+{"k": "floatops", "in": ["round", "c037fb4000000000"], "out": "-24"}
+{"k": "floatops", "in": ["int", "a03a5515875f159e"], "out": "0"}
+{"k": "floatops", "in": ["mod", "40faf3e000000000", "7e37e43c8800759c"], "out": "40faf3e000000000"}
+{"k": "floatops", "in": ["roundn", "40e28eb000000000", 0], "out": "40e28ec000000000"}
+{"k": "floatops", "in": ["int", "c03dc8f5c28f5c29"], "out": "-29"}
+{"k": "floatops", "in": ["roundn", "c087e77fa1c1dfe2", 1], "out": "c087e73333333333"}
+{"k": "floatops", "in": ["divmod", "4113a57400000000", "4008000000000000"], "out": ["40fa31f000000000", "0000000000000000"]}
+{"k": "floatops", "in": ["roundn", "4111150800000000", 300], "out": "4111150800000000"}
+{"k": "floatops", "in": ["mod", "410c13d000000000", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["divmod", "409ab83d70a3d70a", "c004000000000000"], "out": ["c085680000000000", "c003851eb851ec00"]}
+{"k": "floatops", "in": ["int", "c05170f38f2fa740"], "out": "-69"}
+{"k": "floatops", "in": ["roundn", "f64fa331360e5358", -308], "out": "8000000000000000"}
+{"k": "floatops", "in": ["int", "0921630941525a78"], "out": "0"}
+{"k": "floatops", "in": ["round", "c3d0294c467689dd"], "out": "-4658183376688608256"}
+{"k": "floatops", "in": ["int", "c079d5b400000000"], "out": "-413"}
+{"k": "floatops", "in": ["floordiv", "c089cb2468fc2227", "4008000000000000"], "out": "c071400000000000"}
+{"k": "floatops", "in": ["divmod", "c075910400000000", "402153110506d944"], "out": ["c044000000000000", "3ff6d146488f9500"]}
+{"k": "floatops", "in": ["floordiv", "6e3026074aa3a42f", "4008000000000000"], "out": "6e158809b8da303f"}
+{"k": "floatops", "in": ["floordiv", "76a174c84a7194b8", "7ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "a1e7d7ae4fe37b8f", "7ff0000000000000"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["floordiv", "40f500f800000000", "3ff0000000000000"], "out": "40f500f000000000"}
+{"k": "floatops", "in": ["divmod", "150cbde10c14daae", "bff0000000000000"], "out": ["bff0000000000000", "bff0000000000000"]}
+{"k": "floatops", "in": ["divmod", "6446a711a5e1c6d7", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["roundn", "2510f0010b06f70d", -400], "out": "0000000000000000"}
+{"k": "floatops", "in": ["round", "c0641d22ed6afe2c"], "out": "-161"}
+{"k": "floatops", "in": ["int", "40e6762c00000000"], "out": "46001"}
+{"k": "floatops", "in": ["int", "4086e8ea0f37de82"], "out": "733"}
+{"k": "floatops", "in": ["round", "b6583a7c597cf94c"], "out": "0"}
+{"k": "floatops", "in": ["int", "c0499195df7df820"], "out": "-51"}
+{"k": "floatops", "in": ["mod", "c08b86712f8c99ec", "4008000000000000"], "out": "3ff31da0e6cc2800"}
+{"k": "floatops", "in": ["floordiv", "40b890147ae147ae", "bff7ba161a8ddbd8"], "out": "c0b0910000000000"}
+{"k": "floatops", "in": ["divmod", "b5953874958efa15", "bff0000000000000"], "out": ["0000000000000000", "b5953874958efa15"]}
+{"k": "floatops", "in": ["roundn", "7269a2c451a05ce1", -308], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "40f67d9600000000", "bff0000000000000"], "out": "bfe4000000000000"}
+{"k": "floatops", "in": ["floordiv", "40825e7c00000000", "3fe0000000000000"], "out": "40925c0000000000"}
+{"k": "floatops", "in": ["int", "c077b5f3b645a1cb"], "out": "-379"}
+{"k": "floatops", "in": ["roundn", "c0fe6f6000000000", -1], "out": "c0fe6f4000000000"}
+{"k": "floatops", "in": ["round", "4104ca0800000000"], "out": "170305"}
+{"k": "floatops", "in": ["floordiv", "0358e2acce1b5fcb", "01a56e1fc2f8f359"], "out": "41a2946a56000000"}
+{"k": "floatops", "in": ["divmod", "40ccf6b000000000", "3ff0000000000000"], "out": ["40ccf68000000000", "3fd8000000000000"]}
+{"k": "floatops", "in": ["roundn", "effcc00aeae8d192", 3], "out": "effcc00aeae8d192"}
+{"k": "floatops", "in": ["round", "4066a4ef994c4ac0"], "out": "181"}
+{"k": "floatops", "in": ["roundn", "c10e26f400000000", 3], "out": "c10e26f400000000"}
+{"k": "floatops", "in": ["floordiv", "407a317d451a4bc0", "4008000000000000"], "out": "4061600000000000"}
+{"k": "floatops", "in": ["divmod", "c084cf440018783e", "3fe0000000000000"], "out": ["c094d00000000000", "3fb77ffcf0f84000"]}
+{"k": "floatops", "in": ["roundn", "c12631bc00000000", -308], "out": "8000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c06868f000000000", "bff0000000000000"], "out": "4068600000000000"}
+{"k": "floatops", "in": ["round", "c0452dfe6531b200"], "out": "-42"}
+{"k": "floatops", "in": ["floordiv", "4081aba6e4902bd8", "3ff0000000000000"], "out": "4081a80000000000"}
+{"k": "floatops", "in": ["mod", "c0f758799999999a", "7ff0000000000000"], "out": "7ff0000000000000"}
+{"k": "floatops", "in": ["round", "c0dfd55800000000"], "out": "-32597"}
+{"k": "floatops", "in": ["floordiv", "c104e03000000000", "3ff0000000000000"], "out": "c104e03000000000"}
+{"k": "floatops", "in": ["mod", "d3136617059eb7da", "c004000000000000"], "out": "c000000000000000"}
+{"k": "floatops", "in": ["mod", "41104f4eaaaaaaab", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["mod", "65e0ecab969c9cb6", "4021f6213dd77148"], "out": "400a31c2d6b69e40"}
+{"k": "floatops", "in": ["mod", "c08caaaa16db19fe", "01a56e1fc2f8f359"], "out": "01a385f18b9f7538"}
+{"k": "floatops", "in": ["mod", "c07926ca53c62364", "01a56e1fc2f8f359"], "out": "00f7bc1757bee000"}
+{"k": "floatops", "in": ["round", "860972309e0f66a5"], "out": "0"}
+{"k": "floatops", "in": ["int", "c0bf5e2666666666"], "out": "-8030"}
+{"k": "floatops", "in": ["floordiv", "1ce8550182c159aa", "7e37e43c8800759c"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "0460c70fa50fe0d2", 10], "out": "0000000000000000"}
+{"k": "floatops", "in": ["divmod", "4102148800000000", "7ff0000000000000"], "out": ["0000000000000000", "4102148800000000"]}
+{"k": "floatops", "in": ["roundn", "5f7cb5b617b57610", -310], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "247dac393ca73834", "c004000000000000"], "out": "c004000000000000"}
+{"k": "floatops", "in": ["divmod", "c0732cc51ae837f0", "0000000000000000"], "err": "ZeroDivisionError: float divmod()"}
+{"k": "floatops", "in": ["floordiv", "7ad674ad7aadf83e", "4008000000000000"], "out": "7abdf0e74e3d4afd"}
+{"k": "floatops", "in": ["int", "c121cab800000000"], "out": "-583004"}
+{"k": "floatops", "in": ["divmod", "d3710d2a456e30a2", "bff0000000000000"], "out": ["53710d2a456e30a2", "8000000000000000"]}
+{"k": "floatops", "in": ["round", "53863f511a2dc1bc"], "out": "23203130459690371922800422059587571167363497897836414082180879390575109808036970171434958585856"}
+{"k": "floatops", "in": ["divmod", "c088f87df5f3b12b", "4008000000000000"], "out": ["c070b00000000000", "3fff0414189daa00"]}
+{"k": "floatops", "in": ["mod", "c0e4edf000000000", "01a56e1fc2f8f359"], "out": "019ba9c4e6c26f0e"}
+{"k": "floatops", "in": ["roundn", "40c20167ae147ae1", -2], "out": "40c1f80000000000"}
+{"k": "floatops", "in": ["divmod", "410db9ba00000000", "7e37e43c8800759c"], "out": ["0000000000000000", "410db9ba00000000"]}
+{"k": "floatops", "in": ["mod", "e739dbf6fc557f92", "4008000000000000"], "out": "3ff0000000000000"}
+{"k": "floatops", "in": ["round", "408cd1e677765896"], "out": "922"}
+{"k": "floatops", "in": ["int", "a2c38ef0b2cd1bd4"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "c08c154384937018", "01a56e1fc2f8f359"], "out": "fed4f7952793f1ce"}
+{"k": "floatops", "in": ["mod", "40f5c01ccccccccd", "3ff0000000000000"], "out": "3fe99999999a0000"}
+{"k": "floatops", "in": ["mod", "4089f441623542ac", "7ff0000000000000"], "out": "4089f441623542ac"}
+{"k": "floatops", "in": ["divmod", "8fc82564b5305cfe", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["roundn", "408824fd25cfc080", 0], "out": "4088280000000000"}
+{"k": "floatops", "in": ["int", "ce40e6b68475fa29"], "out": "-911312114143826317880712968077562265162271420402381058017225905012736"}
+{"k": "floatops", "in": ["round", "402aa1b0f6459980"], "out": "13"}
+{"k": "floatops", "in": ["floordiv", "c11435fc00000000", "4008000000000000"], "out": "c0faf2b000000000"}
+{"k": "floatops", "in": ["mod", "00f39ba9f243da58", "4008000000000000"], "out": "00f39ba9f243da58"}
+{"k": "floatops", "in": ["mod", "ab60e8e593254f17", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["mod", "406c26a14dc9f548", "bff0000000000000"], "out": "bfe95eb2360ab800"}
+{"k": "floatops", "in": ["int", "c07034d400000000"], "out": "-259"}
+{"k": "floatops", "in": ["divmod", "40851d3925ea6e4a", "3ff0000000000000"], "out": ["4085180000000000", "3fe4e497a9b92800"]}
+{"k": "floatops", "in": ["round", "4084a0395810624e"], "out": "660"}
+{"k": "floatops", "in": ["int", "40f423db33333333"], "out": "82493"}
+{"k": "floatops", "in": ["divmod", "c0cb940000000000", "3ff0000000000000"], "out": ["c0cb940000000000", "0000000000000000"]}
+{"k": "floatops", "in": ["mod", "9bd6b7dddcb9e19b", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["roundn", "4087d8256a517b48", 17], "out": "4087d8256a517b48"}
+{"k": "floatops", "in": ["round", "78762bdfe6b9220b"], "out": "187408344884359729844777052613928057103592794163549973220418504853116557795251329900881004974192278749004922370055457936463708142332944375627903976972011622133033735344035333747781199919677883712002742108633806866363443831912721170009570898716605593777648896314106653442048"}
+{"k": "floatops", "in": ["mod", "c103f00800000000", "3fe0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["roundn", "407721f35097670c", 1], "out": "407721999999999a"}
+{"k": "floatops", "in": ["divmod", "40519cfdf3b645a2", "4008000000000000"], "out": ["4037000000000000", "3ff73f7ced916880"]}
+{"k": "floatops", "in": ["roundn", "c0891c00091e8eb6", 2], "out": "c0891c0000000000"}
+{"k": "floatops", "in": ["mod", "49329e6b3951bf07", "7ff0000000000000"], "out": "49329e6b3951bf07"}
+{"k": "floatops", "in": ["floordiv", "c086309f34443ad2", "40063e585a3416d8"], "out": "c070000000000000"}
+{"k": "floatops", "in": ["floordiv", "40e7123555555555", "7ff0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "ff09912e33ecb437", "3ff0000000000000"], "out": "ff09912e33ecb437"}
+{"k": "floatops", "in": ["mod", "c11525a400000000", "c004000000000000"], "out": "bfe0000000000000"}
+{"k": "floatops", "in": ["mod", "408c1ff2e61cc3fc", "3ff0000000000000"], "out": "3fefcb98730ff000"}
+{"k": "floatops", "in": ["mod", "408d1b9e00000000", "3fe0000000000000"], "out": "3fdcf00000000000"}
+{"k": "floatops", "in": ["int", "c1220ef600000000"], "out": "-591739"}
+{"k": "floatops", "in": ["roundn", "409bec0000000000", -308], "out": "0000000000000000"}
+{"k": "floatops", "in": ["mod", "c11bf60e00000000", "01a56e1fc2f8f359"], "out": "0196cf8e2b57d50a"}
+{"k": "floatops", "in": ["divmod", "c0e6ef1000000000", "7e37e43c8800759c"], "out": ["bff0000000000000", "7e37e43c8800759c"]}
+{"k": "floatops", "in": ["int", "c126631200000000"], "out": "-733577"}
+{"k": "floatops", "in": ["round", "c0f8475333333333"], "out": "-99445"}
+{"k": "floatops", "in": ["roundn", "c124dd8a00000000", -308], "out": "8000000000000000"}
+{"k": "floatops", "in": ["mod", "4086770a9f46201c", "01a56e1fc2f8f359"], "out": "01a0914a8356447f"}
+{"k": "floatops", "in": ["int", "c08eab92052117f2"], "out": "-981"}
+{"k": "floatops", "in": ["roundn", "c08829f622e9417d", -308], "out": "8000000000000000"}
+{"k": "floatops", "in": ["divmod", "c0880ed27e53f4bb", "3ff0000000000000"], "out": ["c088100000000000", "3fc2d81ac0b45000"]}
+{"k": "floatops", "in": ["mod", "c08a16cccccccccd", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["roundn", "c0c2bd999999999a", -308], "out": "8000000000000000"}
+{"k": "floatops", "in": ["roundn", "f28dbe5c13e77d6a", 2], "out": "f28dbe5c13e77d6a"}
+{"k": "floatops", "in": ["divmod", "40705b14142acfa0", "7e37e43c8800759c"], "out": ["0000000000000000", "40705b14142acfa0"]}
+{"k": "floatops", "in": ["int", "8126700c449b280a"], "out": "0"}
+{"k": "floatops", "in": ["divmod", "4079bd61616c759c", "7e37e43c8800759c"], "out": ["0000000000000000", "4079bd61616c759c"]}
+{"k": "floatops", "in": ["divmod", "c11be05800000000", "c0056721b5894778"], "out": ["4104d6d800000000", "c00313e28fa1ac58"]}
+{"k": "floatops", "in": ["round", "c1151b4200000000"], "out": "-345808"}
+{"k": "floatops", "in": ["mod", "c0b48e7ae147ae14", "bff0000000000000"], "out": "bfdeb851eb850000"}
+{"k": "floatops", "in": ["floordiv", "c10de03a00000000", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["roundn", "407ef5592e8fa118", -1], "out": "407f400000000000"}
+{"k": "floatops", "in": ["mod", "fa642c37cf41f7a9", "bff0000000000000"], "out": "8000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c0f891dc00000000", "c004000000000000"], "out": "40e3a7e000000000"}
+{"k": "floatops", "in": ["int", "40884736a33c6a34"], "out": "776"}
+{"k": "floatops", "in": ["roundn", "408e4237c6183792", -400], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c10cf8b555555555", "7e37e43c8800759c"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["divmod", "c083c431b581fbca", "01a56e1fc2f8f359"], "out": ["fecd83fe0103f6af", "0195c7807e1c4f38"]}
+{"k": "floatops", "in": ["divmod", "408b25179b2e68ce", "3ff0000000000000"], "out": ["408b200000000000", "3fe45e6cb9a33800"]}
+{"k": "floatops", "in": ["roundn", "40f391b333333333", 300], "out": "40f391b333333333"}
+{"k": "floatops", "in": ["divmod", "81094ea3d322e580", "401b82a73bf18818"], "out": ["bff0000000000000", "401b82a73bf18818"]}
+{"k": "floatops", "in": ["divmod", "c075ef2400000000", "7e37e43c8800759c"], "out": ["bff0000000000000", "7e37e43c8800759c"]}
+{"k": "floatops", "in": ["divmod", "c085c418406dd427", "3fe0000000000000"], "out": ["c095c80000000000", "3fdf3dfc915ec800"]}
+{"k": "floatops", "in": ["mod", "40f0ec1a00000000", "402167bdaa7fc73a"], "out": "4017df37c1cc5f50"}
+{"k": "floatops", "in": ["round", "694b46edc402c610"], "out": "16311909304302082726124069081472427733563331757930480078911892202034078399691327513800670022248530977801802332014498635086002247431076969535620882273618669493543026466278544751408599184355160649367552"}
+{"k": "floatops", "in": ["divmod", "66debb1b3a00b4a8", "01a56e1fc2f8f359"], "out": ["7ff0000000000000", "019c8f97fcb01c52"]}
+{"k": "floatops", "in": ["mod", "647e79e8f784cefa", "c0000641f935d720"], "out": "bfec284cdf384800"}
+{"k": "floatops", "in": ["mod", "407a611b965332f0", "c004000000000000"], "out": "bfdb91a6b3344000"}
+{"k": "floatops", "in": ["int", "4110c18200000000"], "out": "274528"}
+{"k": "floatops", "in": ["roundn", "408dfb3fdb1b9148", 400], "out": "408dfb3fdb1b9148"}
+{"k": "floatops", "in": ["int", "89c9148e17c63d41"], "out": "0"}
+{"k": "floatops", "in": ["mod", "0c146241f9299719", "01a56e1fc2f8f359"], "out": "01a1cbea7539155e"}
+{"k": "floatops", "in": ["round", "1bd88301fb8607cc"], "out": "0"}
+{"k": "floatops", "in": ["mod", "c125d7f400000000", "01a56e1fc2f8f359"], "out": "01a56281d87ecd63"}
+{"k": "floatops", "in": ["roundn", "ce01e09d81d26015", 400], "out": "ce01e09d81d26015"}
+{"k": "floatops", "in": ["roundn", "c10f697000000000", 3], "out": "c10f697000000000"}
+{"k": "floatops", "in": ["roundn", "d90e03d1ea0daf70", -2], "out": "d90e03d1ea0daf70"}
+{"k": "floatops", "in": ["int", "94a0250bc73a773d"], "out": "0"}
+{"k": "floatops", "in": ["mod", "508a7a70c14115f2", "4008000000000000"], "out": "4000000000000000"}
+{"k": "floatops", "in": ["floordiv", "91f43ed60873855e", "01a56e1fc2f8f359"], "out": "d03e3b1fadd7cdad"}
+{"k": "floatops", "in": ["mod", "c11e492400000000", "7e37e43c8800759c"], "out": "7e37e43c8800759c"}
+{"k": "floatops", "in": ["roundn", "406ddb21cb32a958", 10], "out": "406ddb21cb32a698"}
+{"k": "floatops", "in": ["floordiv", "33b79780cc2b554f", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["round", "c07fad374bc6a7f0"], "out": "-507"}
+{"k": "floatops", "in": ["round", "c083c172b020c49c"], "out": "-632"}
+{"k": "floatops", "in": ["round", "407f7c4ecd433ee4"], "out": "504"}
+{"k": "floatops", "in": ["int", "9e65b8e03b28cf00"], "out": "0"}
+{"k": "floatops", "in": ["roundn", "c08a228e9f2ccc26", -310], "out": "8000000000000000"}
+{"k": "floatops", "in": ["roundn", "4113543e00000000", 10], "out": "4113543e00000000"}
+{"k": "floatops", "in": ["int", "c053afe4ccd940c0"], "out": "-78"}
+{"k": "floatops", "in": ["int", "40533ef04723be00"], "out": "76"}
+{"k": "floatops", "in": ["roundn", "c072f4575093b4b6", 1], "out": "c072f4cccccccccd"}
+{"k": "floatops", "in": ["round", "282672144ac64517"], "out": "0"}
+{"k": "floatops", "in": ["floordiv", "40662e3c73b7a980", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["mod", "772952ffb1ced788", "401bdc9d5b56af80"], "out": "4009cbd951c67c00"}
+{"k": "floatops", "in": ["mod", "fc6dd79271efa753", "3fe0000000000000"], "out": "0000000000000000"}
+{"k": "floatops", "in": ["divmod", "4076ccb32551dd28", "c004000000000000"], "out": ["c062400000000000", "bfca66d57116c000"]}
+{"k": "floatops", "in": ["divmod", "c11dcb3000000000", "7ff0000000000000"], "out": ["bff0000000000000", "7ff0000000000000"]}
+{"k": "floatops", "in": ["roundn", "c05c1771cb3c1c20", 10], "out": "c05c1771cb3c1985"}
+{"k": "floatops", "in": ["floordiv", "c10895fe00000000", "4008000000000000"], "out": "c0f0640000000000"}
+{"k": "floatops", "in": ["mod", "c08c8fe51cdb9dfe", "0000000000000000"], "err": "ZeroDivisionError: float modulo"}
+{"k": "floatops", "in": ["roundn", "c08d854ddad24e4f", 300], "out": "c08d854ddad24e4f"}
+{"k": "floatops", "in": ["int", "c101081600000000"], "out": "-139522"}
+{"k": "floatops", "in": ["round", "c08630eb3663f2ea"], "out": "-710"}
+{"k": "floatops", "in": ["divmod", "ec3fbcb4a3d822af", "4008000000000000"], "out": ["ec2528786d3ac1ca", "0000000000000000"]}
+{"k": "floatops", "in": ["int", "412cd19000000000"], "out": "944328"}
+{"k": "floatops", "in": ["floordiv", "c087ba1955fcbd1a", "7ff0000000000000"], "out": "bff0000000000000"}
+{"k": "floatops", "in": ["round", "c066935c28f5c28f"], "out": "-181"}
+{"k": "floatops", "in": ["mod", "c0863d1e00000000", "01a56e1fc2f8f359"], "out": "0196aaf1a709321e"}
+{"k": "floatops", "in": ["roundn", "c06a69e2613592f0", 5], "out": "c06a69e2584f4c6e"}
+{"k": "floatops", "in": ["roundn", "36a784e932e830b9", -310], "out": "0000000000000000"}
+{"k": "floatops", "in": ["floordiv", "c0e4db8135cb799d", "0000000000000000"], "err": "ZeroDivisionError: float floor division by zero"}
+{"k": "floatops", "in": ["mod", "42d66cc9d5954d8b", "c0208532d5f75804"], "out": "bff6faaa0d4c1ee0"}

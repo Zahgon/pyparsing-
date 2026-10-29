@@ -163,3 +163,9 @@ venv.bak/
 
 examples/verilog/
 /perf_pyparsing.csv
+
+### Go ###
+# Test binaries, coverage profiles and build output of the Go module
+*.test
+*.out
+/bin/

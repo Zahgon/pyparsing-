@@ -1,7 +1,0 @@
-int main()
-{
-    string name;
-    read name;
-    write "Hello " + name + "!\n";
-    return 0;
-}

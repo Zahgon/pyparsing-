@@ -1,0 +1,501 @@
+{"k": "asdatetime", "in": ["0", "13", "16", "23", "59", "40480e5a17ccea77"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "23", "59", "40421af9538c486e"], "out": "datetime.datetime(9999, 12, 28, 23, 59, 36, 210734)"}
+{"k": "asdatetime", "in": ["9999", "5", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 5, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["1", "6", "31", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "9", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2667", "9", "29", "8", "59", "404dfffffbce4218"], "out": "datetime.datetime(2667, 9, 29, 9, 0)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "12", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 2, 28, 13, 0)"}
+{"k": "asdatetime", "in": ["9619", "3", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(9619, 3, 29, 0, 0)"}
+{"k": "asdatetime", "in": ["9999", "2", "10", "21", "59", "4041b07f6cc7a977"], "out": "datetime.datetime(9999, 2, 10, 21, 59, 35, 378889)"}
+{"k": "asdatetime", "in": ["1", "2", "31", "6", "21", "40277350b6129785"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2071", "12", "30", "23", "59", "40348a9db303cdeb"], "out": "datetime.datetime(2071, 12, 30, 23, 59, 20, 541469)"}
+{"k": "asdatetime", "in": ["1", "12", "30", "11", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 30, 11, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "1", "28", "12", "47", "404dfffffbce4218"], "out": "datetime.datetime(1, 1, 28, 12, 48)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "4", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "30", "23", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "11", "29", "23", "32", "3fc2631c0739ec94"], "out": "datetime.datetime(1, 11, 29, 23, 32, 0, 143650)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "17", "404d6dba0e201b3f"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "15", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 28, 15, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["7781", "1", "30", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(7781, 1, 31, 0, 0)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "29", "12", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["6239", "3", "30", "23", "15", "401b0a772c2b8848"], "out": "datetime.datetime(6239, 3, 30, 23, 15, 6, 760220)"}
+{"k": "asdatetime", "in": ["2000", "12", "31", "23", "4", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 12, 31, 23, 4, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "7", "28", "11", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 7, 28, 12, 0)"}
+{"k": "asdatetime", "in": ["0", "12", "30", "2", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1476", "12", "28", "23", "59", "4042382d16b97fe9"], "out": "datetime.datetime(1476, 12, 28, 23, 59, 36, 438876)"}
+{"k": "asdatetime", "in": ["1", "12", "30", "12", "59", "0000000000000000"], "out": "datetime.datetime(1, 12, 30, 12, 59)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "16", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "12", "31", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 12, 31, 23, 59)"}
+{"k": "asdatetime", "in": ["3480", "12", "29", "16", "8", "404cd6e835081f89"], "out": "datetime.datetime(3480, 12, 29, 16, 8, 57, 678961)"}
+{"k": "asdatetime", "in": ["1", "2", "29", "2", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "30", "23", "8", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["6035", "12", "31", "23", "47", "404dfffffbce4218"], "out": "datetime.datetime(6035, 12, 31, 23, 48)"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["4390", "2", "31", "23", "59", "4048fd6c72efe1a5"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "28", "23", "59", "0000000000000000"], "out": "datetime.datetime(1, 2, 28, 23, 59)"}
+{"k": "asdatetime", "in": ["1", "12", "30", "23", "29", "0000000000000000"], "out": "datetime.datetime(1, 12, 30, 23, 29)"}
+{"k": "asdatetime", "in": ["1", "8", "30", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 8, 30, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "28", "9", "57", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "13", "31", "9", "22", "402848df0b3e1159"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "0", "28", "23", "59", "404dfffffbce4218"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["2646", "2", "17", "23", "59", "404ab70972aaa85d"], "out": "datetime.datetime(2646, 2, 17, 23, 59, 53, 429976)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "20", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "3", "30", "19", "37", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 3, 30, 19, 37, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "12", "12", "40066c59c35c65cb"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "1", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "31", "23", "29", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 31, 23, 30)"}
+{"k": "asdatetime", "in": ["0", "13", "29", "14", "59", "403896acb81bad42"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "3", "14", "0", "6", "4048ef7d9fbe7a38"], "out": "datetime.datetime(2000, 3, 14, 0, 6, 49, 871021)"}
+{"k": "asdatetime", "in": ["1", "13", "30", "23", "59", "404dfffffaf78283"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["4804", "2", "18", "22", "59", "404ccb18ab6ed4d0"], "out": "datetime.datetime(4804, 2, 18, 22, 59, 57, 586690)"}
+{"k": "asdatetime", "in": ["2849", "2", "29", "23", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "11", "31", "10", "59", "404777d801b43526"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "28", "23", "59", "3ffbcd9f259b328e"], "out": "datetime.datetime(1, 2, 28, 23, 59, 1, 737701)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "21", "27", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "4", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 4, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "7", "25", "4041b600f9bedb00"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "3", "28", "15", "41", "404dfffffaf78283"], "out": "datetime.datetime(1, 3, 28, 15, 41, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "12", "1", "23", "59", "4031b0c8898b2f5f"], "out": "datetime.datetime(2000, 12, 1, 23, 59, 17, 690560)"}
+{"k": "asdatetime", "in": ["1", "12", "30", "7", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 30, 8, 0)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "17", "59", "0000000000000000"], "out": "datetime.datetime(9999, 2, 28, 17, 59)"}
+{"k": "asdatetime", "in": ["2000", "1", "29", "23", "23", "404dfffffbce4218"], "out": "datetime.datetime(2000, 1, 29, 23, 24)"}
+{"k": "asdatetime", "in": ["7923", "10", "31", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(7923, 11, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["2755", "9", "31", "13", "55", "403466809df1b89d"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "12", "29", "16", "35", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 29, 16, 36)"}
+{"k": "asdatetime", "in": ["2000", "4", "29", "8", "59", "40400c2a02320968"], "out": "datetime.datetime(2000, 4, 29, 8, 59, 32, 95032)"}
+{"k": "asdatetime", "in": ["2000", "12", "29", "1", "36", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 12, 29, 1, 36, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "23", "59", "403505bcddb127fb"], "out": "datetime.datetime(9999, 12, 28, 23, 59, 21, 22413)"}
+{"k": "asdatetime", "in": ["1", "2", "29", "23", "21", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "56", "404ce9755984aad8"], "out": "datetime.datetime(9999, 2, 28, 23, 56, 57, 823894)"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "23", "6", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 29, 0, 0)"}
+{"k": "asdatetime", "in": ["7608", "2", "29", "13", "59", "404086494771ae99"], "out": "datetime.datetime(7608, 2, 29, 13, 59, 33, 49111)"}
+{"k": "asdatetime", "in": ["0", "6", "29", "24", "9", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "30", "23", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "12", "28", "14", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["5610", "2", "29", "23", "6", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "20", "59", "40480d8cf114aab2"], "out": "datetime.datetime(9999, 12, 29, 20, 59, 48, 105864)"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "26", "40394b1feeb2d0a2"], "out": "datetime.datetime(1, 12, 29, 23, 26, 25, 293456)"}
+{"k": "asdatetime", "in": ["2000", "10", "13", "23", "54", "0000000000000000"], "out": "datetime.datetime(2000, 10, 13, 23, 54)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(9999, 12, 30, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["3517", "2", "28", "23", "59", "401e3489d204bf13"], "out": "datetime.datetime(3517, 2, 28, 23, 59, 7, 551307)"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 29, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "30", "23", "58", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "31", "23", "59", "40481c3d03811851"], "out": "datetime.datetime(9999, 12, 31, 23, 59, 48, 220612)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "23", "59", "404511471491877c"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "30", "4", "59", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "15", "23", "10", "404dfffffaf78283"], "out": "datetime.datetime(1, 2, 15, 23, 10, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "4", "28", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 4, 28, 23, 59)"}
+{"k": "asdatetime", "in": ["0", "1", "28", "2", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2166", "2", "30", "23", "59", "4046f4251a8985b8"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "7", "44", "403b6b34d6374129"], "out": "datetime.datetime(9999, 12, 29, 7, 44, 27, 418775)"}
+{"k": "asdatetime", "in": ["9542", "12", "31", "14", "47", "404dfffffbce4218"], "out": "datetime.datetime(9542, 12, 31, 14, 48)"}
+{"k": "asdatetime", "in": ["0", "5", "30", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1266", "12", "30", "22", "43", "403f391470f22ba7"], "out": "datetime.datetime(1266, 12, 30, 22, 43, 31, 222968)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "12", "28", "4040059ea408560b"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["8403", "6", "30", "16", "59", "4034c86873bd5a06"], "out": "datetime.datetime(8403, 6, 30, 16, 59, 20, 782844)"}
+{"k": "asdatetime", "in": ["2000", "10", "29", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(2000, 10, 29, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "5", "404dfffffbce4218"], "out": "datetime.datetime(9999, 2, 28, 23, 6)"}
+{"k": "asdatetime", "in": ["1", "5", "31", "23", "59", "0000000000000000"], "out": "datetime.datetime(1, 5, 31, 23, 59)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "21", "59", "404dfffffbce4218"], "out": "datetime.datetime(2000, 2, 28, 22, 0)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2615", "12", "27", "23", "59", "0000000000000000"], "out": "datetime.datetime(2615, 12, 27, 23, 59)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "23", "1", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "9", "28", "23", "59", "4041ecab15c2dfe4"], "out": "datetime.datetime(2000, 9, 28, 23, 59, 35, 848971)"}
+{"k": "asdatetime", "in": ["1", "9", "29", "16", "59", "0000000000000000"], "out": "datetime.datetime(1, 9, 29, 16, 59)"}
+{"k": "asdatetime", "in": ["1245", "12", "28", "12", "59", "404dfffffaf78283"], "out": "datetime.datetime(1245, 12, 28, 12, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 12, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["0", "3", "29", "4", "0", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "30", "1", "19", "403a6a25a8fbfb73"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 2, 29, 23, 59)"}
+{"k": "asdatetime", "in": ["2000", "12", "29", "7", "59", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 29, 8, 0)"}
+{"k": "asdatetime", "in": ["3687", "4", "31", "24", "34", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["3495", "2", "31", "23", "52", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "27", "23", "59", "404af195a5ef1272"], "out": "datetime.datetime(1, 2, 27, 23, 59, 53, 887379)"}
+{"k": "asdatetime", "in": ["2000", "6", "11", "20", "39", "0000000000000000"], "out": "datetime.datetime(2000, 6, 11, 20, 39)"}
+{"k": "asdatetime", "in": ["2000", "12", "9", "7", "58", "4040916ecb8fb5eb"], "out": "datetime.datetime(2000, 12, 9, 7, 58, 33, 136194)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "23", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "2", "4", "404dfffffaf78283"], "out": "datetime.datetime(9999, 2, 28, 2, 4, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "9", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "6", "31", "23", "47", "404bf568f7a834ef"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "10", "1", "59", "0000000000000000"], "out": "datetime.datetime(1, 2, 10, 1, 59)"}
+{"k": "asdatetime", "in": ["5289", "0", "30", "15", "51", "403bdbbf6bbb39fd"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["2000", "12", "29", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 12, 29, 23, 59)"}
+{"k": "asdatetime", "in": ["2000", "12", "29", "23", "59", "40415ee7b1784c14"], "out": "datetime.datetime(2000, 12, 29, 23, 59, 34, 741446)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "13", "39", "404dfffffbce4218"], "out": "datetime.datetime(2000, 2, 28, 13, 40)"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "23", "39", "403f71953586ca8a"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "4", "23", "59", "4043d7ac325633ba"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "28", "18", "51", "404dfffffaf78283"], "out": "datetime.datetime(1, 2, 28, 18, 51, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "10", "19", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "30", "23", "59", "404e535300e482ad"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "30", "23", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "23", "21", "59", "404dfffffaf78283"], "out": "datetime.datetime(2000, 12, 23, 21, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "4", "17", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["3964", "2", "30", "23", "60", "3ffea1d49bce2740"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "1", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(1, 2, 1, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "12", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "30", "22", "59", "4008a32e0836401c"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["7587", "2", "30", "23", "59", "40459bf0083b37e4"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1978", "2", "28", "23", "59", "40360b30545ba1e7"], "out": "datetime.datetime(1978, 2, 28, 23, 59, 22, 43706)"}
+{"k": "asdatetime", "in": ["172", "2", "28", "12", "59", "40431875ac548741"], "out": "datetime.datetime(172, 2, 28, 12, 59, 38, 191091)"}
+{"k": "asdatetime", "in": ["9999", "2", "20", "14", "12", "404b7ead0b666590"], "out": "datetime.datetime(9999, 2, 20, 14, 12, 54, 989656)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "10", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "29", "7", "59", "4047c971c036bc55"], "out": "datetime.datetime(1, 12, 29, 7, 59, 47, 573784)"}
+{"k": "asdatetime", "in": ["6247", "5", "28", "23", "59", "40435570f21a4164"], "out": "datetime.datetime(6247, 5, 28, 23, 59, 38, 667509)"}
+{"k": "asdatetime", "in": ["7986", "12", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(7986, 12, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "49", "404dfffffaf78283"], "out": "datetime.datetime(9999, 12, 30, 23, 49, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "4", "31", "20", "8", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "29", "4", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "23", "33", "4033bb7aa0b00e50"], "out": "datetime.datetime(2000, 12, 28, 23, 33, 19, 732340)"}
+{"k": "asdatetime", "in": ["2000", "13", "31", "4", "51", "404dfffffbce4218"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["2000", "3", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 3, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["7546", "2", "24", "23", "30", "404dfffffbce4218"], "out": "datetime.datetime(7546, 2, 24, 23, 31)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 3, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["1", "2", "22", "23", "56", "3fdda5f598852158"], "out": "datetime.datetime(1, 2, 22, 23, 56, 0, 463254)"}
+{"k": "asdatetime", "in": ["0", "12", "12", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "8", "16", "12", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 8, 16, 13, 0)"}
+{"k": "asdatetime", "in": ["0", "2", "31", "21", "48", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "29", "6", "11", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "1", "59", "4031d5b8165c62d7"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "4", "404dfffffaf78283"], "out": "datetime.datetime(2000, 2, 28, 23, 4, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "2", "6", "23", "48", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2621", "4", "28", "14", "35", "404dfffffbce4218"], "out": "datetime.datetime(2621, 4, 28, 14, 36)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "32", "0000000000000000"], "out": "datetime.datetime(9999, 2, 28, 23, 32)"}
+{"k": "asdatetime", "in": ["9999", "0", "30", "23", "26", "404dfffffbce4218"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["0", "7", "30", "23", "23", "4044697d27730b90"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["1", "9", "30", "0", "59", "404dfffffbce3c98"], "out": "datetime.datetime(1, 9, 30, 0, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "32", "23", "24", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "22", "57", "404dfffffbce4218"], "out": "datetime.datetime(9999, 12, 28, 22, 58)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "7", "59", "403ec9abe41ef8ea"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "28", "23", "59", "40424f084f0dbde2"], "out": "datetime.datetime(1, 12, 28, 23, 59, 36, 617441)"}
+{"k": "asdatetime", "in": ["2000", "0", "29", "24", "59", "404dfffffbce3c98"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["2000", "2", "10", "23", "34", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 10, 23, 34, 59, 999999)"}
+{"k": "asdatetime", "in": ["5199", "12", "23", "7", "59", "404970cda61d8752"], "out": "datetime.datetime(5199, 12, 23, 7, 59, 50, 881276)"}
+{"k": "asdatetime", "in": ["1", "11", "20", "20", "0", "404dfffffaf78283"], "out": "datetime.datetime(1, 11, 20, 20, 0, 59, 999999)"}
+{"k": "asdatetime", "in": ["5348", "12", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(5348, 12, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["1", "6", "19", "23", "59", "0000000000000000"], "out": "datetime.datetime(1, 6, 19, 23, 59)"}
+{"k": "asdatetime", "in": ["0", "2", "30", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "11", "17", "43", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "12", "29", "23", "11", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["7477", "2", "30", "23", "48", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "7", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "30", "22", "41", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "4", "31", "19", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "6", "10", "23", "19", "404dfffffbce4218"], "out": "datetime.datetime(9999, 6, 10, 23, 20)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "21", "12", "404685434e3369ba"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["4693", "12", "22", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(4693, 12, 22, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "13", "23", "403d91bec09a8f63"], "out": "datetime.datetime(9999, 12, 29, 13, 23, 29, 569317)"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "8", "59", "404a5363355242a2"], "out": "datetime.datetime(9999, 12, 29, 8, 59, 52, 651465)"}
+{"k": "asdatetime", "in": ["8684", "2", "29", "23", "59", "402947aaf111b063"], "out": "datetime.datetime(8684, 2, 29, 23, 59, 12, 639976)"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "21", "59", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["8172", "13", "30", "23", "59", "404dfffffbce3c98"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["1", "2", "28", "9", "20", "0000000000000000"], "out": "datetime.datetime(1, 2, 28, 9, 20)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "3", "29", "40446a76dbff6fb7"], "out": "datetime.datetime(9999, 2, 28, 3, 29, 40, 831752)"}
+{"k": "asdatetime", "in": ["1", "4", "31", "23", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "28", "12", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "12", "29", "23", "59", "404ac77706c79a5e"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "24", "16", "23", "4046d847c23670d5"], "out": "datetime.datetime(9999, 12, 24, 16, 23, 45, 689690)"}
+{"k": "asdatetime", "in": ["4152", "2", "3", "23", "30", "4030c4cc2d6a9c56"], "out": "datetime.datetime(4152, 2, 3, 23, 30, 16, 768740)"}
+{"k": "asdatetime", "in": ["3127", "2", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(3127, 3, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["2000", "12", "11", "12", "59", "403bd6eeb0ed54bc"], "out": "datetime.datetime(2000, 12, 11, 12, 59, 27, 839580)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "23", "24", "404dfffffbce3c98"], "out": "datetime.datetime(1, 2, 28, 23, 24, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "28", "6", "47", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "3", "28", "23", "59", "0000000000000000"], "out": "datetime.datetime(9999, 3, 28, 23, 59)"}
+{"k": "asdatetime", "in": ["3572", "12", "30", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(3572, 12, 30, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "3", "30", "23", "59", "40341ca6b25ebfc8"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "0", "5", "4", "59", "404dfffffbce4218"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["1705", "12", "31", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(1705, 12, 31, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "9", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "9", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 29, 9, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "24", "36", "404dbf1f3cab0c63"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "0", "30", "19", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "5", "12", "17", "6", "404dfffffbce4218"], "out": "datetime.datetime(2000, 5, 12, 17, 7)"}
+{"k": "asdatetime", "in": ["0", "12", "29", "3", "44", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "4", "31", "23", "59", "4021e030271c5b87"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "12", "31", "9", "59", "4048b8f67a45407c"], "out": "datetime.datetime(2000, 12, 31, 9, 59, 49, 445022)"}
+{"k": "asdatetime", "in": ["7884", "12", "31", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(7884, 12, 31, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1060", "6", "31", "9", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "0", "29", "23", "12", "0000000000000000"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["9305", "2", "28", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(9305, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["8511", "12", "30", "24", "59", "4045fc6ddd48904c"], "err": "ValueError: hour must be in 0..23"}
+{"k": "asdatetime", "in": ["1", "12", "0", "20", "59", "4029e817580b59d0"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "5", "29", "15", "59", "40468c161433b68b"], "out": "datetime.datetime(9999, 5, 29, 15, 59, 45, 94424)"}
+{"k": "asdatetime", "in": ["2000", "12", "22", "3", "44", "40473dc9f2fdb8fe"], "out": "datetime.datetime(2000, 12, 22, 3, 44, 46, 482726)"}
+{"k": "asdatetime", "in": ["2000", "13", "30", "6", "32", "0000000000000000"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["0", "8", "24", "23", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "31", "6", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 31, 7, 0)"}
+{"k": "asdatetime", "in": ["0", "5", "29", "23", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "23", "59", "4044a12fb92b2f59"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["7788", "2", "31", "17", "59", "400a1ccf2b560c73"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "31", "10", "59", "404dfffffaf78283"], "out": "datetime.datetime(9999, 12, 31, 10, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "9", "29", "22", "58", "4045075df37a8a82"], "out": "datetime.datetime(1, 9, 29, 22, 58, 42, 57555)"}
+{"k": "asdatetime", "in": ["9999", "2", "16", "21", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 2, 16, 21, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "7", "30", "22", "59", "404dfffffbce3c98"], "out": "datetime.datetime(1, 7, 30, 22, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "11", "28", "19", "59", "40373e27d992dfdc"], "out": "datetime.datetime(1, 11, 28, 19, 59, 23, 242796)"}
+{"k": "asdatetime", "in": ["2000", "11", "28", "22", "8", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 11, 28, 22, 8, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "5", "29", "23", "2", "4049c5799fbb5e33"], "out": "datetime.datetime(1, 5, 29, 23, 2, 51, 542774)"}
+{"k": "asdatetime", "in": ["9715", "11", "30", "23", "52", "404dfffffbce4218"], "out": "datetime.datetime(9715, 11, 30, 23, 53)"}
+{"k": "asdatetime", "in": ["2000", "12", "30", "23", "59", "404951dda13066d0"], "out": "datetime.datetime(2000, 12, 30, 23, 59, 50, 639576)"}
+{"k": "asdatetime", "in": ["1", "12", "12", "20", "14", "3f814df8b1572581"], "out": "datetime.datetime(1, 12, 12, 20, 14, 0, 8450)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "23", "59", "40417a9761118c8b"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "30", "23", "36", "404da0e484ba633c"], "out": "datetime.datetime(1, 12, 30, 23, 36, 59, 256974)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "22", "49", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "23", "18", "4029f1fcdb21160c"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "20", "18", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 2, 20, 18, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "4", "29", "18", "59", "0000000000000000"], "out": "datetime.datetime(1, 4, 29, 18, 59)"}
+{"k": "asdatetime", "in": ["0", "12", "28", "23", "44", "404571a60b97e3b7"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["3580", "12", "9", "14", "12", "0000000000000000"], "out": "datetime.datetime(3580, 12, 9, 14, 12)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "20", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "29", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "4", "31", "20", "45", "4048c8d452d30bab"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "30", "1", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "29", "5", "10", "0000000000000000"], "out": "datetime.datetime(2000, 12, 29, 5, 10)"}
+{"k": "asdatetime", "in": ["3134", "2", "28", "13", "1", "0000000000000000"], "out": "datetime.datetime(3134, 2, 28, 13, 1)"}
+{"k": "asdatetime", "in": ["0", "2", "30", "23", "31", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["7496", "8", "28", "23", "3", "404dfffffaf78283"], "out": "datetime.datetime(7496, 8, 28, 23, 3, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "43", "404d172eacbbb54d"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "29", "23", "24", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["4338", "2", "16", "23", "59", "40129d2a1f8e3ac1"], "out": "datetime.datetime(4338, 2, 16, 23, 59, 4, 653481)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "7", "29", "23", "58", "403ce91d629e10c1"], "out": "datetime.datetime(2000, 7, 29, 23, 58, 28, 910605)"}
+{"k": "asdatetime", "in": ["1", "2", "7", "12", "52", "0000000000000000"], "out": "datetime.datetime(1, 2, 7, 12, 52)"}
+{"k": "asdatetime", "in": ["1", "4", "31", "16", "59", "404482e960814a17"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "8", "28", "23", "59", "4012b845db6083e2"], "out": "datetime.datetime(9999, 8, 28, 23, 59, 4, 679954)"}
+{"k": "asdatetime", "in": ["0", "12", "30", "14", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "29", "20", "58", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "30", "9", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "60", "404527c41f9540cf"], "err": "ValueError: minute must be in 0..59"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "22", "59", "4044b51798b913b1"], "out": "datetime.datetime(2000, 2, 29, 22, 59, 41, 414783)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "5", "1", "404a03dd1828bcd6"], "out": "datetime.datetime(1, 2, 28, 5, 1, 52, 30185)"}
+{"k": "asdatetime", "in": ["1", "12", "20", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 21, 0, 0)"}
+{"k": "asdatetime", "in": ["9999", "5", "28", "23", "4", "0000000000000000"], "out": "datetime.datetime(9999, 5, 28, 23, 4)"}
+{"k": "asdatetime", "in": ["0", "5", "28", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2298", "2", "6", "23", "59", "403f0baa5d725884"], "out": "datetime.datetime(2298, 2, 6, 23, 59, 31, 45568)"}
+{"k": "asdatetime", "in": ["9999", "12", "23", "1", "5", "40393130bef60209"], "out": "datetime.datetime(9999, 12, 23, 1, 5, 25, 192150)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "7", "30", "23", "40", "403b832a8ff682a9"], "out": "datetime.datetime(1, 7, 30, 23, 40, 27, 512368)"}
+{"k": "asdatetime", "in": ["1", "12", "31", "3", "0", "40218c2a9bfc04cb"], "out": "datetime.datetime(1, 12, 31, 3, 0, 8, 773763)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "12", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "23", "31", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "28", "3", "59", "403d19044000a110"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "11", "59", "404dfffffaf78283"], "out": "datetime.datetime(2000, 12, 28, 11, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "7", "28", "23", "13", "404dfffffbce4218"], "out": "datetime.datetime(2000, 7, 28, 23, 14)"}
+{"k": "asdatetime", "in": ["1", "11", "31", "15", "59", "40467e4374c9d678"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["6064", "12", "31", "10", "28", "404dfffffbce3c98"], "out": "datetime.datetime(6064, 12, 31, 10, 28, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "11", "30", "23", "59", "0000000000000000"], "out": "datetime.datetime(1, 11, 30, 23, 59)"}
+{"k": "asdatetime", "in": ["0", "12", "30", "23", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1115", "2", "28", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(1115, 2, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["8175", "2", "30", "23", "0", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "3", "31", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(9999, 3, 31, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "59", "4046d97982a2dd0f"], "out": "datetime.datetime(2000, 2, 28, 23, 59, 45, 699021)"}
+{"k": "asdatetime", "in": ["9999", "10", "4", "12", "33", "40256e3fa296a8f2"], "out": "datetime.datetime(9999, 10, 4, 12, 33, 10, 715329)"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "20", "16", "0000000000000000"], "out": "datetime.datetime(9999, 12, 28, 20, 16)"}
+{"k": "asdatetime", "in": ["0", "1", "31", "18", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1276", "2", "29", "12", "59", "404dfffffaf78283"], "out": "datetime.datetime(1276, 2, 29, 12, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "0", "7", "8", "59", "404dfffffaf78283"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["299", "12", "28", "21", "59", "403ed25dfac80333"], "out": "datetime.datetime(299, 12, 28, 21, 59, 30, 821747)"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "17", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["4641", "5", "30", "20", "23", "404dfffffaf78283"], "out": "datetime.datetime(4641, 5, 30, 20, 23, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "12", "28", "23", "41", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "18", "0000000000000000"], "out": "datetime.datetime(1, 12, 29, 23, 18)"}
+{"k": "asdatetime", "in": ["6247", "12", "28", "17", "46", "0000000000000000"], "out": "datetime.datetime(6247, 12, 28, 17, 46)"}
+{"k": "asdatetime", "in": ["1250", "12", "28", "9", "53", "404dfffffbce3c98"], "out": "datetime.datetime(1250, 12, 28, 9, 53, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "29", "9", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 29, 9, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "4", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(9999, 4, 29, 0, 0)"}
+{"k": "asdatetime", "in": ["2000", "12", "30", "23", "14", "0000000000000000"], "out": "datetime.datetime(2000, 12, 30, 23, 14)"}
+{"k": "asdatetime", "in": ["3811", "12", "31", "21", "59", "404dfffffbce3c98"], "out": "datetime.datetime(3811, 12, 31, 21, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "0", "28", "23", "59", "404aca81f461664c"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "10", "31", "13", "29", "404dfffffbce4218"], "out": "datetime.datetime(9999, 10, 31, 13, 30)"}
+{"k": "asdatetime", "in": ["1", "12", "22", "15", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 22, 15, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "0", "11", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 30, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "0", "30", "23", "54", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "2", "23", "56", "404dfffffbce3c98"], "out": "datetime.datetime(1, 2, 2, 23, 56, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "9", "31", "5", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "30", "19", "16", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "15", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9681", "11", "31", "23", "40", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "29", "17", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "3", "30", "4", "60", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "19", "1", "56", "3ff73f44aa2b9d60"], "out": "datetime.datetime(9999, 12, 19, 1, 56, 1, 452946)"}
+{"k": "asdatetime", "in": ["1", "2", "31", "20", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "8", "31", "20", "59", "4049c686091f9d4a"], "out": "datetime.datetime(9999, 8, 31, 20, 59, 51, 550965)"}
+{"k": "asdatetime", "in": ["1", "12", "31", "16", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 31, 17, 0)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "21", "24", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "31", "0", "12", "404c0ca57cf1f647"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "1", "29", "15", "45", "404dfffffbce3c98"], "out": "datetime.datetime(1, 1, 29, 15, 45, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 3, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["0", "2", "30", "14", "59", "403e09d4c4121328"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "59", "0000000000000000"], "out": "datetime.datetime(9999, 12, 30, 23, 59)"}
+{"k": "asdatetime", "in": ["2000", "6", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(2000, 6, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "23", "59", "404c8ed9c145cd8e"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(2000, 2, 29, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["1", "7", "31", "23", "3", "404dfffffbce4218"], "out": "datetime.datetime(1, 7, 31, 23, 4)"}
+{"k": "asdatetime", "in": ["2755", "8", "31", "21", "59", "4045b70546898e3f"], "out": "datetime.datetime(2755, 8, 31, 21, 59, 43, 429848)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "18", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "9", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "12", "31", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(2, 1, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["430", "12", "30", "13", "23", "404dfffffaf78283"], "out": "datetime.datetime(430, 12, 30, 13, 23, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "29", "23", "59", "401c0ab1dbafbe9f"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["6175", "12", "30", "23", "10", "0000000000000000"], "out": "datetime.datetime(6175, 12, 30, 23, 10)"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "21", "16", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 28, 21, 17)"}
+{"k": "asdatetime", "in": ["9332", "2", "29", "17", "59", "404752189019be17"], "out": "datetime.datetime(9332, 2, 29, 17, 59, 46, 641375)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "14", "59", "404c95574f722e1b"], "out": "datetime.datetime(1, 2, 28, 14, 59, 57, 166727)"}
+{"k": "asdatetime", "in": ["2270", "12", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2270, 12, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "4", "30", "23", "13", "403d97b5e2a57c26"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "3", "30", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 3, 30, 23, 59)"}
+{"k": "asdatetime", "in": ["0", "4", "29", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "31", "23", "40", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 31, 23, 40, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "12", "11", "23", "9", "404482655fd6296d"], "out": "datetime.datetime(2000, 12, 11, 23, 9, 41, 18719)"}
+{"k": "asdatetime", "in": ["0", "12", "30", "3", "36", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "30", "23", "13", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 30, 23, 13, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "12", "31", "10", "43", "0000000000000000"], "out": "datetime.datetime(9999, 12, 31, 10, 43)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "9", "59", "40408a774843be50"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "23", "59", "4004d8e7f0c7916a"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "31", "16", "29", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "1", "23", "404dfffffaf78283"], "out": "datetime.datetime(2000, 12, 28, 1, 23, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "32", "4021e616b54e2b06"], "out": "datetime.datetime(1, 12, 29, 23, 32, 8, 949392)"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "15", "59", "0000000000000000"], "out": "datetime.datetime(2000, 12, 28, 15, 59)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "47", "4024c29d94d0dcfd"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "12", "31", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 12, 31, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "29", "4046dedbfd58ce37"], "out": "datetime.datetime(2000, 2, 28, 23, 29, 45, 741089)"}
+{"k": "asdatetime", "in": ["1", "11", "30", "23", "5", "404dfffffaf78283"], "out": "datetime.datetime(1, 11, 30, 23, 5, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "49", "404dfffffaf78283"], "out": "datetime.datetime(9999, 2, 28, 23, 49, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "11", "59", "404daccf1fd4844b"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "30", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["4433", "2", "28", "13", "59", "0000000000000000"], "out": "datetime.datetime(4433, 2, 28, 13, 59)"}
+{"k": "asdatetime", "in": ["1", "12", "28", "23", "35", "404dfffffbce3c98"], "out": "datetime.datetime(1, 12, 28, 23, 35, 59, 999999)"}
+{"k": "asdatetime", "in": ["4456", "2", "6", "23", "51", "0000000000000000"], "out": "datetime.datetime(4456, 2, 6, 23, 51)"}
+{"k": "asdatetime", "in": ["2000", "0", "29", "8", "22", "404dfffffbce4218"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["4952", "2", "30", "23", "18", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9583", "9", "28", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(9583, 9, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "28", "23", "42", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 28, 23, 42, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "3", "29", "23", "45", "404dfffffbce4218"], "out": "datetime.datetime(2000, 3, 29, 23, 46)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "12", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "29", "2", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 29, 2, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "28", "23", "30", "0000000000000000"], "out": "datetime.datetime(1, 2, 28, 23, 30)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "59", "404da1990016a635"], "out": "datetime.datetime(9999, 2, 28, 23, 59, 59, 262482)"}
+{"k": "asdatetime", "in": ["5534", "2", "30", "23", "59", "40417d9e2a22127a"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "2", "29", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "3", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 3, 30, 0, 0)"}
+{"k": "asdatetime", "in": ["2000", "5", "28", "15", "12", "404dfffffbce4218"], "out": "datetime.datetime(2000, 5, 28, 15, 13)"}
+{"k": "asdatetime", "in": ["1", "12", "25", "23", "59", "0000000000000000"], "out": "datetime.datetime(1, 12, 25, 23, 59)"}
+{"k": "asdatetime", "in": ["2000", "2", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(2000, 2, 29, 0, 0)"}
+{"k": "asdatetime", "in": ["0", "10", "28", "23", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "3", "29", "17", "59", "40270a4eb5137a56"], "out": "datetime.datetime(1, 3, 29, 17, 59, 11, 520132)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "23", "44", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "8", "29", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(1, 8, 29, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1538", "10", "32", "23", "38", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "59", "404dfffffaf78283"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "2", "29", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "0", "59", "0000000000000000"], "out": "datetime.datetime(9999, 2, 28, 0, 59)"}
+{"k": "asdatetime", "in": ["5551", "12", "28", "12", "36", "404dfffffbce4218"], "out": "datetime.datetime(5551, 12, 28, 12, 37)"}
+{"k": "asdatetime", "in": ["9999", "8", "28", "3", "25", "0000000000000000"], "out": "datetime.datetime(9999, 8, 28, 3, 25)"}
+{"k": "asdatetime", "in": ["9999", "0", "29", "23", "59", "404dfffffbce3c98"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "59", "0000000000000000"], "out": "datetime.datetime(9999, 2, 28, 23, 59)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "23", "47", "4021b365ff73d0e1"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "10", "29", "23", "48", "404dfffffbce3c98"], "out": "datetime.datetime(1, 10, 29, 23, 48, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "1", "29", "15", "33", "404dfffffbce4218"], "out": "datetime.datetime(2000, 1, 29, 15, 34)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "23", "59", "404cde5fff44185e"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "23", "52", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "11", "1", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 28, 11, 2)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "8", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["0", "13", "31", "13", "60", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "23", "59", "404e78696cab2406"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "31", "0", "59", "404dfffffbce3c98"], "out": "datetime.datetime(9999, 12, 31, 0, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["8874", "2", "12", "0", "59", "404dfffffbce4218"], "out": "datetime.datetime(8874, 2, 12, 1, 0)"}
+{"k": "asdatetime", "in": ["2000", "12", "30", "23", "42", "404dfffffbce4218"], "out": "datetime.datetime(2000, 12, 30, 23, 43)"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "5", "43", "40422aa327833d50"], "out": "datetime.datetime(2000, 2, 29, 5, 43, 36, 333104)"}
+{"k": "asdatetime", "in": ["0", "1", "31", "23", "59", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "8", "30", "23", "29", "401151c6962a039d"], "out": "datetime.datetime(9999, 8, 30, 23, 29, 4, 329859)"}
+{"k": "asdatetime", "in": ["0", "2", "29", "23", "39", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "31", "7", "51", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["5352", "12", "31", "23", "59", "4046459307af20ea"], "out": "datetime.datetime(5352, 12, 31, 23, 59, 44, 543549)"}
+{"k": "asdatetime", "in": ["1", "2", "29", "23", "12", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9399", "12", "8", "20", "59", "0000000000000000"], "out": "datetime.datetime(9399, 12, 8, 20, 59)"}
+{"k": "asdatetime", "in": ["9999", "2", "31", "21", "5", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "1", "15", "4", "4", "403e0b63cb817332"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["8700", "4", "31", "23", "12", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "9", "59", "40473c509cd085bf"], "out": "datetime.datetime(9999, 12, 28, 9, 59, 46, 471210)"}
+{"k": "asdatetime", "in": ["2000", "2", "30", "20", "59", "40201dc60be86b8f"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["6422", "2", "28", "22", "59", "0000000000000000"], "out": "datetime.datetime(6422, 2, 28, 22, 59)"}
+{"k": "asdatetime", "in": ["2000", "2", "14", "23", "15", "4023e74c3234a327"], "out": "datetime.datetime(2000, 2, 14, 23, 15, 9, 951753)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "23", "51", "4019c1ac88d44e0c"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["8754", "1", "28", "23", "45", "40441ae54f878ff1"], "out": "datetime.datetime(8754, 1, 28, 23, 45, 40, 210123)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "23", "10", "40393a1f8d436e62"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "29", "24", "51", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "9", "31", "18", "46", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "31", "23", "48", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "3", "28", "5", "59", "0000000000000000"], "out": "datetime.datetime(2000, 3, 28, 5, 59)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "23", "33", "404dfffffaf78283"], "out": "datetime.datetime(9999, 2, 28, 23, 33, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "4", "5", "30", "0000000000000000"], "out": "datetime.datetime(1, 12, 4, 5, 30)"}
+{"k": "asdatetime", "in": ["2000", "8", "30", "23", "38", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 8, 30, 23, 38, 59, 999999)"}
+{"k": "asdatetime", "in": ["7457", "2", "31", "23", "59", "402c916f79349f44"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["6557", "10", "29", "17", "22", "404dfffffaf78283"], "out": "datetime.datetime(6557, 10, 29, 17, 22, 59, 999999)"}
+{"k": "asdatetime", "in": ["4490", "3", "15", "9", "23", "404dfffffbce4218"], "out": "datetime.datetime(4490, 3, 15, 9, 24)"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "59", "4045f33ad919e229"], "out": "datetime.datetime(1, 12, 29, 23, 59, 43, 900233)"}
+{"k": "asdatetime", "in": ["9999", "3", "31", "23", "38", "404dfffffaf78283"], "out": "datetime.datetime(9999, 3, 31, 23, 38, 59, 999999)"}
+{"k": "asdatetime", "in": ["1196", "12", "31", "11", "9", "3ff49cf47d14fe95"], "out": "datetime.datetime(1196, 12, 31, 11, 9, 1, 288319)"}
+{"k": "asdatetime", "in": ["0", "2", "26", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(9999, 12, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["8144", "2", "30", "23", "1", "404dfffffbce3c98"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "2", "17", "23", "17", "404dfffffaf78283"], "out": "datetime.datetime(1, 2, 17, 23, 17, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "2", "28", "18", "42", "4046a0c3dab5c39c"], "out": "datetime.datetime(9999, 2, 28, 18, 42, 45, 255977)"}
+{"k": "asdatetime", "in": ["2345", "2", "29", "23", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2000", "12", "28", "3", "19", "404dfffffbce3c98"], "out": "datetime.datetime(2000, 12, 28, 3, 19, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "31", "23", "16", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["2417", "12", "30", "10", "59", "404885099b8a34a2"], "out": "datetime.datetime(2417, 12, 30, 10, 59, 49, 39356)"}
+{"k": "asdatetime", "in": ["9999", "2", "32", "23", "59", "0000000000000000"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "23", "23", "59", "404b9beefba48082"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "30", "0", "12", "4047f33f5cfcccbe"], "out": "datetime.datetime(1, 12, 30, 0, 12, 47, 900371)"}
+{"k": "asdatetime", "in": ["1", "4", "29", "23", "9", "402f91cde276823d"], "out": "datetime.datetime(1, 4, 29, 23, 9, 15, 784774)"}
+{"k": "asdatetime", "in": ["8320", "12", "29", "14", "11", "404dfffffbce3c98"], "out": "datetime.datetime(8320, 12, 29, 14, 11, 59, 999999)"}
+{"k": "asdatetime", "in": ["9999", "4", "28", "23", "59", "0000000000000000"], "out": "datetime.datetime(9999, 4, 28, 23, 59)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "23", "37", "3faecda762832d50"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1784", "12", "30", "23", "11", "0000000000000000"], "out": "datetime.datetime(1784, 12, 30, 23, 11)"}
+{"k": "asdatetime", "in": ["0", "12", "3", "4", "12", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "29", "23", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 29, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "2", "30", "19", "59", "404dfffffaf78283"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "2", "24", "20", "59", "40393af484d84a52"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["2000", "0", "28", "0", "20", "404dfffffaf78283"], "err": "ValueError: month must be in 1..12"}
+{"k": "asdatetime", "in": ["9999", "12", "28", "23", "52", "404dfffffbce4218"], "out": "datetime.datetime(9999, 12, 28, 23, 53)"}
+{"k": "asdatetime", "in": ["2000", "11", "28", "23", "59", "4040f9206a579b52"], "out": "datetime.datetime(2000, 11, 28, 23, 59, 33, 946302)"}
+{"k": "asdatetime", "in": ["0", "2", "28", "1", "59", "404dfffffbce3c98"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "12", "28", "10", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 12, 28, 10, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "4", "59", "404a0da5087ea320"], "out": "datetime.datetime(2000, 2, 29, 4, 59, 52, 106599)"}
+{"k": "asdatetime", "in": ["2000", "2", "29", "21", "53", "0000000000000000"], "out": "datetime.datetime(2000, 2, 29, 21, 53)"}
+{"k": "asdatetime", "in": ["9999", "9", "29", "23", "59", "4042fe85157e1686"], "out": "datetime.datetime(9999, 9, 29, 23, 59, 37, 988436)"}
+{"k": "asdatetime", "in": ["2000", "5", "29", "23", "59", "0000000000000000"], "out": "datetime.datetime(2000, 5, 29, 23, 59)"}
+{"k": "asdatetime", "in": ["3232", "7", "31", "23", "59", "402de702833d554c"], "out": "datetime.datetime(3232, 7, 31, 23, 59, 14, 951191)"}
+{"k": "asdatetime", "in": ["9999", "2", "30", "23", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["0", "12", "18", "23", "59", "403f895638f1b915"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["9999", "12", "31", "7", "23", "404dfffffaf78283"], "out": "datetime.datetime(9999, 12, 31, 7, 23, 59, 999999)"}
+{"k": "asdatetime", "in": ["5944", "2", "29", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(5944, 3, 1, 0, 0)"}
+{"k": "asdatetime", "in": ["9999", "1", "29", "23", "59", "40400b1922dc7860"], "out": "datetime.datetime(9999, 1, 29, 23, 59, 32, 86705)"}
+{"k": "asdatetime", "in": ["0", "12", "31", "23", "59", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "17", "8", "59", "403ffb96dae19588"], "out": "datetime.datetime(1, 2, 17, 8, 59, 31, 982771)"}
+{"k": "asdatetime", "in": ["9999", "1", "28", "18", "15", "404b8a7d6a0ea665"], "out": "datetime.datetime(9999, 1, 28, 18, 15, 55, 81952)"}
+{"k": "asdatetime", "in": ["6087", "3", "28", "23", "59", "4044f0acbe398c13"], "out": "datetime.datetime(6087, 3, 28, 23, 59, 41, 880272)"}
+{"k": "asdatetime", "in": ["0", "12", "29", "23", "9", "0000000000000000"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["1", "2", "29", "0", "59", "404dfffffbce4218"], "err": "ValueError: day is out of range for month"}
+{"k": "asdatetime", "in": ["1", "11", "28", "4", "59", "404dfffffaf78283"], "out": "datetime.datetime(1, 11, 28, 4, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "28", "23", "59", "404dfffffbce3c98"], "out": "datetime.datetime(1, 12, 28, 23, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["1", "12", "28", "23", "59", "404dfffffbce4218"], "out": "datetime.datetime(1, 12, 29, 0, 0)"}
+{"k": "asdatetime", "in": ["8147", "12", "31", "1", "16", "401e6f9a1b714bdc"], "out": "datetime.datetime(8147, 12, 31, 1, 16, 7, 608986)"}
+{"k": "asdatetime", "in": ["3879", "12", "3", "18", "59", "404dfffffbce3c98"], "out": "datetime.datetime(3879, 12, 3, 18, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["0", "11", "29", "23", "42", "404dfffffbce4218"], "err": "ValueError: year 0 is out of range"}
+{"k": "asdatetime", "in": ["5118", "12", "8", "7", "59", "404dfffffaf78283"], "out": "datetime.datetime(5118, 12, 8, 7, 59, 59, 999999)"}
+{"k": "asdatetime", "in": ["2371", "12", "31", "23", "5", "40420ee9dcf1b936"], "out": "datetime.datetime(2371, 12, 31, 23, 5, 36, 116512)"}
+{"k": "asdatetime", "in": ["2147483648", "1", "1", "0", "0", "0000000000000000"], "err": "OverflowError: signed integer is greater than maximum"}

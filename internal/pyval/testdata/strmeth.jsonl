@@ -1,0 +1,600 @@
+{"k": "strmeth", "in": ["title", "\ufb01\u000b"], "out": "Fi\u000b"}
+{"k": "strmeth", "in": ["upper", "\u01c4\u001c\u001fE\u2028\u0085'd-"], "out": "\u01c4\u001c\u001fE\u2028\u0085'D-"}
+{"k": "strmeth", "in": ["find", "\ud801\udc43b", "", -1, -10], "out": -1}
+{"k": "strmeth", "in": ["expandtabs", "\u0307\ufb01\u0085e\u000b\r", 3], "out": "\u0307\ufb01\u0085e\u000b\r"}
+{"k": "strmeth", "in": ["expandtabs", "\t\ud801\udc28", 3], "out": "   \ud801\udc28"}
+{"k": "strmeth", "in": ["lstrip", "\u03a3\ud801\udc41:"], "out": "\u03a3\ud801\udc41:"}
+{"k": "strmeth", "in": ["rstrip", "\u03a3\u000b'\u03a3 \u001f\u200b\u03a3b"], "out": "\u03a3\u000b'\u03a3 \u001f\u200b\u03a3b"}
+{"k": "strmeth", "in": ["stripc", "\ufeff\u00a0\u03c3\u03c3\u039a\nab", "\ufeff\u1f80"], "out": "\u00a0\u03c3\u03c3\u039a\nab"}
+{"k": "strmeth", "in": ["rfind", "\u0345\u00a0\u0307\u001d\u001d\u1f80\u001c\t", "\u00a0\u0307", -15, -12], "out": -1}
+{"k": "strmeth", "in": ["count", "\u200b\u01c5", " ", 16, 1], "out": 0}
+{"k": "strmeth", "in": ["strip", "\u01c4"], "out": "\u01c4"}
+{"k": "strmeth", "in": ["stripc", "\u01c5d\ufeff'E\ud801\udc4b\u00a0\u0085\u0085", ""], "out": "\u01c5d\ufeff'E\ud801\udc4b\u00a0\u0085\u0085"}
+{"k": "strmeth", "in": ["lstrip", "\u001f\u1f80\u00df'\u001e"], "out": "\u1f80\u00df'\u001e"}
+{"k": "strmeth", "in": ["strip", "\u001c\u000b\u01c4a\u03e3\u001ce\u00a0\t\u01c4"], "out": "\u01c4a\u03e3\u001ce\u00a0\t\u01c4"}
+{"k": "strmeth", "in": ["upper", "\u03f4\u0376\u0345d\u0307 "], "out": "\u03f4\u0376\u0399D\u0307 "}
+{"k": "strmeth", "in": ["splitlines", "\u001c\u00a0\u000b\u01c5\u200b\ufeffa", true], "out": ["\u001c", "\u00a0\u000b", "\u01c5\u200b\ufeffa"]}
+{"k": "strmeth", "in": ["rstrip", "\ud801\udc18da\u001f"], "out": "\ud801\udc18da"}
+{"k": "strmeth", "in": ["splitn", "\u00dfad\u03c3a\u200b\u0345\u00a0\nc\ufeff", -1], "out": ["\u00dfad\u03c3a\u200b\u0345", "c\ufeff"]}
+{"k": "strmeth", "in": ["find", "\ud801\udc3f'\u03c3\u039f\u03c3:d\u0384c\u01c4", "", -3, 3], "out": -1}
+{"k": "strmeth", "in": ["find", "\u1f80\u0307", "\u200b", 5, -14], "out": -1}
+{"k": "strmeth", "in": ["rfind", "\u001da", "", 3, 14], "out": -1}
+{"k": "strmeth", "in": ["upper", "\u00a0"], "out": "\u00a0"}
+{"k": "strmeth", "in": ["find", "\u1f80\ud801\udc44", "\u1f80", -11, -14], "out": -1}
+{"k": "strmeth", "in": ["casefold", "\u00df\u001f\u000bb\u2028\u3000\u3000\u00dfd\u1f80"], "out": "ss\u001f\u000bb\u2028\u3000\u3000ssd\u1f00\u03b9"}
+{"k": "strmeth", "in": ["upper", "\u2028\u001d\u000b'\ufb01\u00df\u03c3"], "out": "\u2028\u001d\u000b'FISS\u03a3"}
+{"k": "strmeth", "in": ["rfind", "\u0307\u03c3\u0085\f'E\u001e\u0085\u000b\u0085", "c", 0, 4], "out": -1}
+{"k": "strmeth", "in": ["splitn", "\u001e\u001fE\u001d\u0085", 3], "out": ["E"]}
+{"k": "strmeth", "in": ["lower", "\r\ud801\udc46-\r\ufb01 -\u03a3\u0345Dc'"], "out": "\r\ud801\udc46-\r\ufb01 -\u03c3\u0345dc'"}
+{"k": "strmeth", "in": ["casefold", "\u01c5"], "out": "\u01c6"}
+{"k": "strmeth", "in": ["rstrip", "\u03a3B\u001c\u001d\u2028\u1f80aA\u01c4d\ud801\udc16"], "out": "\u03a3B\u001c\u001d\u2028\u1f80aA\u01c4d\ud801\udc16"}
+{"k": "strmeth", "in": ["upper", "\u0130\u038e\u001eD\u001f\u0345\f"], "out": "\u0130\u038e\u001eD\u001f\u0399\f"}
+{"k": "strmeth", "in": ["splitlines", "'E bc\u1f80'\u001d-\u001cb", true], "out": ["'E bc\u1f80'\u001d", "-\u001c", "b"]}
+{"k": "strmeth", "in": ["splitlines", "dE\u0130\u2028\ufeff\u03c3b:\u03f7\u03a3-", false], "out": ["dE\u0130", "\ufeff\u03c3b:\u03f7\u03a3-"]}
+{"k": "strmeth", "in": ["count", "\u200b\ufeff", "\u200b", 9, 5], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", "\u03c3-\ufb01\u03fdd\u03a3E\u001d-\u01c4\u1f80\u2028", -1], "out": "\u03c3-\ufb01\u03fdd\u03a3E\u001d-\u01c4\u1f80\u2028"}
+{"k": "strmeth", "in": ["strip", "e\u0345\n\u0130\u000b\ud801\udc00\f:A\t"], "out": "e\u0345\n\u0130\u000b\ud801\udc00\f:A"}
+{"k": "strmeth", "in": ["strip", "\u0130\u01c5e"], "out": "\u0130\u01c5e"}
+{"k": "strmeth", "in": ["strip", ""], "out": ""}
+{"k": "strmeth", "in": ["slice", "\u01c4d\u2028\t\ud801\udc2a \ufeff\u01c5\u0345\f\fc\n", 6, -6], "out": "\ufeff"}
+{"k": "strmeth", "in": ["slice", "", -5, -3], "out": ""}
+{"k": "strmeth", "in": ["splitlines", "\ufb01\f\u200b", false], "out": ["\ufb01", "\u200b"]}
+{"k": "strmeth", "in": ["count", "\u03c3:A\u3000d\u03f4\u0370b\r\t\u03a3\r", "", -19, 7], "out": 8}
+{"k": "strmeth", "in": ["slice", "\fbE \u3000 \u1f80\u00a0\u000b\u00dfa\fd", 2, 19], "out": "E \u3000 \u1f80\u00a0\u000b\u00dfa\fd"}
+{"k": "strmeth", "in": ["expandtabs", "\u0085-\u1f80:\u03c3\u00dfd\u03a3\u00a0\u200b\u01c4DdE", -1], "out": "\u0085-\u1f80:\u03c3\u00dfd\u03a3\u00a0\u200b\u01c4DdE"}
+{"k": "strmeth", "in": ["splitlines", "B\u0307 \u0130eD\u01c4\n\u200be\u200be\t\ud801\udc02", false], "out": ["B\u0307 \u0130eD\u01c4", "\u200be\u200be\t\ud801\udc02"]}
+{"k": "strmeth", "in": ["split", "\u3000 \u001d\t\u00dfc\u00a0\u0345\u001f\u001c"], "out": ["\u00dfc", "\u0345"]}
+{"k": "strmeth", "in": ["strip", ""], "out": ""}
+{"k": "strmeth", "in": ["stripc", "\r\u0307\u00a0e\u01c4\u00a0\u0130\u00dfc:-'E:", "\u000b"], "out": "\r\u0307\u00a0e\u01c4\u00a0\u0130\u00dfc:-'E:"}
+{"k": "strmeth", "in": ["splitlines", "\t\u000b\u0307dc\u0345\u0085:", true], "out": ["\t\u000b", "\u0307dc\u0345\u0085", ":"]}
+{"k": "strmeth", "in": ["casefold", "\u0307"], "out": "\u0307"}
+{"k": "strmeth", "in": ["slice", "\u03be\u001e\t", 15, -5], "out": ""}
+{"k": "strmeth", "in": ["find", "\u01c4\tA\u2028\n\u001e\u001f\u001d \r\u03a3a", "\r", 6, 18], "out": 9}
+{"k": "strmeth", "in": ["strip", "e\ufeff\u200b\u001c\u00df\u01c5\n\u01c4\u001f\u0307\u00a0-:"], "out": "e\ufeff\u200b\u001c\u00df\u01c5\n\u01c4\u001f\u0307\u00a0-:"}
+{"k": "strmeth", "in": ["isspace", " \u0345\ud801\udc3a\u001d\u001fbcE\u01c4"], "out": false}
+{"k": "strmeth", "in": ["casefold", "\ud801\udc29\ufb01d\u00a0\ufeff\u001d\u01c4E\tB \u001d "], "out": "\ud801\udc29fid\u00a0\ufeff\u001d\u01c6e\tb \u001d "}
+{"k": "strmeth", "in": ["lower", " \f\u0130-\u0130\u01c5Ae\u001f\ufb01d\u200b\ufb01\u0130"], "out": " \fi\u0307-i\u0307\u01c6ae\u001f\ufb01d\u200b\ufb01i\u0307"}
+{"k": "strmeth", "in": ["lstrip", "\u2028\u3000"], "out": ""}
+{"k": "strmeth", "in": ["upper", "D\rb"], "out": "D\rB"}
+{"k": "strmeth", "in": ["stripc", "Ded\u01c5 \u03c3", "\u0307a\u2028"], "out": "Ded\u01c5 \u03c3"}
+{"k": "strmeth", "in": ["splitn", "c\f\ufb01\u0130\u001d\u0085\u001fCC\u001f\u001e\u000b'-", 3], "out": ["c", "\ufb01\u0130", "CC", "'-"]}
+{"k": "strmeth", "in": ["lstrip", ""], "out": ""}
+{"k": "strmeth", "in": ["stripc", "\f\u00a0\ud801\udc06\u01c4\ufeffe\ud801\udc15-\t", "\u001d\t\u01c5"], "out": "\f\u00a0\ud801\udc06\u01c4\ufeffe\ud801\udc15-"}
+{"k": "strmeth", "in": ["lower", "\u2028d\u03c3\u3000\u0130\u200b\u03a3\u0130d\u001e \u001c\u001d\u200b"], "out": "\u2028d\u03c3\u3000i\u0307\u200b\u03c3i\u0307d\u001e \u001c\u001d\u200b"}
+{"k": "strmeth", "in": ["stripc", ":b\u00a0-\u001e\t: a \u001e\u00a0", "\u03a3c"], "out": ":b\u00a0-\u001e\t: a \u001e\u00a0"}
+{"k": "strmeth", "in": ["split", "\f-b\u3000c\u01c5\ufeff\u03a3\u2028\u1f80\u0345"], "out": ["-b", "c\u01c5\ufeff\u03a3", "\u1f80\u0345"]}
+{"k": "strmeth", "in": ["lstrip", "\u01c4\u0130-d-\u001c\fa\ud801\udc42\u03a3\ufeffc\t\u01c4"], "out": "\u01c4\u0130-d-\u001c\fa\ud801\udc42\u03a3\ufeffc\t\u01c4"}
+{"k": "strmeth", "in": ["splitlines", "\u0345'\u001e\u0085\t\u0307\u00df", true], "out": ["\u0345'\u001e", "\u0085", "\t\u0307\u00df"]}
+{"k": "strmeth", "in": ["lower", "\nb\ud801\udc21\u200b'\u1f80E"], "out": "\nb\ud801\udc49\u200b'\u1f80e"}
+{"k": "strmeth", "in": ["isspace", "\u200b\u00a0'"], "out": false}
+{"k": "strmeth", "in": ["slice", "e\u00a0-\ud801\udc0a\ufeff", 14, 4], "out": ""}
+{"k": "strmeth", "in": ["expandtabs", "A\ufb01\u001f:\ufb01\u3000\u01c4\n:\ufb01\u3000 ", 8], "out": "A\ufb01\u001f:\ufb01\u3000\u01c4\n:\ufb01\u3000 "}
+{"k": "strmeth", "in": ["expandtabs", "\rC\ufb01\f\u00df\ud801\udc00\u00a0C\u000b\nc\u1f80\u0345E", 8], "out": "\rC\ufb01\f\u00df\ud801\udc00\u00a0C\u000b\nc\u1f80\u0345E"}
+{"k": "strmeth", "in": ["casefold", "\u00a0\u2028\r"], "out": "\u00a0\u2028\r"}
+{"k": "strmeth", "in": ["slice", "\u200bD-\u000b\u000b\u03a3\u000bbceddc", -3, -13], "out": ""}
+{"k": "strmeth", "in": ["title", "ca\u00a0\t \u0130"], "out": "Ca\u00a0\t \u0130"}
+{"k": "strmeth", "in": ["isspace", "\u00df-\u001c\u3000\r\u2028\u03cd \ud801\udc3d"], "out": false}
+{"k": "strmeth", "in": ["rfind", "\n\u00df\u1f80\u01c5\u0307Bc\u00df\u3000\u001d\f", "\u001d\f", -6, 1], "out": -1}
+{"k": "strmeth", "in": ["splitlines", "\u00a0B\u1f80\u200b\u0130\r:\u200bcd\u3000\u01c5", false], "out": ["\u00a0B\u1f80\u200b\u0130", ":\u200bcd\u3000\u01c5"]}
+{"k": "strmeth", "in": ["find", "c\u001e:\u3000\u0345\u00a0", "", 14, 16], "out": -1}
+{"k": "strmeth", "in": ["lstrip", "\fD"], "out": "D"}
+{"k": "strmeth", "in": ["stripc", "A\ufeff-\u0085\u001d", "\f"], "out": "A\ufeff-\u0085\u001d"}
+{"k": "strmeth", "in": ["strip", "a"], "out": "a"}
+{"k": "strmeth", "in": ["casefold", "\u2028\u01c5\u0345d"], "out": "\u2028\u01c6\u03b9d"}
+{"k": "strmeth", "in": ["title", "A\u001cD\u001e"], "out": "A\u001cD\u001e"}
+{"k": "strmeth", "in": ["find", "\u01c4a\u001ca\u2028\u001f", "\u001f", -15, -3], "out": -1}
+{"k": "strmeth", "in": ["count", "-\ufb01aE\u000b \ud801\udc0cBa\u0307\u03c3", "\ud801\udc0cB", -18, -5], "out": 0}
+{"k": "strmeth", "in": ["count", "\u001f\ufeff\u01c4\u000b\ud801\udc4e\u3000db\u03c3\u001c\ud801\udc13e\u001d", "", -8, -17], "out": 0}
+{"k": "strmeth", "in": ["strip", "\u2028\u001d\u00df"], "out": "\u00df"}
+{"k": "strmeth", "in": ["expandtabs", "\u1f80ac-\u01c4", 0], "out": "\u1f80ac-\u01c4"}
+{"k": "strmeth", "in": ["rstrip", "\u200b\u03c3b\rca\u03a3\u01c5\u0085\t"], "out": "\u200b\u03c3b\rca\u03a3\u01c5"}
+{"k": "strmeth", "in": ["isspace", "bd\u200bd\n:cc:"], "out": false}
+{"k": "strmeth", "in": ["split", "\u000b\ufb01d\ud801\udc17\f\u200b\u00a0\u001e\u03a3\u001c\u01c4\ufb01"], "out": ["\ufb01d\ud801\udc17", "\u200b", "\u03a3", "\u01c4\ufb01"]}
+{"k": "strmeth", "in": ["lstrip", "\u03af\u001c:\u01c4\t\u0387"], "out": "\u03af\u001c:\u01c4\t\u0387"}
+{"k": "strmeth", "in": ["expandtabs", "B\u01c5\u01c5\u000bA\u000b\u2028EaeC ", 3], "out": "B\u01c5\u01c5\u000bA\u000b\u2028EaeC "}
+{"k": "strmeth", "in": ["expandtabs", "\r\u1f80\u01c5\n\u001d\u1f80\u001fd\u3000eb\u01c4\u3000A", 1], "out": "\r\u1f80\u01c5\n\u001d\u1f80\u001fd\u3000eb\u01c4\u3000A"}
+{"k": "strmeth", "in": ["expandtabs", "\u01c4'\u03a5\n\u00a0\u200b\u03a3\u000b\u001e\u03c3\u03a3\u0085'\u00df", 0], "out": "\u01c4'\u03a5\n\u00a0\u200b\u03a3\u000b\u001e\u03c3\u03a3\u0085'\u00df"}
+{"k": "strmeth", "in": ["split", "\u03c3e"], "out": ["\u03c3e"]}
+{"k": "strmeth", "in": ["slice", "\u03a3-\u00df\u0345\f\ufb01:\u03c3\u001e\u0085\n\u03a3", -14, 14], "out": "\u03a3-\u00df\u0345\f\ufb01:\u03c3\u001e\u0085\n\u03a3"}
+{"k": "strmeth", "in": ["title", "-\naa\t\u00dfe\u001c"], "out": "-\nAa\tSse\u001c"}
+{"k": "strmeth", "in": ["stripc", "\t\u03b1'\u0345b\t\u0085\u0307\u001c\u0345\t\u03a3\u001c", ""], "out": "\t\u03b1'\u0345b\t\u0085\u0307\u001c\u0345\t\u03a3\u001c"}
+{"k": "strmeth", "in": ["rfind", "\u03a3", "", -16, 10], "out": 1}
+{"k": "strmeth", "in": ["title", "a\u03a3a "], "out": "A\u03c3a "}
+{"k": "strmeth", "in": ["splitlines", "\u03c3\u000b'\n'\u001d", true], "out": ["\u03c3\u000b", "'\n", "'\u001d"]}
+{"k": "strmeth", "in": ["rfind", "", "", 0, 18], "out": 0}
+{"k": "strmeth", "in": ["strip", "\u3000B\u03c3\u0345\ud801\udc1cd\ud801\udc00\u2028\u01c4C\u0345 \u000b"], "out": "B\u03c3\u0345\ud801\udc1cd\ud801\udc00\u2028\u01c4C\u0345"}
+{"k": "strmeth", "in": ["upper", "e\u001d"], "out": "E\u001d"}
+{"k": "strmeth", "in": ["strip", "\u00a0\u0130\u03c3"], "out": "\u0130\u03c3"}
+{"k": "strmeth", "in": ["splitn", "\u00a0B\u00df\u0130bB", 1], "out": ["B\u00df\u0130bB"]}
+{"k": "strmeth", "in": ["stripc", "\u001f: \u1f80\ud801\udc47Ab\u001c\u001d\u001e\u03a3b:", ""], "out": "\u001f: \u1f80\ud801\udc47Ab\u001c\u001d\u001e\u03a3b:"}
+{"k": "strmeth", "in": ["find", "", "e", -18, -14], "out": -1}
+{"k": "strmeth", "in": ["expandtabs", "\n\fB\ud801\udc3f\ud801\udc14\u03a3\u001e\ufb01\u00df\u200b\u2028\r\t\t", -1], "out": "\n\fB\ud801\udc3f\ud801\udc14\u03a3\u001e\ufb01\u00df\u200b\u2028\r"}
+{"k": "strmeth", "in": ["count", "\u001e\u0307c\u03a3\u1f80\u00a0\f", "\u000b", -13, 17], "out": 0}
+{"k": "strmeth", "in": ["splitn", "\u01c4:\u0130\u03a3\ufeff \ufeffe\u0085", 1], "out": ["\u01c4:\u0130\u03a3\ufeff", "\ufeffe\u0085"]}
+{"k": "strmeth", "in": ["slice", "'", 7, -11], "out": ""}
+{"k": "strmeth", "in": ["casefold", "\u01c5\ud801\udc30\u00a0 \u001f\u3000E\u200b\u0085\u001e\r\u01c5'\u03a3"], "out": "\u01c6\ud801\udc30\u00a0 \u001f\u3000e\u200b\u0085\u001e\r\u01c6'\u03c3"}
+{"k": "strmeth", "in": ["expandtabs", "\u0130\u00df\u001de\u001d\r\u000b\u3000\u001d\u03c3", -1], "out": "\u0130\u00df\u001de\u001d\r\u000b\u3000\u001d\u03c3"}
+{"k": "strmeth", "in": ["rfind", "a\u001cB", "", 12, 15], "out": -1}
+{"k": "strmeth", "in": ["expandtabs", "\u200b\u001db\u03da\u0085e\f\u00df\u0085", 4], "out": "\u200b\u001db\u03da\u0085e\f\u00df\u0085"}
+{"k": "strmeth", "in": ["stripc", "'b\u200b\u200b\u2028\u00df", "\u0307 \u0307"], "out": "'b\u200b\u200b\u2028\u00df"}
+{"k": "strmeth", "in": ["rstrip", "\ufeff\u200b\ufeffd\u0130:BB \u000b\u0130\u001e\u0345 "], "out": "\ufeff\u200b\ufeffd\u0130:BB \u000b\u0130\u001e\u0345"}
+{"k": "strmeth", "in": ["rstrip", "\u001f\ufb01\u001c\rb\u01c4\u03e8"], "out": "\u001f\ufb01\u001c\rb\u01c4\u03e8"}
+{"k": "strmeth", "in": ["casefold", "CeE"], "out": "cee"}
+{"k": "strmeth", "in": ["stripc", "cEe\u0307B\u03a3\ufb01\ufeff\u037f\u01c4c", "\u03c3\u200b"], "out": "cEe\u0307B\u03a3\ufb01\ufeff\u037f\u01c4c"}
+{"k": "strmeth", "in": ["lstrip", "b\u00df\u001e\u200b"], "out": "b\u00df\u001e\u200b"}
+{"k": "strmeth", "in": ["title", ":"], "out": ":"}
+{"k": "strmeth", "in": ["splitlines", "a'\u2028", true], "out": ["a'\u2028"]}
+{"k": "strmeth", "in": ["split", "\u1f80ca\ud801\udc15\u0130\nba\u01c4\u01c5\ufb01c\u001d"], "out": ["\u1f80ca\ud801\udc15\u0130", "ba\u01c4\u01c5\ufb01c"]}
+{"k": "strmeth", "in": ["casefold", "b\ufb01\u00a0d\u001c\u0345-\nDB:\n"], "out": "bfi\u00a0d\u001c\u03b9-\ndb:\n"}
+{"k": "strmeth", "in": ["upper", "\n\u00df"], "out": "\nSS"}
+{"k": "strmeth", "in": ["stripc", "\u03c3'e-\u001f", ""], "out": "\u03c3'e-\u001f"}
+{"k": "strmeth", "in": ["count", "\u001e\u00df-\u03a3\ud801\udc48\ufb01\u3000\u000bb\u000b", "A", -2, 3], "out": 0}
+{"k": "strmeth", "in": ["lower", "\u03d0\u0307\u0345\u01c5\u03c3A\u01c4\u01c4\u01c5:\u03e8\u200b-"], "out": "\u03d0\u0307\u0345\u01c6\u03c3a\u01c6\u01c6\u01c6:\u03e9\u200b-"}
+{"k": "strmeth", "in": ["find", "-\u001e\ufb01'\u1f80b\u0307\ufeff\u01c5 \ud801\udc08\u01c4\u03c3\u01c4", "", -4, -9], "out": -1}
+{"k": "strmeth", "in": ["lstrip", "\u03a3\u01c4-\f\u001f\u0307\t"], "out": "\u03a3\u01c4-\f\u001f\u0307\t"}
+{"k": "strmeth", "in": ["strip", "D"], "out": "D"}
+{"k": "strmeth", "in": ["find", "\u1f80\u1f80\u3000A\u03c3 :\u00df\u2028\u1f80e\f\u000b", "\u00df\u2028", 4, -2], "out": 7}
+{"k": "strmeth", "in": ["expandtabs", "\ud801\udc23e\ufb01", 3], "out": "\ud801\udc23e\ufb01"}
+{"k": "strmeth", "in": ["stripc", "\u03a3'\nb\r\u0307'\u03ee", "\u01c4\r\u2028"], "out": "\u03a3'\nb\r\u0307'\u03ee"}
+{"k": "strmeth", "in": ["count", "\u001c\u03a3\u0085\u1f80\u3000", "\u001c", -6, -8], "out": 0}
+{"k": "strmeth", "in": ["casefold", "cab\u01c4\u0345:\ufeffd\u0345\u01c5\n\u00a0\u00df"], "out": "cab\u01c6\u03b9:\ufeffd\u03b9\u01c6\n\u00a0ss"}
+{"k": "strmeth", "in": ["rfind", " \u001cd\ud801\udc4a\u001d\u001c-", "", 13, 8], "out": -1}
+{"k": "strmeth", "in": ["rfind", ":\u0130", "b", 11, -4], "out": -1}
+{"k": "strmeth", "in": ["find", "\n\u001cca\u01c5\u0085\u01c5\u0130\u0085", "\u01c5\u0130", 1, -1], "out": 6}
+{"k": "strmeth", "in": ["lstrip", "\ufeff\u03c3\rdc\u03db\u03a3\u03c3"], "out": "\ufeff\u03c3\rdc\u03db\u03a3\u03c3"}
+{"k": "strmeth", "in": ["split", "\u1f80"], "out": ["\u1f80"]}
+{"k": "strmeth", "in": ["strip", "\ufb01\f-\u0130\t\ufb01\ufeff e:"], "out": "\ufb01\f-\u0130\t\ufb01\ufeff e:"}
+{"k": "strmeth", "in": ["lower", "\u200b :\u000b"], "out": "\u200b :\u000b"}
+{"k": "strmeth", "in": ["find", "", "", 16, 13], "out": -1}
+{"k": "strmeth", "in": ["splitn", ":\u001c\tb\f\ufb01\u001c\n'\u1f80\u03e9", 2], "out": [":", "b", "\ufb01\u001c\n'\u1f80\u03e9"]}
+{"k": "strmeth", "in": ["slice", "\ufb01\f", -2, -17], "out": ""}
+{"k": "strmeth", "in": ["count", "bd", "", -11, -12], "out": 1}
+{"k": "strmeth", "in": ["splitlines", "-\u01c5\u001e\n-\u200b\u01c5\u3000\u3000\u1f80\u0085\u03c3", false], "out": ["-\u01c5", "", "-\u200b\u01c5\u3000\u3000\u1f80", "\u03c3"]}
+{"k": "strmeth", "in": ["split", "\t\u001ecDeaB\u03a3"], "out": ["cDeaB\u03a3"]}
+{"k": "strmeth", "in": ["rfind", " \u200be:d\febA\u2028\ufeffc \u00a0", ":", 5, 13], "out": -1}
+{"k": "strmeth", "in": ["lower", "\t\u001eb-\u1f80\u01c4\ufb01C\r\u0345e"], "out": "\t\u001eb-\u1f80\u01c6\ufb01c\r\u0345e"}
+{"k": "strmeth", "in": ["rfind", "b\u01c5\n\ufb01\u001d\u01c4\u03de\ufb01\u001d\u03f1\u001c", "\u01c4\u03de", 18, 12], "out": -1}
+{"k": "strmeth", "in": ["find", "A\u0130\u001c'\u0307\u0345", "", 10, 14], "out": -1}
+{"k": "strmeth", "in": ["upper", "\u001f-\fCE\u001d\u200b"], "out": "\u001f-\fCE\u001d\u200b"}
+{"k": "strmeth", "in": ["expandtabs", "Bd\u000b\n\t\u1f80\ud801\udc17'b\f", 8], "out": "Bd\u000b\n        \u1f80\ud801\udc17'b\f"}
+{"k": "strmeth", "in": ["title", "\n\r-\u01c5"], "out": "\n\r-\u01c5"}
+{"k": "strmeth", "in": ["rstrip", "\u0307\u0130\u000b\u001f\r''\ud801\udc46\f\u0085"], "out": "\u0307\u0130\u000b\u001f\r''\ud801\udc46"}
+{"k": "strmeth", "in": ["isspace", "\u001e-"], "out": false}
+{"k": "strmeth", "in": ["upper", "D\u01c5e\u2028\t-\ufeff\u0307 \u0307\ufeff"], "out": "D\u01c4E\u2028\t-\ufeff\u0307 \u0307\ufeff"}
+{"k": "strmeth", "in": ["rfind", "\u03a3 \ufb01\u0130c\u01c5Cca::", "", 10, -18], "out": -1}
+{"k": "strmeth", "in": ["upper", "\rceABbC \t\u3000e"], "out": "\rCEABBC \t\u3000E"}
+{"k": "strmeth", "in": ["expandtabs", "\u0130\u03c3\u001dE\u0387:\ufb01\u00df\u000b", 0], "out": "\u0130\u03c3\u001dE\u0387:\ufb01\u00df\u000b"}
+{"k": "strmeth", "in": ["lower", "\t"], "out": "\t"}
+{"k": "strmeth", "in": ["stripc", "d", ""], "out": "d"}
+{"k": "strmeth", "in": ["slice", "\nb\u001e\u001e\u0345\u00a0\u01c4:\u03fe\r", 11, 2], "out": ""}
+{"k": "strmeth", "in": ["lower", "\u2028\u0307\ufb01\u001f\u0307\u200b\u0345\ufeff\f\fb\u03b4\u0085\u0307"], "out": "\u2028\u0307\ufb01\u001f\u0307\u200b\u0345\ufeff\f\fb\u03b4\u0085\u0307"}
+{"k": "strmeth", "in": ["rstrip", "bb\u0307\u200b\u00df\u2028\u0085\u03a3bC\ufb01\u001d"], "out": "bb\u0307\u200b\u00df\u2028\u0085\u03a3bC\ufb01"}
+{"k": "strmeth", "in": ["splitn", "\u0130\u01c5a", 0], "out": ["\u0130\u01c5a"]}
+{"k": "strmeth", "in": ["splitlines", "", true], "out": []}
+{"k": "strmeth", "in": ["splitn", "\u00a0\u03ab\nc\u3000:\u01c4A\u01c5\u0130\u001ca\u2028\u03d8", 1], "out": ["\u03ab", "c\u3000:\u01c4A\u01c5\u0130\u001ca\u2028\u03d8"]}
+{"k": "strmeth", "in": ["strip", "\u3000\u0130\u2028\u1f80-"], "out": "\u0130\u2028\u1f80-"}
+{"k": "strmeth", "in": ["count", "D-\u00a0\ud801\udc4f\u03a3c", "\ud801\udc4f", 15, 15], "out": 0}
+{"k": "strmeth", "in": ["upper", "A\r\u03c3\u1f80\u001d\u03c3\u0389\u01c5\f\u2028"], "out": "A\r\u03a3\u1f08\u0399\u001d\u03a3\u0389\u01c4\f\u2028"}
+{"k": "strmeth", "in": ["title", "\u200b\u3000:\u0345\n\u2028'\u1f80\u0307"], "out": "\u200b\u3000:\u0399\n\u2028'\u1f88\u0307"}
+{"k": "strmeth", "in": ["expandtabs", "\u001c\u01c4\ufeffc'", 8], "out": "\u001c\u01c4\ufeffc'"}
+{"k": "strmeth", "in": ["casefold", "\u001c\u01c5\u1f80\u0307\u1f80\t\u0383\u001ca"], "out": "\u001c\u01c6\u1f00\u03b9\u0307\u1f00\u03b9\t\u0383\u001ca"}
+{"k": "strmeth", "in": ["casefold", "\u00df'\ufb01\u0085\u03c3d\u1f80"], "out": "ss'fi\u0085\u03c3d\u1f00\u03b9"}
+{"k": "strmeth", "in": ["rstrip", "\u001e\u0130\u001e\u001c\t\u0130\f\ufb01Ec\u001d"], "out": "\u001e\u0130\u001e\u001c\t\u0130\f\ufb01Ec"}
+{"k": "strmeth", "in": ["isspace", "b \u0345\rbe\u001c\ufeff\n\ufb01\u001fb\u200b\u01c5"], "out": false}
+{"k": "strmeth", "in": ["lstrip", "\u0130\ud801\udc33\u3000\u3000A\u1f80\f\u00df'ccd\u2028\u01c5"], "out": "\u0130\ud801\udc33\u3000\u3000A\u1f80\f\u00df'ccd\u2028\u01c5"}
+{"k": "strmeth", "in": ["rstrip", "b\u2028B\u01c4\u0085\ud801\udc2b\u001fA\u001d\u000bbBe\u2028"], "out": "b\u2028B\u01c4\u0085\ud801\udc2b\u001fA\u001d\u000bbBe"}
+{"k": "strmeth", "in": ["rfind", "\n\u00df:\u000b\ud801\udc1d\ufeff\u2028-\f\ufeff", "\ud801\udc1d", 1, -19], "out": -1}
+{"k": "strmeth", "in": ["casefold", "\u03e3"], "out": "\u03e3"}
+{"k": "strmeth", "in": ["casefold", "\u001e\u00dfc\u1f80\u03a3\u3000\u2028\t\ufb01\u00a0eb"], "out": "\u001essc\u1f00\u03b9\u03c3\u3000\u2028\tfi\u00a0eb"}
+{"k": "strmeth", "in": ["split", "Ee\u03a3\n'"], "out": ["Ee\u03a3", "'"]}
+{"k": "strmeth", "in": ["casefold", "\u00a0\u03f1\r\t d\u001f\ufeff\u3000\u03c0\n\r"], "out": "\u00a0\u03c1\r\t d\u001f\ufeff\u3000\u03c0\n\r"}
+{"k": "strmeth", "in": ["slice", "C\u00df'\u000bb\r\u3000", 19, 9], "out": ""}
+{"k": "strmeth", "in": ["slice", "\u03a3\ufb01\u0378\u01c5\u0130", 7, 0], "out": ""}
+{"k": "strmeth", "in": ["rstrip", "e Dd"], "out": "e Dd"}
+{"k": "strmeth", "in": ["expandtabs", "\u01c4\u039ca", -1], "out": "\u01c4\u039ca"}
+{"k": "strmeth", "in": ["rfind", "\u00df\u0085\u0130\u03a3\u03c3\u0307:\ufeff\u0130b", "", 14, -7], "out": -1}
+{"k": "strmeth", "in": ["expandtabs", "\u01c4\u01c4\u03f1ab\u001c\u01c5", 3], "out": "\u01c4\u01c4\u03f1ab\u001c\u01c5"}
+{"k": "strmeth", "in": ["find", "", "", 2, 1], "out": -1}
+{"k": "strmeth", "in": ["rfind", "\u001c\u001dd", "d", -14, 2], "out": -1}
+{"k": "strmeth", "in": ["isspace", "\u001e:\u0345\u01c4e\u001e"], "out": false}
+{"k": "strmeth", "in": ["casefold", " \u0307\u0371\u200b"], "out": " \u0307\u0371\u200b"}
+{"k": "strmeth", "in": ["split", "\u2028\u00dfb\u0130"], "out": ["\u00dfb\u0130"]}
+{"k": "strmeth", "in": ["rstrip", "\u01c4\ufb01a\u001c\r\t\rbdC\u01c4\u00a0"], "out": "\u01c4\ufb01a\u001c\r\t\rbdC\u01c4"}
+{"k": "strmeth", "in": ["count", "", "\f", -18, -10], "out": 0}
+{"k": "strmeth", "in": ["stripc", "\u001ca\u01c5", ""], "out": "\u001ca\u01c5"}
+{"k": "strmeth", "in": ["find", "b\u001f\u00a0", "\u001f", -11, 18], "out": 1}
+{"k": "strmeth", "in": ["rstrip", ""], "out": ""}
+{"k": "strmeth", "in": ["split", "ddc\u3000\u03a3\u2028\u200b\u0307\ud801\udc30\u0085b\u2028\u01c4\r"], "out": ["ddc", "\u03a3", "\u200b\u0307\ud801\udc30", "b", "\u01c4"]}
+{"k": "strmeth", "in": ["isspace", "\u200b\u00a0\u03e9\u001e\u00a0e"], "out": false}
+{"k": "strmeth", "in": ["expandtabs", "\u00a0b\u2028\u0345\u0307\u001e\u0345\u01c5", 3], "out": "\u00a0b\u2028\u0345\u0307\u001e\u0345\u01c5"}
+{"k": "strmeth", "in": ["expandtabs", "\u001d", 1], "out": "\u001d"}
+{"k": "strmeth", "in": ["slice", "\ud801\udc28\u00a0\t\u001d\f\u001d\ufeffc\u001e\u001f\ufb01", -20, 17], "out": "\ud801\udc28\u00a0\t\u001d\f\u001d\ufeffc\u001e\u001f\ufb01"}
+{"k": "strmeth", "in": ["expandtabs", "\u0307\n", 3], "out": "\u0307\n"}
+{"k": "strmeth", "in": ["splitlines", "\u00a0ad-\u3000\u00df:\u03c3\u200b\n", false], "out": ["\u00a0ad-\u3000\u00df:\u03c3\u200b"]}
+{"k": "strmeth", "in": ["splitn", "\u200b\u00dfbD\ufeff\u000b\u0085", 0], "out": ["\u200b\u00dfbD\ufeff\u000b\u0085"]}
+{"k": "strmeth", "in": ["upper", "bC\u001ea\u001fC"], "out": "BC\u001eA\u001fC"}
+{"k": "strmeth", "in": ["count", "-\u03f3\ufb01c\u3000\u001d\u03a3", "\u001d\u03a3", -6, 12], "out": 1}
+{"k": "strmeth", "in": ["stripc", "\ud801\udc4f\u01c5\u01c4", "\u0345\u001e"], "out": "\ud801\udc4f\u01c5\u01c4"}
+{"k": "strmeth", "in": ["slice", "\ufb01\u00a0\u0345:d\f\u000b\u0345\u03c3E\f\ufb01\u0345\t", 18, 16], "out": ""}
+{"k": "strmeth", "in": ["casefold", "\u0307"], "out": "\u0307"}
+{"k": "strmeth", "in": ["rstrip", "\u03a3\u01c4"], "out": "\u03a3\u01c4"}
+{"k": "strmeth", "in": ["split", ""], "out": []}
+{"k": "strmeth", "in": ["lower", "\u03a3D"], "out": "\u03c3d"}
+{"k": "strmeth", "in": ["strip", " -\u001d\ra\u0085:\n:'A\u000b"], "out": "-\u001d\ra\u0085:\n:'A"}
+{"k": "strmeth", "in": ["lower", "\u2028c\u0085"], "out": "\u2028c\u0085"}
+{"k": "strmeth", "in": ["expandtabs", ":A\f\u001e\u03c3d\u00df\u03c3\u0345\t", -1], "out": ":A\f\u001e\u03c3d\u00df\u03c3\u0345"}
+{"k": "strmeth", "in": ["upper", "\ud801\udc1d\u000b\u0387\u03c3b\u03a3"], "out": "\ud801\udc1d\u000b\u0387\u03a3B\u03a3"}
+{"k": "strmeth", "in": ["slice", "\u00dfb: \u00df\u0130ed\u0130d'\u01c4", -4, 4], "out": ""}
+{"k": "strmeth", "in": ["expandtabs", "B\u001d", 1], "out": "B\u001d"}
+{"k": "strmeth", "in": ["lstrip", "c\u03a3"], "out": "c\u03a3"}
+{"k": "strmeth", "in": ["title", "\u001d\u000b\ufb01\f\u2028\u001c\u001d\u1f80\u001c\u1f80\u001e'"], "out": "\u001d\u000bFi\f\u2028\u001c\u001d\u1f88\u001c\u1f88\u001e'"}
+{"k": "strmeth", "in": ["casefold", "\u0130\n\u03c3c-\u200b\u00df"], "out": "i\u0307\n\u03c3c-\u200bss"}
+{"k": "strmeth", "in": ["find", "\u000b\u03d3\u0130Ea", "\u2028", -19, 13], "out": -1}
+{"k": "strmeth", "in": ["strip", "\u03c3"], "out": "\u03c3"}
+{"k": "strmeth", "in": ["slice", "\u001c\u2028\u03a3\u000bDe\u038ac\u00a0\u3000", 13, -8], "out": ""}
+{"k": "strmeth", "in": ["upper", "\u0085dc\u01c5\ufeffDc\tc"], "out": "\u0085DC\u01c4\ufeffDC\tC"}
+{"k": "strmeth", "in": ["strip", "\u001dB\u00df  \u0398\u3000\ud801\udc3b\ufeff\f\u03f3a"], "out": "B\u00df  \u0398\u3000\ud801\udc3b\ufeff\f\u03f3a"}
+{"k": "strmeth", "in": ["slice", "\u01c5\u001c\u00df-e\u001e\u001d\u03a3C-e", -10, 19], "out": "\u001c\u00df-e\u001e\u001d\u03a3C-e"}
+{"k": "strmeth", "in": ["casefold", "\u03c3E\ufb01\n"], "out": "\u03c3efi\n"}
+{"k": "strmeth", "in": ["stripc", "\u001f'E'\u2028\u01c5\u000bA\u00df\u0345\u01c5", ""], "out": "\u001f'E'\u2028\u01c5\u000bA\u00df\u0345\u01c5"}
+{"k": "strmeth", "in": ["slice", "", -10, 2], "out": ""}
+{"k": "strmeth", "in": ["lstrip", "\ud801\udc1d"], "out": "\ud801\udc1d"}
+{"k": "strmeth", "in": ["casefold", "'\ufeff\u3000\t\u0307\u03c3b\ufb01D\ud801\udc4a\u0085d \n"], "out": "'\ufeff\u3000\t\u0307\u03c3bfid\ud801\udc4a\u0085d \n"}
+{"k": "strmeth", "in": ["slice", ":\u0085C\ufb01\u01c5\u2028\u01c5", -19, -8], "out": ""}
+{"k": "strmeth", "in": ["count", "c\u03a3\u00a0'\u200b\u00a0\u0130\ufb01\u200b\u03bb\u00a0", "", 9, 2], "out": 0}
+{"k": "strmeth", "in": ["split", ":be\u03a3\u00df"], "out": [":be\u03a3\u00df"]}
+{"k": "strmeth", "in": ["stripc", "\n\ufeff\f\ud801\udc03\u03c3", "\u001d "], "out": "\n\ufeff\f\ud801\udc03\u03c3"}
+{"k": "strmeth", "in": ["count", "\u0307\u0130\f\u0307\f\u0345\u1f80\u0130\u00df\u01c4\u001d", "'", 1, -8], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", " \u200b\u001dd\u0085\u0345\t\u000b\f", 3], "out": " \u200b\u001dd\u0085\u0345   \u000b\f"}
+{"k": "strmeth", "in": ["expandtabs", "\u01c4d\u2028beA\u001d", 8], "out": "\u01c4d\u2028beA\u001d"}
+{"k": "strmeth", "in": ["title", "\u0395\u0385\u001f"], "out": "\u0395\u0385\u001f"}
+{"k": "strmeth", "in": ["slice", "-", -11, 12], "out": "-"}
+{"k": "strmeth", "in": ["count", "\ufeff\r:\f\u001e\ufb01\u001d\r\u03c3", "\u001d\r", 2, -14], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", "\u2028\u01c4\u2028:\u1f80\u0307\u001ebe\u01c4C\ud801\udc1f\ud801\udc1d\u0130", -1], "out": "\u2028\u01c4\u2028:\u1f80\u0307\u001ebe\u01c4C\ud801\udc1f\ud801\udc1d\u0130"}
+{"k": "strmeth", "in": ["slice", "B\u0307\ud801\udc10\r \u0345", 17, -17], "out": ""}
+{"k": "strmeth", "in": ["expandtabs", "\u001f\u1f80\n\u01c4\u0085\f\u03a3-ce \u0130", 1], "out": "\u001f\u1f80\n\u01c4\u0085\f\u03a3-ce \u0130"}
+{"k": "strmeth", "in": ["slice", "e", 17, 10], "out": ""}
+{"k": "strmeth", "in": ["rstrip", "\u0307b\u0085\u01c5\u03c3D-\u001cC\u200bCc\n"], "out": "\u0307b\u0085\u01c5\u03c3D-\u001cC\u200bCc"}
+{"k": "strmeth", "in": ["splitlines", "a\n\ud801\udc31\u03c3", true], "out": ["a\n", "\ud801\udc31\u03c3"]}
+{"k": "strmeth", "in": ["stripc", "D\ud801\udc43d\u001d\u2028\u0130\u200b", "\u03c3\u0130"], "out": "D\ud801\udc43d\u001d\u2028\u0130\u200b"}
+{"k": "strmeth", "in": ["split", "\ufb01\u001c"], "out": ["\ufb01"]}
+{"k": "strmeth", "in": ["stripc", "\u000b\u200b\u001d\u0130\u001f\u01c5\u03a3bb\u0345", "\ufb01\u000bA"], "out": "\u200b\u001d\u0130\u001f\u01c5\u03a3bb\u0345"}
+{"k": "strmeth", "in": ["rfind", "\u1f80\u000b\u03c3\u000b\u0345\u001f\u00df\u3000\u1f80 \u3000\u1f80", "\u03c3\u000b", -18, 8], "out": 2}
+{"k": "strmeth", "in": ["lstrip", "\r-\ufeff'C\u0085\ufeff\ufeff"], "out": "-\ufeff'C\u0085\ufeff\ufeff"}
+{"k": "strmeth", "in": ["rstrip", "\r\n\u0085\u001d\u200b\u01c5e  \u001dd\u200b"], "out": "\r\n\u0085\u001d\u200b\u01c5e  \u001dd\u200b"}
+{"k": "strmeth", "in": ["lower", "\u2028"], "out": "\u2028"}
+{"k": "strmeth", "in": ["find", "B\u1f80\u001c\u01c5C\u200b\u0384\u01c5a\u0307\u0371\u00df\f\t", "\f", -18, 20], "out": 12}
+{"k": "strmeth", "in": ["count", "c\n", "", 6, 7], "out": 0}
+{"k": "strmeth", "in": ["find", "\u00a0\t:", "", -19, 7], "out": 0}
+{"k": "strmeth", "in": ["title", "\f\u01c5\u0345Bb\u0085\u001e\u001c\u0130ab:D\u00a0"], "out": "\f\u01c5\u0345bb\u0085\u001e\u001c\u0130ab:D\u00a0"}
+{"k": "strmeth", "in": ["expandtabs", "a\u00df\u0085\t\u200b\f", 3], "out": "a\u00df\u0085   \u200b\f"}
+{"k": "strmeth", "in": ["lower", "\u01c5:E\u0130a\u03a3\u03a3\u001dC\u001e\u1f80:\u001e"], "out": "\u01c6:ei\u0307a\u03c3\u03c2\u001dc\u001e\u1f80:\u001e"}
+{"k": "strmeth", "in": ["expandtabs", "\u001dD\u01c4\u001d'-\u0085\u00a0a\u200b\n\u0307\u00df\u200b", 0], "out": "\u001dD\u01c4\u001d'-\u0085\u00a0a\u200b\n\u0307\u00df\u200b"}
+{"k": "strmeth", "in": ["rfind", "\u000b\u001c", "", 12, 15], "out": -1}
+{"k": "strmeth", "in": ["upper", "\u001f\u03f5\u3000\u0345\u3000b\ufeff"], "out": "\u001f\u0395\u3000\u0399\u3000B\ufeff"}
+{"k": "strmeth", "in": ["find", " \u001d\u3000d\u037fe\u001dC\u2028", "", 8, 18], "out": 8}
+{"k": "strmeth", "in": ["splitn", ":dba \u001db\u0345\u00df", -1], "out": [":dba", "b\u0345\u00df"]}
+{"k": "strmeth", "in": ["splitlines", "\u00dfa\ufeff\u03c3\u00a0\r\n", true], "out": ["\u00dfa\ufeff\u03c3\u00a0\r\n"]}
+{"k": "strmeth", "in": ["rstrip", "\u03c3\u0130\u001f\u039f\u00dfd\u0085\f\u3000\u001c\t\u001fa\u03c3"], "out": "\u03c3\u0130\u001f\u039f\u00dfd\u0085\f\u3000\u001c\t\u001fa\u03c3"}
+{"k": "strmeth", "in": ["rstrip", "\u001e\u00a0\u001c\u03a3\u200b\f-:\u0130\u001e"], "out": "\u001e\u00a0\u001c\u03a3\u200b\f-:\u0130"}
+{"k": "strmeth", "in": ["strip", "\ud801\udc17Ae\u03faB\u03c3\n'"], "out": "\ud801\udc17Ae\u03faB\u03c3\n'"}
+{"k": "strmeth", "in": ["casefold", "\u001e"], "out": "\u001e"}
+{"k": "strmeth", "in": ["splitlines", "\u0345e\u03c3", false], "out": ["\u0345e\u03c3"]}
+{"k": "strmeth", "in": ["isspace", "\u03c3'"], "out": false}
+{"k": "strmeth", "in": ["isspace", "\u00a0\r\ufeff\ud801\udc2a\u200b\ud801\udc4d\ufeff\u001f"], "out": false}
+{"k": "strmeth", "in": ["rfind", "-\u00a0", "\u001f", 1, -4], "out": -1}
+{"k": "strmeth", "in": ["rfind", "", "", -9, -8], "out": 0}
+{"k": "strmeth", "in": ["title", "\u2028\ufeff\u0345\u0345b'\u01c4 \ufb01\u0345\ud801\udc1d"], "out": "\u2028\ufeff\u0399\u0345b'\u01c5 Fi\u0345\ud801\udc45"}
+{"k": "strmeth", "in": ["rstrip", "\u2028d\u01c5\u00df\u01c4e\u2028\u000b\ufeff\u3000\u0085\u0085\u00df"], "out": "\u2028d\u01c5\u00df\u01c4e\u2028\u000b\ufeff\u3000\u0085\u0085\u00df"}
+{"k": "strmeth", "in": ["title", "\u03e4\n\u03c3\u0345c\u000bc\u001c\ufb01\u0307"], "out": "\u03e4\n\u03a3\u0345c\u000bC\u001cFi\u0307"}
+{"k": "strmeth", "in": ["count", "\ufb01\u03a3\u1f80a\u000bb c\u001f", "", -13, -15], "out": 1}
+{"k": "strmeth", "in": ["stripc", "\u0345", "B\u00df\ufb01"], "out": "\u0345"}
+{"k": "strmeth", "in": ["lower", "\u0085\t\u03c3\u03a3\ud801\udc48A\nEB\u0130:"], "out": "\u0085\t\u03c3\u03c3\ud801\udc48a\nebi\u0307:"}
+{"k": "strmeth", "in": ["slice", "\ufb01", -5, 17], "out": "\ufb01"}
+{"k": "strmeth", "in": ["expandtabs", "\u0085\u01c4\u0345\u1f80", 8], "out": "\u0085\u01c4\u0345\u1f80"}
+{"k": "strmeth", "in": ["strip", "\f\n"], "out": ""}
+{"k": "strmeth", "in": ["split", "\ufeffae \u03c3\u03c3\u03a3a\u0085"], "out": ["\ufeffae", "\u03c3\u03c3\u03a3a"]}
+{"k": "strmeth", "in": ["splitlines", "A", false], "out": ["A"]}
+{"k": "strmeth", "in": ["lower", "\u0307c\u200b"], "out": "\u0307c\u200b"}
+{"k": "strmeth", "in": ["splitlines", "\ud801\udc49Ba\u001c\u0390a\u03ac\t\u03c3\nD\ufeff", false], "out": ["\ud801\udc49Ba", "\u0390a\u03ac\t\u03c3", "D\ufeff"]}
+{"k": "strmeth", "in": ["stripc", "a\r\u03a3\r'\u0345\u001f", ""], "out": "a\r\u03a3\r'\u0345\u001f"}
+{"k": "strmeth", "in": ["rfind", "\u1f80\ufeff\u001d\u01c4\u001c\u03c3e\u03a3\u001cB", "\u1f80\ufeff", 20, -12], "out": -1}
+{"k": "strmeth", "in": ["lower", "\u2028\u00dfd-\u001e\u001e\u03c3\fB \u0085e\u1f80 "], "out": "\u2028\u00dfd-\u001e\u001e\u03c3\fb \u0085e\u1f80 "}
+{"k": "strmeth", "in": ["rfind", "\u001e'\ud801\udc30d\u001dE\u001c\u3000D\u000bcd", "\u001d", 10, -11], "out": -1}
+{"k": "strmeth", "in": ["lstrip", "\r\t\u001cE\u03c3B"], "out": "E\u03c3B"}
+{"k": "strmeth", "in": ["stripc", "B\n\u001fa:", "C"], "out": "B\n\u001fa:"}
+{"k": "strmeth", "in": ["stripc", "\u1f80\u001c\nd\u01c4\ufeff\u03bc\u001d \u01c5aE", "\u3000\u00df"], "out": "\u1f80\u001c\nd\u01c4\ufeff\u03bc\u001d \u01c5aE"}
+{"k": "strmeth", "in": ["split", "\u00dfe\u200b\fc\u01c5\u200b\u0085d\u001db\u0345A"], "out": ["\u00dfe\u200b", "c\u01c5\u200b", "d", "b\u0345A"]}
+{"k": "strmeth", "in": ["splitlines", "\u001c\u01c5\u01c4\u001d\u000bC\u01c5\u001c", true], "out": ["\u001c", "\u01c5\u01c4\u001d", "\u000b", "C\u01c5\u001c"]}
+{"k": "strmeth", "in": ["lstrip", "\u200b\u001f'\u200b\u03c3\u001e\u0085\n\u01c5\u001f-\u0085'e"], "out": "\u200b\u001f'\u200b\u03c3\u001e\u0085\n\u01c5\u001f-\u0085'e"}
+{"k": "strmeth", "in": ["upper", "\u03c1A"], "out": "\u03a1A"}
+{"k": "strmeth", "in": ["title", "\u01c4\ufeff\u200b\ud801\udc11\ufeff-bc"], "out": "\u01c5\ufeff\u200b\ud801\udc11\ufeff-Bc"}
+{"k": "strmeth", "in": ["rfind", "C\u001e\ufb01Eb-", "", 9, 2], "out": -1}
+{"k": "strmeth", "in": ["stripc", "b\u00a0\u1f80\u001d", "\ufb01\t\u01c4"], "out": "b\u00a0\u1f80\u001d"}
+{"k": "strmeth", "in": ["count", "\u0130\u01c5\u00a0C\u001f\n\u3000\u001f\u001d\u00df\u03c3\u001e", "\u03c3\u001e", 8, -17], "out": 0}
+{"k": "strmeth", "in": ["rfind", "\u2028\u03a3", "\u2028", -8, -15], "out": -1}
+{"k": "strmeth", "in": ["lstrip", "\r\u001eb\u200bd\u0345a\u00a0\u001c-"], "out": "b\u200bd\u0345a\u00a0\u001c-"}
+{"k": "strmeth", "in": ["count", "d\ufeff\u0085\u0307\u01c5\u03fbd", "\ufeff", -14, 14], "out": 1}
+{"k": "strmeth", "in": ["title", "D\u0307\u001d\u001da\u1f80\u0307\ufb01\u03c3\u03c3\u0345\u0392"], "out": "D\u0307\u001d\u001dA\u1f80\u0307Fi\u03c3\u03c3\u0345\u03b2"}
+{"k": "strmeth", "in": ["find", "\u0345:\u03a3\u0085\ufeff\fe\u0085\u000ba:\u03a3\u001e", "", 10, 10], "out": 10}
+{"k": "strmeth", "in": ["slice", "\u2028\u00df\u0345\u3000", 7, -8], "out": ""}
+{"k": "strmeth", "in": ["find", "\t\u00a0\ud801\udc28\rb\r b\u001f\u001c'", "\u001c", 12, -3], "out": -1}
+{"k": "strmeth", "in": ["lower", "\u038dA\u03c3\ud801\udc14\u03a3\u001e:\u0085"], "out": "\u038da\u03c3\ud801\udc3c\u03c2\u001e:\u0085"}
+{"k": "strmeth", "in": ["upper", "\ud801\udc20\u200b\u03c3\u01c5b\u00df"], "out": "\ud801\udc20\u200b\u03a3\u01c4BSS"}
+{"k": "strmeth", "in": ["expandtabs", "a", 3], "out": "a"}
+{"k": "strmeth", "in": ["stripc", "\t\f\u1f80\u001c\ufeff\u03c3\u200b\u200b", "\t"], "out": "\f\u1f80\u001c\ufeff\u03c3\u200b\u200b"}
+{"k": "strmeth", "in": ["slice", "A\u03a3\u01c5\u3000\u0085e\u000b\u01c4\u01c4 ", 19, 0], "out": ""}
+{"k": "strmeth", "in": ["rstrip", "ed\u03c3cC'D\u03c3:a:\u00a0\u0307"], "out": "ed\u03c3cC'D\u03c3:a:\u00a0\u0307"}
+{"k": "strmeth", "in": ["upper", "\u03c3b\ufb01\u001fbb:'b\u03a3D\u0085\u001d\t"], "out": "\u03a3BFI\u001fBB:'B\u03a3D\u0085\u001d\t"}
+{"k": "strmeth", "in": ["stripc", "\u2028c\u03dd\u00df\u01c5\u01c4\t\t\u03c3\u00a0\u00df\ufeff\t", ""], "out": "\u2028c\u03dd\u00df\u01c5\u01c4\t\t\u03c3\u00a0\u00df\ufeff\t"}
+{"k": "strmeth", "in": ["slice", "", 1, 9], "out": ""}
+{"k": "strmeth", "in": ["split", "c'ab\u001c\u03c5\u001f\u01c4B\r\u03a3"], "out": ["c'ab", "\u03c5", "\u01c4B", "\u03a3"]}
+{"k": "strmeth", "in": ["lstrip", "a\u03a3\u001d\u0345\u1f80"], "out": "a\u03a3\u001d\u0345\u1f80"}
+{"k": "strmeth", "in": ["rstrip", "\u01c4e\u3000\u001f\ufeffA\u2028\u1f80A'\u001c\ufeff\u0085\t"], "out": "\u01c4e\u3000\u001f\ufeffA\u2028\u1f80A'\u001c\ufeff"}
+{"k": "strmeth", "in": ["upper", "-\t\ufeff\u00df\u00a0E\u200bc\u01c5a\u03c3\ufb01"], "out": "-\t\ufeffSS\u00a0E\u200bC\u01c4A\u03a3FI"}
+{"k": "strmeth", "in": ["find", "c\ud801\udc39\u0307\u2028", "\u200b", -7, 2], "out": -1}
+{"k": "strmeth", "in": ["rfind", "\u2028\f\u01c5\ud801\udc21\u0085\u00a0\u0345", "\ud801\udc21\u0085", 12, -16], "out": -1}
+{"k": "strmeth", "in": ["lstrip", "\ufeff\u00a0"], "out": "\ufeff\u00a0"}
+{"k": "strmeth", "in": ["rfind", "\ufb01bc", "\ufb01b", 3, 12], "out": -1}
+{"k": "strmeth", "in": ["count", "\u03a3\u2028:b \u01c4d\u001c\u03c3e:\u2028", "\u0130", -17, 19], "out": 0}
+{"k": "strmeth", "in": ["find", "\ufeff:\u000ba\u01c5\ufb01\rd\u03a3\u0345\ufb01\u001d:\u3000", "\r", -9, 17], "out": 6}
+{"k": "strmeth", "in": ["casefold", ""], "out": ""}
+{"k": "strmeth", "in": ["isspace", "\u001e\u03a3"], "out": false}
+{"k": "strmeth", "in": ["expandtabs", "\u001d\u000beD\u01c4\u0130A\u001eD", 0], "out": "\u001d\u000beD\u01c4\u0130A\u001eD"}
+{"k": "strmeth", "in": ["upper", ""], "out": ""}
+{"k": "strmeth", "in": ["upper", "\u000b\u00a0A\u03a3ee'\u001fb:\t"], "out": "\u000b\u00a0A\u03a3EE'\u001fB:\t"}
+{"k": "strmeth", "in": ["expandtabs", "\u01c5\u001e-a\r\t:\u200b\ufeff", 1], "out": "\u01c5\u001e-a\r :\u200b\ufeff"}
+{"k": "strmeth", "in": ["splitn", "\u01c5e \u0085\u03a3Eb\u0307-:\u001eC", 2], "out": ["\u01c5e", "\u03a3Eb\u0307-:", "C"]}
+{"k": "strmeth", "in": ["upper", "e\u00a0A\u03c3A\u00df\ufeff\n\u0307\u03c3\u001d\u00df\u200bB"], "out": "E\u00a0A\u03a3ASS\ufeff\n\u0307\u03a3\u001dSS\u200bB"}
+{"k": "strmeth", "in": ["stripc", "\u03c3d-\t\u0085ccc:\u03a3'c", "\u3000\u03c3'"], "out": "d-\t\u0085ccc:\u03a3'c"}
+{"k": "strmeth", "in": ["upper", "\u001f\u00df\u0307b\r\r\u01c5\u00df"], "out": "\u001fSS\u0307B\r\r\u01c4SS"}
+{"k": "strmeth", "in": ["casefold", "\u0130ae\u0307\u03c3\u001f"], "out": "i\u0307ae\u0307\u03c3\u001f"}
+{"k": "strmeth", "in": ["strip", "\u03c3\u0085\ufb01\u001e\ufb01\u000b"], "out": "\u03c3\u0085\ufb01\u001e\ufb01"}
+{"k": "strmeth", "in": ["splitlines", "Ea\ufeff:", false], "out": ["Ea\ufeff:"]}
+{"k": "strmeth", "in": ["rfind", "\u00a0\fa\u001c\u0130\u3000b\ud801\udc30", "\u00a0\f", -6, 8], "out": -1}
+{"k": "strmeth", "in": ["strip", "ae\f\u3000\u000b\u03a3'ca\u00a0"], "out": "ae\f\u3000\u000b\u03a3'ca"}
+{"k": "strmeth", "in": ["title", "\u01c4\u3000\u000b\ud801\udc10e\n-"], "out": "\u01c5\u3000\u000b\ud801\udc10e\n-"}
+{"k": "strmeth", "in": ["splitlines", "b\u01c4\u1f80", false], "out": ["b\u01c4\u1f80"]}
+{"k": "strmeth", "in": ["lower", "cAE-\u200bC\u01c5cEc\u1f80"], "out": "cae-\u200bc\u01c6cec\u1f80"}
+{"k": "strmeth", "in": ["slice", "\u001e\u0085'Da\u01c4\ufb01 ", -5, -10], "out": ""}
+{"k": "strmeth", "in": ["slice", "", -7, 17], "out": ""}
+{"k": "strmeth", "in": ["strip", "b\u001d\u00a0d\r\u001d\u0307\u001d\u03a3\u2028D\r\ufeffd"], "out": "b\u001d\u00a0d\r\u001d\u0307\u001d\u03a3\u2028D\r\ufeffd"}
+{"k": "strmeth", "in": ["title", "\u00a0\u01c5\t\u001e\ufeffd\u001ee\u00a0\f\ufb01\u03a3"], "out": "\u00a0\u01c5\t\u001e\ufeffD\u001eE\u00a0\fFi\u03c2"}
+{"k": "strmeth", "in": ["casefold", "d'c: a\u01c5dC\u00dfD"], "out": "d'c: a\u01c6dcssd"}
+{"k": "strmeth", "in": ["casefold", "'\tc\u000b"], "out": "'\tc\u000b"}
+{"k": "strmeth", "in": ["title", "D\u0345\u01c5E\tC\u000b\rB\ufeff\u1f80\ud801\udc28"], "out": "D\u0345\u01c6e\tC\u000b\rB\ufeff\u1f88\ud801\udc28"}
+{"k": "strmeth", "in": ["upper", "a\u001eA\u0085\ufeff\f\u1f80'"], "out": "A\u001eA\u0085\ufeff\f\u1f08\u0399'"}
+{"k": "strmeth", "in": ["splitlines", "\u1f80", true], "out": ["\u1f80"]}
+{"k": "strmeth", "in": ["expandtabs", "'\ufeff\u037adb\u200b", 8], "out": "'\ufeff\u037adb\u200b"}
+{"k": "strmeth", "in": ["isspace", "c\u0085\fBC\n\n"], "out": false}
+{"k": "strmeth", "in": ["find", "\n\u00df\u2028\u03a3\u03da\t:\ufb01\ufeff\u01c4-\u001c\u03a3", "\u2028", -6, -4], "out": -1}
+{"k": "strmeth", "in": ["splitn", "a \u00dfa:\u001f\u0345\ufb01d\u0345eB-", 0], "out": ["a \u00dfa:\u001f\u0345\ufb01d\u0345eB-"]}
+{"k": "strmeth", "in": ["slice", "\u0345\nC\u001c\r\u00df", 15, -18], "out": ""}
+{"k": "strmeth", "in": ["splitlines", "B\u00df\u001fb\u01c4\ufeff' \u001e a", false], "out": ["B\u00df\u001fb\u01c4\ufeff' ", " a"]}
+{"k": "strmeth", "in": ["split", ""], "out": []}
+{"k": "strmeth", "in": ["stripc", "\u0130\u1f80\ufb01\u00df", ""], "out": "\u0130\u1f80\ufb01\u00df"}
+{"k": "strmeth", "in": ["expandtabs", "\u2028\u03c3\r\u001f", 4], "out": "\u2028\u03c3\r\u001f"}
+{"k": "strmeth", "in": ["expandtabs", "\u03b4", 8], "out": "\u03b4"}
+{"k": "strmeth", "in": ["slice", "\f\u000b\n", 12, -11], "out": ""}
+{"k": "strmeth", "in": ["stripc", "\f\n\u00a0D", "\u001fb"], "out": "\f\n\u00a0D"}
+{"k": "strmeth", "in": ["isspace", "-"], "out": false}
+{"k": "strmeth", "in": ["splitlines", "\u03ce\u03c3\u001d\tBe \u01c5\f\u03c3a -a", true], "out": ["\u03ce\u03c3\u001d", "\tBe \u01c5\f", "\u03c3a -a"]}
+{"k": "strmeth", "in": ["casefold", " \ud801\udc22"], "out": " \ud801\udc4a"}
+{"k": "strmeth", "in": ["lower", "Aa\t"], "out": "aa\t"}
+{"k": "strmeth", "in": ["expandtabs", "\t\u0345\f", -1], "out": "\u0345\f"}
+{"k": "strmeth", "in": ["casefold", " \u2028\u03c3\u03a3\u01c4\u0085\t"], "out": " \u2028\u03c3\u03c3\u01c6\u0085\t"}
+{"k": "strmeth", "in": ["count", "\u01c4B", "\u3000", 14, -3], "out": 0}
+{"k": "strmeth", "in": ["isspace", ""], "out": false}
+{"k": "strmeth", "in": ["split", "\u001d\ud801\udc1c\u0130\u001eC\u000b\u03c3'b\u03af\n"], "out": ["\ud801\udc1c\u0130", "C", "\u03c3'b\u03af"]}
+{"k": "strmeth", "in": ["slice", "\u0085", 9, -16], "out": ""}
+{"k": "strmeth", "in": ["slice", "\u2028\u001fC\u03a3\u03c3\u000bcEc ", 6, -6], "out": ""}
+{"k": "strmeth", "in": ["rstrip", "e\ufeff\n\u0085' "], "out": "e\ufeff\n\u0085'"}
+{"k": "strmeth", "in": ["splitlines", "\ufeff\n:-\u03aa\f\f", true], "out": ["\ufeff\n", ":-\u03aa\f", "\f"]}
+{"k": "strmeth", "in": ["casefold", "\u00df'\u03a3\u01c5\t\u001d\u0386"], "out": "ss'\u03c3\u01c6\t\u001d\u03ac"}
+{"k": "strmeth", "in": ["upper", "B\u03c2\u03b9\ud801\udc3e\u001d\u0345B\u000b \u000b\u01c5e"], "out": "B\u03a3\u0399\ud801\udc16\u001d\u0399B\u000b \u000b\u01c4E"}
+{"k": "strmeth", "in": ["stripc", "a\u001c\u001d\u01c5\u03c3\u2028\ufeff\u01c4\u0345c", ":"], "out": "a\u001c\u001d\u01c5\u03c3\u2028\ufeff\u01c4\u0345c"}
+{"k": "strmeth", "in": ["splitlines", "", true], "out": []}
+{"k": "strmeth", "in": ["stripc", "\u3000", ""], "out": "\u3000"}
+{"k": "strmeth", "in": ["expandtabs", "\r\u200b", 3], "out": "\r\u200b"}
+{"k": "strmeth", "in": ["count", "\ta\u200b \ufeff:", ":", -5, -5], "out": 0}
+{"k": "strmeth", "in": ["splitn", "b\tb\ufb01\u00a0a\u0130\f", 2], "out": ["b", "b\ufb01", "a\u0130\f"]}
+{"k": "strmeth", "in": ["slice", "D\u01c5\f\u000b\u03c3\u001eB\u200b:\u0372ca\u0130", 9, -1], "out": "\u0372ca"}
+{"k": "strmeth", "in": ["rstrip", "\u00a0e--b\u03c3b"], "out": "\u00a0e--b\u03c3b"}
+{"k": "strmeth", "in": ["upper", "a\u001ebb\u001f\u0307"], "out": "A\u001eBB\u001f\u0307"}
+{"k": "strmeth", "in": ["expandtabs", "\r", 8], "out": "\r"}
+{"k": "strmeth", "in": ["upper", "e\u03c3d'e'\ufb01\u001fd\u2028e\u3000\u0307"], "out": "E\u03a3D'E'FI\u001fD\u2028E\u3000\u0307"}
+{"k": "strmeth", "in": ["split", "'\u01c4\n\f\ufeff"], "out": ["'\u01c4", "\ufeff"]}
+{"k": "strmeth", "in": ["casefold", "Cc\u01c4-\u3000\u3000\u001e\u00a0a"], "out": "cc\u01c6-\u3000\u3000\u001e\u00a0a"}
+{"k": "strmeth", "in": ["stripc", "\ufb01E\u001f-b\u001dE\f\r\n\u001d\u001d\u0085A", "\u01c4\u2028"], "out": "\ufb01E\u001f-b\u001dE\f\r\n\u001d\u001d\u0085A"}
+{"k": "strmeth", "in": ["isspace", "\u0085\u00a0\u03c3\u0130'\u01c5\u0085\u03a3\ufb01\u001e\u0130c\u00a0"], "out": false}
+{"k": "strmeth", "in": ["find", "\u0085\u200beb'", "", -20, -9], "out": 0}
+{"k": "strmeth", "in": ["slice", "\u00df:-\ufeff\u03a4\ufb01b\u00df\u03a3\u001ca:\u001c", -13, -7], "out": "\u00df:-\ufeff\u03a4\ufb01"}
+{"k": "strmeth", "in": ["slice", "a-\u00df\u001d\f\u001f\u01c5\u200b\u03c3a", 1, -2], "out": "-\u00df\u001d\f\u001f\u01c5\u200b"}
+{"k": "strmeth", "in": ["title", "\u0345B\u001d:B\u000ba\u001cA\u00df\u00a0\u03c3'"], "out": "\u0399b\u001d:B\u000bA\u001cA\u00df\u00a0\u03a3'"}
+{"k": "strmeth", "in": ["upper", "A\ufb01\u0399"], "out": "AFI\u0399"}
+{"k": "strmeth", "in": ["splitn", "\u01c5aa\u0085\u00df\ufb01eDb'\u200bE", -1], "out": ["\u01c5aa", "\u00df\ufb01eDb'\u200bE"]}
+{"k": "strmeth", "in": ["stripc", "\u00dfc\u001e\u200b\u03c3\u03c3\u03c3:\t", "E"], "out": "\u00dfc\u001e\u200b\u03c3\u03c3\u03c3:\t"}
+{"k": "strmeth", "in": ["find", "", "\u200b", 13, -1], "out": -1}
+{"k": "strmeth", "in": ["split", "\u00a0\u001e"], "out": []}
+{"k": "strmeth", "in": ["strip", "c"], "out": "c"}
+{"k": "strmeth", "in": ["lstrip", "\u01c5\u2028\u001fA\u001c\u03ef"], "out": "\u01c5\u2028\u001fA\u001c\u03ef"}
+{"k": "strmeth", "in": ["lstrip", "\u0085\u03cc\n\u000b\u3000\r \u001c\u0130d\u0085"], "out": "\u03cc\n\u000b\u3000\r \u001c\u0130d\u0085"}
+{"k": "strmeth", "in": ["count", " c\u03c3\u03a3\ud801\udc3a\u00a0\u3000\u0085\u200b", "", 2, 16], "out": 8}
+{"k": "strmeth", "in": ["stripc", "", "\u03a3\ufb01"], "out": ""}
+{"k": "strmeth", "in": ["rstrip", "\u0130\ud801\udc4f-b\ufb01B\u0345\u00a0\rc\u0345\u0345"], "out": "\u0130\ud801\udc4f-b\ufb01B\u0345\u00a0\rc\u0345\u0345"}
+{"k": "strmeth", "in": ["expandtabs", "\u00df\u03c3c\u0085\ufeff\ufb01'", 0], "out": "\u00df\u03c3c\u0085\ufeff\ufb01'"}
+{"k": "strmeth", "in": ["splitlines", "\u03c3\u0085\ufeff\u200b\u0307D\u001c\u00df\r\u0345\u03a3aa\u3000", true], "out": ["\u03c3\u0085", "\ufeff\u200b\u0307D\u001c", "\u00df\r", "\u0345\u03a3aa\u3000"]}
+{"k": "strmeth", "in": ["lstrip", " \u00df"], "out": "\u00df"}
+{"k": "strmeth", "in": ["splitn", "\u200b", 2], "out": ["\u200b"]}
+{"k": "strmeth", "in": ["title", "\u03c3\u03a3\u03a3"], "out": "\u03a3\u03c3\u03c2"}
+{"k": "strmeth", "in": ["lower", "\u0130\u1f80'\u3000"], "out": "i\u0307\u1f80'\u3000"}
+{"k": "strmeth", "in": ["strip", "d\ufeff\u00a0-"], "out": "d\ufeff\u00a0-"}
+{"k": "strmeth", "in": ["expandtabs", "\ufb01B\u0345\u01c5'\u001c\u01c4\u0307", 4], "out": "\ufb01B\u0345\u01c5'\u001c\u01c4\u0307"}
+{"k": "strmeth", "in": ["isspace", "eeD"], "out": false}
+{"k": "strmeth", "in": ["lstrip", "B\u01c5\u0085\u03c3\u001e\u001c\ud801\udc13\u01c5"], "out": "B\u01c5\u0085\u03c3\u001e\u001c\ud801\udc13\u01c5"}
+{"k": "strmeth", "in": ["rfind", "\u01c5\u001fB\u001eb\u1f80\t'\u0307", "\u0345", 2, 8], "out": -1}
+{"k": "strmeth", "in": ["upper", "db\u00df\u0130\u0085d"], "out": "DBSS\u0130\u0085D"}
+{"k": "strmeth", "in": ["upper", "dE cC\u0085b\u2028"], "out": "DE CC\u0085B\u2028"}
+{"k": "strmeth", "in": ["expandtabs", "\r\u001f\u001eD\ufeff\u01c4\u1f80\u03a3e\u0085\u0085", -1], "out": "\r\u001f\u001eD\ufeff\u01c4\u1f80\u03a3e\u0085\u0085"}
+{"k": "strmeth", "in": ["stripc", "\u2028\t\u001d\u001d\t b\u3000\u03ea\u01c4c \u03c3\u0307", "\rE"], "out": "\u2028\t\u001d\u001d\t b\u3000\u03ea\u01c4c \u03c3\u0307"}
+{"k": "strmeth", "in": ["stripc", "\u000b\r\u001d", ""], "out": "\u000b\r\u001d"}
+{"k": "strmeth", "in": ["slice", "\r\nA\t\u1f80\ud801\udc01", -1, -1], "out": ""}
+{"k": "strmeth", "in": ["casefold", "b\u037e"], "out": "b\u037e"}
+{"k": "strmeth", "in": ["splitn", "'e", 1], "out": ["'e"]}
+{"k": "strmeth", "in": ["split", "c:\u03a3\f"], "out": ["c:\u03a3"]}
+{"k": "strmeth", "in": ["lower", "-\u001ec"], "out": "-\u001ec"}
+{"k": "strmeth", "in": ["slice", "", -18, -7], "out": ""}
+{"k": "strmeth", "in": ["lstrip", "A\u1f80\u01c4\u2028\u00a0c\u0085\u001c'\u2028:"], "out": "A\u1f80\u01c4\u2028\u00a0c\u0085\u001c'\u2028:"}
+{"k": "strmeth", "in": ["splitn", "\u000b\n\r\ufeff\u00a0de\ufb01\u001db\u03a3\u01c5", 1], "out": ["\ufeff", "de\ufb01\u001db\u03a3\u01c5"]}
+{"k": "strmeth", "in": ["strip", "A\ud801\udc27\u0345\fc\ufeff\r \u0130\u03c3'c\ufb01"], "out": "A\ud801\udc27\u0345\fc\ufeff\r \u0130\u03c3'c\ufb01"}
+{"k": "strmeth", "in": ["count", "\u2028B\f\ud801\udc38\u00dfc\rc", "c", -12, 18], "out": 2}
+{"k": "strmeth", "in": ["split", "E\u03a3\u0372\rc'\rb'\u001c\u2028e\u2028\u001c"], "out": ["E\u03a3\u0372", "c'", "b'", "e"]}
+{"k": "strmeth", "in": ["lower", "\u00a0\u03a3\u001d\u0388\u2028\u03a1\u001e\u03d6\ud801\udc46\u1f80"], "out": "\u00a0\u03c3\u001d\u03ad\u2028\u03c1\u001e\u03d6\ud801\udc46\u1f80"}
+{"k": "strmeth", "in": ["find", "-", "-", 18, 5], "out": -1}
+{"k": "strmeth", "in": ["isspace", "e\u01c5\u0130\u03c3\u0373\u00a0\u001f c\u001ea\u000b"], "out": false}
+{"k": "strmeth", "in": ["stripc", "\u3000 \u03a3\u03c3bDa\u2028\u03e5\u0085\u0130", "\u001f\u000b"], "out": "\u3000 \u03a3\u03c3bDa\u2028\u03e5\u0085\u0130"}
+{"k": "strmeth", "in": ["title", "\tA:\u01c5\ud801\udc29\ufeff\u001d\u00a0\u0345\u01c5\u00df- "], "out": "\tA:\u01c5\ud801\udc29\ufeff\u001d\u00a0\u0399\u01c6\u00df- "}
+{"k": "strmeth", "in": ["slice", "\u00a0\u0345\f\u03f2\u2028e\u03c3\u03a3\u0307\u001d\ud801\udc1eB\ufeffA", 14, 19], "out": ""}
+{"k": "strmeth", "in": ["lower", "\u001e\t\ud801\udc4c\t\t\t\ud801\udc15\f\ud801\udc35b'\u0130\u000b"], "out": "\u001e\t\ud801\udc4c\t\t\t\ud801\udc3d\f\ud801\udc35b'i\u0307\u000b"}
+{"k": "strmeth", "in": ["splitlines", "\u001c\r\r'\fc\u001e", false], "out": ["", "", "", "'", "c"]}
+{"k": "strmeth", "in": ["count", "\ufb01\u01c4\teee:bc\u0130\u2028", "\ufb01\u01c4", 2, -15], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", "C", 8], "out": "C"}
+{"k": "strmeth", "in": ["upper", "\ufb01\u03d7\u0345\u0384\u00a0Ce\u001c\r\u03a3"], "out": "FI\u03cf\u0399\u0384\u00a0CE\u001c\r\u03a3"}
+{"k": "strmeth", "in": ["upper", "d\u2028\u01c4\f"], "out": "D\u2028\u01c4\f"}
+{"k": "strmeth", "in": ["lstrip", "a\u000b"], "out": "a\u000b"}
+{"k": "strmeth", "in": ["count", "\u2028\n\u0085\u000b\u01c5\u03c3\u0375A", "", 10, 3], "out": 0}
+{"k": "strmeth", "in": ["splitn", "\u00df", 3], "out": ["\u00df"]}
+{"k": "strmeth", "in": ["splitlines", "d\u001f\u200b\u0085a: \ud801\udc16\ufb01 ", false], "out": ["d\u001f\u200b", "a: \ud801\udc16\ufb01 "]}
+{"k": "strmeth", "in": ["splitlines", "\u000b\u03d5d\n\u001f\u001f\u03c3\u001c\u03bd", true], "out": ["\u000b", "\u03d5d\n", "\u001f\u001f\u03c3\u001c", "\u03bd"]}
+{"k": "strmeth", "in": ["rfind", "", "", -18, 0], "out": 0}
+{"k": "strmeth", "in": ["upper", "e\u03a3\u0130\u1f80\u00a0"], "out": "E\u03a3\u0130\u1f08\u0399\u00a0"}
+{"k": "strmeth", "in": ["title", "\u3000\u200be\u0085b\u200b"], "out": "\u3000\u200bE\u0085B\u200b"}
+{"k": "strmeth", "in": ["lower", "b\n\u00a0\u0085\u001c\u0392b\u0307\u001eD\r\u01c5"], "out": "b\n\u00a0\u0085\u001c\u03b2b\u0307\u001ed\r\u01c6"}
+{"k": "strmeth", "in": ["casefold", "\t\u3000A"], "out": "\t\u3000a"}
+{"k": "strmeth", "in": ["title", ""], "out": ""}
+{"k": "strmeth", "in": ["upper", "\u001f-:A"], "out": "\u001f-:A"}
+{"k": "strmeth", "in": ["find", "", "", 7, -14], "out": -1}
+{"k": "strmeth", "in": ["stripc", "c\u00a0\ufb01\fae\u001c\ufb01\u01c4\u01c4A\u0085", ""], "out": "c\u00a0\ufb01\fae\u001c\ufb01\u01c4\u01c4A\u0085"}
+{"k": "strmeth", "in": ["casefold", "-Dc\ufb01d\u00df\r-D\r'a\u01c4"], "out": "-dcfidss\r-d\r'a\u01c6"}
+{"k": "strmeth", "in": ["upper", "\u03c3"], "out": "\u03a3"}
+{"k": "strmeth", "in": ["upper", "\u00df'\u01c4"], "out": "SS'\u01c4"}
+{"k": "strmeth", "in": ["strip", "B"], "out": "B"}
+{"k": "strmeth", "in": ["expandtabs", "\r\u0085\u2028\u00df", 8], "out": "\r\u0085\u2028\u00df"}
+{"k": "strmeth", "in": ["rstrip", "\ufeff\u00df\u01c4E-\ufb01e "], "out": "\ufeff\u00df\u01c4E-\ufb01e"}
+{"k": "strmeth", "in": ["splitn", "\u03a3\ud801\udc21\u0085\t", 2], "out": ["\u03a3\ud801\udc21"]}
+{"k": "strmeth", "in": ["find", "C\r", "", 9, 15], "out": -1}
+{"k": "strmeth", "in": ["splitlines", "\u01c5\u01c5\u0085\u0307\ud801\udc26\u01c4", true], "out": ["\u01c5\u01c5\u0085", "\u0307\ud801\udc26\u01c4"]}
+{"k": "strmeth", "in": ["upper", "\u2028a\u001c\u0307\u037b"], "out": "\u2028A\u001c\u0307\u03fd"}
+{"k": "strmeth", "in": ["isspace", "\t\u0307b\fB\u2028\u03c3\t\u001f\u0130\u001e"], "out": false}
+{"k": "strmeth", "in": ["stripc", "\u0085'\u200b\u200b\u001c\u03a3-C\u0085", "b\u2028"], "out": "\u0085'\u200b\u200b\u001c\u03a3-C\u0085"}
+{"k": "strmeth", "in": ["slice", "\u001c\u000b\u0130\u03a3\u0345-A  \u001d\u001f\u2028:", -10, 6], "out": "\u03a3\u0345-"}
+{"k": "strmeth", "in": ["upper", "\t\u0085d\t\ufb01a "], "out": "\t\u0085D\tFIA "}
+{"k": "strmeth", "in": ["split", "\u03c3\u03c3"], "out": ["\u03c3\u03c3"]}
+{"k": "strmeth", "in": ["casefold", "\u2028D\u000be\u03c3C\u0130\u001cad\u001d"], "out": "\u2028d\u000be\u03c3ci\u0307\u001cad\u001d"}
+{"k": "strmeth", "in": ["rstrip", "aC"], "out": "aC"}
+{"k": "strmeth", "in": ["stripc", "\u01c5\ufb01DdaD\u00a0c\u01c4\u001c:cb", "\ufb01"], "out": "\u01c5\ufb01DdaD\u00a0c\u01c4\u001c:cb"}
+{"k": "strmeth", "in": ["lower", "'\u0130\ud801\udc0bb\u000b\f\u001eE\u001c\ufeff-"], "out": "'i\u0307\ud801\udc33b\u000b\f\u001ee\u001c\ufeff-"}
+{"k": "strmeth", "in": ["expandtabs", "\u1f80\ud801\udc4f\u0085\u03a3b", 0], "out": "\u1f80\ud801\udc4f\u0085\u03a3b"}
+{"k": "strmeth", "in": ["casefold", "\u001e\u1f80\ud801\udc0f\u01c5\u2028\ud801\udc4d\ufb01\u001e'-\ufb01:\ufeff\u1f80"], "out": "\u001e\u1f00\u03b9\ud801\udc37\u01c6\u2028\ud801\udc4dfi\u001e'-fi:\ufeff\u1f00\u03b9"}
+{"k": "strmeth", "in": ["stripc", "\u0345\u03cd\u01c5\u0130\u001cb\u00a0B\u01c4d\u037b\ud801\udc39", ""], "out": "\u0345\u03cd\u01c5\u0130\u001cb\u00a0B\u01c4d\u037b\ud801\udc39"}
+{"k": "strmeth", "in": ["slice", "\rd\ufb01", -19, -20], "out": ""}
+{"k": "strmeth", "in": ["lstrip", "\u2028\u0130\u2028\ud801\udc16\rd\u001c\ufeffc"], "out": "\u0130\u2028\ud801\udc16\rd\u001c\ufeffc"}
+{"k": "strmeth", "in": ["expandtabs", "", 8], "out": ""}
+{"k": "strmeth", "in": ["expandtabs", "\u001fB\u0345\u001c\u000b\u2028\ud801\udc3c\u0307\ufb01b\u001da", 1], "out": "\u001fB\u0345\u001c\u000b\u2028\ud801\udc3c\u0307\ufb01b\u001da"}
+{"k": "strmeth", "in": ["count", "c\f'\u01c5\u03c3\u000b\u200be\ud801\udc07\u03c9:B", "\u0345", 4, 16], "out": 0}
+{"k": "strmeth", "in": ["find", "\u2028'\u00a0D\u01c5\u03c3\u000b\ufb01\u0130\u001dC-\u0345", "\u000b", 0, 18], "out": 6}
+{"k": "strmeth", "in": ["strip", "\u001c\t\u0307\ud801\udc18\ufeff\u3000ee\u000b"], "out": "\u0307\ud801\udc18\ufeff\u3000ee"}
+{"k": "strmeth", "in": ["rfind", "'\u03e5\u03a3", "", -9, -11], "out": 0}
+{"k": "strmeth", "in": ["title", "\t\u0085\n\u001d\ufeff\u001f\u0085\u1f80\u01c5"], "out": "\t\u0085\n\u001d\ufeff\u001f\u0085\u1f88\u01c6"}
+{"k": "strmeth", "in": ["title", "\u0345\u03c3\u03c3c\u001f\u1f80\ufeff"], "out": "\u0399\u03c3\u03c3c\u001f\u1f88\ufeff"}
+{"k": "strmeth", "in": ["count", "c\r\ufb01", "", -15, -15], "out": 1}
+{"k": "strmeth", "in": ["upper", "\u0307\ufb01e\ufb01\ud801\udc18\u0085\u01c4\u0345\u03c3\u001caA"], "out": "\u0307FIEFI\ud801\udc18\u0085\u01c4\u0399\u03a3\u001cAA"}
+{"k": "strmeth", "in": ["upper", "\ufb01A\ne\u00dfecB\u0307\t"], "out": "FIA\nESSECB\u0307\t"}
+{"k": "strmeth", "in": ["casefold", "\u03a3\u000b"], "out": "\u03c3\u000b"}
+{"k": "strmeth", "in": ["rstrip", ""], "out": ""}
+{"k": "strmeth", "in": ["isspace", "\u03a3\u038fC\u200b"], "out": false}
+{"k": "strmeth", "in": ["strip", "\u000be\u0345\u0085b\u2028be \u03a3\u0345-"], "out": "e\u0345\u0085b\u2028be \u03a3\u0345-"}
+{"k": "strmeth", "in": ["title", "\t\u03a3"], "out": "\t\u03a3"}
+{"k": "strmeth", "in": ["rfind", "c\u03c7\u03a3\u03a3\r\n", "c", -1, -4], "out": -1}
+{"k": "strmeth", "in": ["splitn", "\u0345A\f", 2], "out": ["\u0345A"]}
+{"k": "strmeth", "in": ["casefold", "b\t\ufeff"], "out": "b\t\ufeff"}
+{"k": "strmeth", "in": ["title", "\u200be:"], "out": "\u200bE:"}
+{"k": "strmeth", "in": ["count", "\ud801\udc3bcdb\u00a0\u200bB:\ufeff'\u200b\u200b\u00a0", "B:", -3, -7], "out": 0}
+{"k": "strmeth", "in": ["upper", "b\u0307\u000b\u001c\u001e\r\u000b\u2028Ad\u03c3:"], "out": "B\u0307\u000b\u001c\u001e\r\u000b\u2028AD\u03a3:"}
+{"k": "strmeth", "in": ["rfind", "\u03a3\u200bBe\t\u2028\ufb01", "\r", 8, 3], "out": -1}
+{"k": "strmeth", "in": ["slice", "b", 1, -12], "out": ""}
+{"k": "strmeth", "in": ["lower", "b\u001e\f\ufb01ae"], "out": "b\u001e\f\ufb01ae"}
+{"k": "strmeth", "in": ["count", "-c\u03a3", "\u00df", -10, 11], "out": 0}
+{"k": "strmeth", "in": ["casefold", "d\u00df\u000b\n-\u000b\u0307\u0130 \u0307\t\ud801\udc03"], "out": "dss\u000b\n-\u000b\u0307i\u0307 \u0307\t\ud801\udc2b"}
+{"k": "strmeth", "in": ["count", " \u03a3 \u0130c\u00a0e\rC", "", -14, 14], "out": 10}
+{"k": "strmeth", "in": ["count", "\u3000D\u2028c", "D", 12, 11], "out": 0}
+{"k": "strmeth", "in": ["rstrip", "\ud801\udc18\u03a3\u00dfb\u001eDc"], "out": "\ud801\udc18\u03a3\u00dfb\u001eDc"}
+{"k": "strmeth", "in": ["lstrip", "\ufeff\u2028'"], "out": "\ufeff\u2028'"}
+{"k": "strmeth", "in": ["splitlines", "\u3000\u2028\u01c5", false], "out": ["\u3000", "\u01c5"]}
+{"k": "strmeth", "in": ["splitlines", "cd\u0085:d\u0307\u03c3\u001f'\u0130\u1f80c\u01c4", false], "out": ["cd", ":d\u0307\u03c3\u001f'\u0130\u1f80c\u01c4"]}
+{"k": "strmeth", "in": ["find", "e\u000ba\u0345\u001f\u200bD\u2028a\u200b:\ud801\udc36\u001c", "", -1, -10], "out": -1}
+{"k": "strmeth", "in": ["upper", ""], "out": ""}
+{"k": "strmeth", "in": ["split", "\ufb01\ufb01B\u01c4\f\u01c4\r\t\u03a3\u00a0"], "out": ["\ufb01\ufb01B\u01c4", "\u01c4", "\u03a3"]}
+{"k": "strmeth", "in": ["title", "\u000b\u000b\u3000\u001c "], "out": "\u000b\u000b\u3000\u001c "}
+{"k": "strmeth", "in": ["upper", "\u03d8\u03c3D\u001d\ne\u0130\u3000\u0130a\ufb01"], "out": "\u03d8\u03a3D\u001d\nE\u0130\u3000\u0130AFI"}
+{"k": "strmeth", "in": ["casefold", "\ufb01:\t\u000b"], "out": "fi:\t\u000b"}
+{"k": "strmeth", "in": ["lower", "aC\u01c5a\u2028\u001c\u00a0Ded"], "out": "ac\u01c6a\u2028\u001c\u00a0ded"}
+{"k": "strmeth", "in": ["expandtabs", "\u200b\u03c3", 1], "out": "\u200b\u03c3"}
+{"k": "strmeth", "in": ["splitlines", "cbE\u00a0a\u03a3aC\u0307\u03b5\u0085", true], "out": ["cbE\u00a0a\u03a3aC\u0307\u03b5\u0085"]}
+{"k": "strmeth", "in": ["slice", "\u01c4bb\u01c5\u3000 :-\u0130\u01c4", 3, 19], "out": "\u01c5\u3000 :-\u0130\u01c4"}
+{"k": "strmeth", "in": ["lower", "A\u00a0\u0307\u001c\n\u001fD\u2028\u01c4\u0307"], "out": "a\u00a0\u0307\u001c\n\u001fd\u2028\u01c6\u0307"}
+{"k": "strmeth", "in": ["isspace", "\u01c4\u0085\u00df:"], "out": false}
+{"k": "strmeth", "in": ["count", "a'\u001e\n\u001cb", "'\u001e", -6, 11], "out": 1}
+{"k": "strmeth", "in": ["rstrip", "e\r\u000b\r\u0307e"], "out": "e\r\u000b\r\u0307e"}
+{"k": "strmeth", "in": ["rfind", "\ufb01\u001dd", "\u03a3", -17, -13], "out": -1}
+{"k": "strmeth", "in": ["splitn", "\ud801\udc3f\u01c4a\u00df\u001caa\u0307a\r", 2], "out": ["\ud801\udc3f\u01c4a\u00df", "aa\u0307a"]}
+{"k": "strmeth", "in": ["stripc", "\n\u001d\u03c3\u001cb\u001f\rb\u00df", "d\u0130"], "out": "\n\u001d\u03c3\u001cb\u001f\rb\u00df"}
+{"k": "strmeth", "in": ["count", "\u0307\u001cA\u3000", "", -12, -18], "out": 1}
+{"k": "strmeth", "in": ["isspace", ""], "out": false}
+{"k": "strmeth", "in": ["upper", "\u001d\u001e\u03c3\u0345\u00a0"], "out": "\u001d\u001e\u03a3\u0399\u00a0"}
+{"k": "strmeth", "in": ["splitlines", "\f\u0345c\r-", true], "out": ["\f", "\u0345c\r", "-"]}
+{"k": "strmeth", "in": ["splitlines", "\u03c3\u001c\u03a3\u0130\u200b\u001e", false], "out": ["\u03c3", "\u03a3\u0130\u200b"]}
+{"k": "strmeth", "in": ["strip", "\u03c3\u200b'\ud801\udc2e\u0085\u0307\u03a3\u000b \u01c5 a"], "out": "\u03c3\u200b'\ud801\udc2e\u0085\u0307\u03a3\u000b \u01c5 a"}
+{"k": "strmeth", "in": ["upper", "e\u037f\ud801\udc3c\ufeff\u0376\u2028\u001d\u001dD"], "out": "E\u037f\ud801\udc14\ufeff\u0376\u2028\u001d\u001dD"}
+{"k": "strmeth", "in": ["split", "\nC\u2028ac\u001e"], "out": ["C", "ac"]}
+{"k": "strmeth", "in": ["lstrip", "\nc\t\u00dfB\u001e\f\u1f80e\t\u3000\u001d"], "out": "c\t\u00dfB\u001e\f\u1f80e\t\u3000\u001d"}
+{"k": "strmeth", "in": ["find", "\u000b\u2028\u001c\u000b\u000b:\n\u001d\u03c3\u01c4B\u001e", "A", -6, 2], "out": -1}
+{"k": "strmeth", "in": ["lower", "\u3000\u00a0\u03c3-\fB\ufeff\ud801\udc0c\u00df"], "out": "\u3000\u00a0\u03c3-\fb\ufeff\ud801\udc34\u00df"}
+{"k": "strmeth", "in": ["casefold", "\t\ufb01\u001e-\u001c\u000be\u01c4\u0085c\ufb01\u000ba\u00a0"], "out": "\tfi\u001e-\u001c\u000be\u01c6\u0085cfi\u000ba\u00a0"}
+{"k": "strmeth", "in": ["expandtabs", "A\u3000\u01c5\u01c5\u0307\u039bD-\r\ufb01\u0307\u00df\u01c5", -1], "out": "A\u3000\u01c5\u01c5\u0307\u039bD-\r\ufb01\u0307\u00df\u01c5"}
+{"k": "strmeth", "in": ["upper", "ebc\u001e\u3000Edd\t"], "out": "EBC\u001e\u3000EDD\t"}
+{"k": "strmeth", "in": ["lstrip", "\u01c5\u01c5\na"], "out": "\u01c5\u01c5\na"}
+{"k": "strmeth", "in": ["strip", "D\f\u1f80\u001c\f\u001fb\u03a3C\u0085\rb"], "out": "D\f\u1f80\u001c\f\u001fb\u03a3C\u0085\rb"}
+{"k": "strmeth", "in": ["lstrip", "\ufb01"], "out": "\ufb01"}
+{"k": "strmeth", "in": ["stripc", "\u0130\f\u00dfa\u03a3\u00a0\u001c\u001e\u0307-\nD", "\u03a3\u01c4"], "out": "\u0130\f\u00dfa\u03a3\u00a0\u001c\u001e\u0307-\nD"}
+{"k": "strmeth", "in": ["rfind", "c\u0130\f\r'\u2028", "\f\r", -18, -9], "out": -1}
+{"k": "strmeth", "in": ["expandtabs", "A", 1], "out": "A"}
+{"k": "strmeth", "in": ["splitn", "\u001e\u03ae\u001e\u001d\u0345\n\r\r\u0085\u001c\u1f80", 0], "out": ["\u03ae\u001e\u001d\u0345\n\r\r\u0085\u001c\u1f80"]}
+{"k": "strmeth", "in": ["rfind", "\u00dfCc\u03c3\u00df\u00a0--\u03c3\u000b", "", -1, 18], "out": 10}
+{"k": "strmeth", "in": ["casefold", "\u01c4\u00a0 \u1f80"], "out": "\u01c6\u00a0 \u1f00\u03b9"}
+{"k": "strmeth", "in": ["isspace", "b\u001c\r\u01c4\u001d\r\ne -\u0307"], "out": false}
+{"k": "strmeth", "in": ["strip", "\ud801\udc16\u0307\u03c3\ud801\udc14d\u3000\ufb01\u01c4\u1f80dd"], "out": "\ud801\udc16\u0307\u03c3\ud801\udc14d\u3000\ufb01\u01c4\u1f80dd"}
+{"k": "strmeth", "in": ["rstrip", ""], "out": ""}
+{"k": "strmeth", "in": ["rstrip", " \u0345\u1f80\u3000\u03a3\u0307b"], "out": " \u0345\u1f80\u3000\u03a3\u0307b"}
+{"k": "strmeth", "in": ["isspace", ""], "out": false}
+{"k": "strmeth", "in": ["rfind", "", "", -5, 11], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", "\u200ba\u03a3\ud801\udc3a\ufb01\u001d\u03a3\u000b\u03c3\u01c5\u0130", 3], "out": "\u200ba\u03a3\ud801\udc3a\ufb01\u001d\u03a3\u000b\u03c3\u01c5\u0130"}
+{"k": "strmeth", "in": ["splitn", "\u01c5", -1], "out": ["\u01c5"]}
+{"k": "strmeth", "in": ["rfind", "-'", "", -11, -7], "out": 0}
+{"k": "strmeth", "in": ["expandtabs", "e \n\rc'\u000b\u01c4\n\u001e\u200b \n\u0345", 0], "out": "e \n\rc'\u000b\u01c4\n\u001e\u200b \n\u0345"}
+{"k": "strmeth", "in": ["stripc", "\u00df\u001c\u1f80", "\u001d\u3000"], "out": "\u00df\u001c\u1f80"}
+{"k": "strmeth", "in": ["stripc", "A\u0085\u001dc'\ud801\udc19cd", "a'"], "out": "A\u0085\u001dc'\ud801\udc19cd"}
+{"k": "strmeth", "in": ["rfind", "E\u03c3\ufb01c\u038c\u03a3\ufb01", "\u03c3\ufb01", 9, -3], "out": -1}
+{"k": "strmeth", "in": ["split", "dD\u2028-\t\u3000\u3000\u200b\f\u3000"], "out": ["dD", "-", "\u200b"]}
+{"k": "strmeth", "in": ["rfind", "\u2028\n", "\r", 9, 7], "out": -1}
+{"k": "strmeth", "in": ["casefold", "a'\u0085 d\n\n\u001e\u3000e\u0085\u0345"], "out": "a'\u0085 d\n\n\u001e\u3000e\u0085\u03b9"}
+{"k": "strmeth", "in": ["strip", "-\u0085a\u2028\u01c5eD\u001e\ufeff\u01c4"], "out": "-\u0085a\u2028\u01c5eD\u001e\ufeff\u01c4"}
+{"k": "strmeth", "in": ["expandtabs", "c\u0085\u0130ea\t ", 4], "out": "c\u0085\u0130ea    "}
+{"k": "strmeth", "in": ["stripc", "\u01c5\u0345\u2028Eea\n", "\u01c5"], "out": "\u0345\u2028Eea\n"}
+{"k": "strmeth", "in": ["rstrip", "\u03a3\u0307\u0345\u00df\u0085\u001c\u00a0\u001f\u03c3-\u1f80"], "out": "\u03a3\u0307\u0345\u00df\u0085\u001c\u00a0\u001f\u03c3-\u1f80"}
+{"k": "strmeth", "in": ["lower", ":--"], "out": ":--"}
+{"k": "strmeth", "in": ["splitn", "\u000b\u001f\u0085\u1f80\u2028", 0], "out": ["\u1f80\u2028"]}
+{"k": "strmeth", "in": ["slice", "\u3000\f\u01c5ce \ud801\udc05B\fC", -11, -13], "out": ""}
+{"k": "strmeth", "in": ["casefold", "\u01c4\u200b\t\u001f\u0307\u00dfcC:ecb"], "out": "\u01c6\u200b\t\u001f\u0307sscc:ecb"}
+{"k": "strmeth", "in": ["slice", "\r\u03a3\u3000\u1f80\fa\u1f80", -9, 18], "out": "\r\u03a3\u3000\u1f80\fa\u1f80"}
+{"k": "strmeth", "in": ["stripc", "e\f \u200b", "D"], "out": "e\f \u200b"}

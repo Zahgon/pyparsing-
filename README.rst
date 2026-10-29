@@ -1,7 +1,7 @@
-PyParsing -- A Python Parsing Module
+PyParsing -- A Parsing Module, in Go
 ====================================
 
-|Version| |Build Status| |Coverage| |License| |Python Versions| |Snyk Score|
+|Build Status| |License|
 
 Introduction
 ============
@@ -9,8 +9,8 @@ Introduction
 The pyparsing module is an alternative approach to creating and
 executing simple grammars, vs. the traditional lex/yacc approach, or the
 use of regular expressions. The pyparsing module provides a library of
-classes that client code uses to construct the grammar directly in
-Python code.
+elements that client code uses to construct the grammar directly in
+code.
 
 *[Since first writing this description of pyparsing in late 2003, this
 technique for developing parsers has become more widespread, under the
@@ -18,27 +18,51 @@ name Parsing Expression Grammars - PEGs. See more information on PEGs*
 `here <https://en.wikipedia.org/wiki/Parsing_expression_grammar>`__
 *.]*
 
+This repository is the Go port of pyparsing: the Go module
+``github.com/pyparsing/pyparsing-go`` (package ``pyparsing``), written in
+Go with no dependencies outside the standard library. It reproduces the
+behaviour of pyparsing 3.3.3 under CPython 3.12, including the parts the
+Python library inherits from its language: the ``re`` module's pattern
+syntax and matching, Python's string semantics (positions count code
+points), and the ``repr()`` of the values in parse results.
+
 Here is a program to parse ``"Hello, World!"`` (or any greeting of the form
 ``"salutation, addressee!"``):
 
-.. code:: python
+.. code:: go
 
-    from pyparsing import Word, alphas
-    greet = Word(alphas) + "," + Word(alphas) + "!"
-    hello = "Hello, World!"
-    print(hello, "->", greet.parse_string(hello))
+    package main
+
+    import (
+        "fmt"
+
+        pp "github.com/pyparsing/pyparsing-go"
+    )
+
+    func main() {
+        word, _ := pp.Word(pp.Alphas, nil, 1, 0, 0, false, nil)
+        greet := word.Add(",").Add(word).Add("!")
+        hello := "Hello, World!"
+        result, err := greet.ParseString(hello, false)
+        if err != nil {
+            fmt.Println(err)
+            return
+        }
+        fmt.Println(hello, "->", result)
+    }
 
 The program outputs the following::
 
     Hello, World! -> ['Hello', ',', 'World', '!']
 
-The Python representation of the grammar is quite readable, owing to the
-self-explanatory class names, and the use of '+', '|' and '^' operator
-definitions.
+Python's operators become methods: ``+`` is ``Add``, ``|`` is ``BitOr``,
+``^`` is ``BitXor``, ``&`` is ``BitAnd``, ``-`` is ``Sub``, ``~`` is
+``Invert``, ``*`` is ``Mul``, ``[]`` is ``GetItem`` and ``<<=`` is
+``ILShift``. Each element constructor takes the arguments of the Python
+class in the same order.
 
-The parsed results returned from ``parse_string()`` is a collection of type
-``ParseResults``, which can be accessed as a
-nested list, a dictionary, or an object with named attributes.
+The parsed results returned from ``ParseString()`` are a ``*ParseResults``,
+which can be accessed as a nested list, a dictionary, or by results name.
 
 The pyparsing module handles some of the problems that are typically
 vexing when writing text parsers:
@@ -47,33 +71,27 @@ vexing when writing text parsers:
 - quoted strings
 - embedded comments
 
-The examples directory includes a simple SQL parser, simple CORBA IDL
-parser, a config file parser, a chemical formula parser, and a four-
-function algebraic notation parser, among many others.
-
 Documentation
 =============
 
-There are many examples in the online docstrings of the classes
-and methods in pyparsing. You can find them compiled into `online docs <https://pyparsing-docs.readthedocs.io/en/latest/>`__. Additional
-documentation resources and project info are listed in the online
-`GitHub wiki <https://github.com/pyparsing/pyparsing/wiki>`__. An
-entire directory of examples can be found `here <https://github.com/pyparsing/pyparsing/tree/master/examples>`__.
+The Go API is documented in the package's doc comments (``go doc
+github.com/pyparsing/pyparsing-go``). The concepts, element classes and
+results behave as described in the pyparsing documentation in ``docs/``
+and the `online docs <https://pyparsing-docs.readthedocs.io/en/latest/>`__.
 
-AI Instructions
-===============
+Building and testing
+====================
 
-There are also instructions for AI agents to use when helping you to create your parser. They can
-be pulled from the GitHub project repository, at pyparsing/ai/best_practices.md. You can also tell
-the AI to access them programmatically after installing pyparsing, either from the CLI with
-``python -m pyparsing.ai.show_best_practices`` or within python with
-``import pyparsing; pyparsing.show_best_practices()``.
+::
 
+    go build ./...
+    go vet ./...
+    go test ./...
 
 License
 =======
 
-MIT License. See header of the `pyparsing __init__.py <https://github.com/pyparsing/pyparsing/blob/master/pyparsing/__init__.py#L1-L23>`__ file.
+MIT License. See the `LICENSE <LICENSE>`__ file.
 
 History
 =======
@@ -81,30 +99,9 @@ History
 See `CHANGES <https://github.com/pyparsing/pyparsing/blob/master/CHANGES>`__ file.
 
 
-Performance benchmarks
-======================
-
-For usage instructions and details on the performance benchmark suite, see
-``tests/README.md`` in this repository.
-
 .. |Build Status| image:: https://github.com/pyparsing/pyparsing/actions/workflows/ci.yml/badge.svg
    :target: https://github.com/pyparsing/pyparsing/actions/workflows/ci.yml
 
-.. |Coverage| image:: https://codecov.io/gh/pyparsing/pyparsing/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/pyparsing/pyparsing
-
-.. |Version| image:: https://img.shields.io/pypi/v/pyparsing?style=flat-square
-    :target: https://pypi.org/project/pyparsing/
-    :alt: Version
-
-.. |License| image:: https://img.shields.io/pypi/l/pyparsing.svg?style=flat-square
-    :target: https://pypi.org/project/pyparsing/
+.. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+    :target: LICENSE
     :alt: License
-
-.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/pyparsing.svg?style=flat-square
-    :target: https://pypi.org/project/python-liquid/
-    :alt: Python versions
-
-.. |Snyk Score| image:: https://snyk.io//advisor/python/pyparsing/badge.svg
-   :target: https://snyk.io//advisor/python/pyparsing
-   :alt: pyparsing

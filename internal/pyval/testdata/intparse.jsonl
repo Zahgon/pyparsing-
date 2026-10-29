@@ -1,0 +1,601 @@
+{"k": "intparse", "in": ["1\u001c", 10], "err": "ValueError: invalid literal for int() with base 10: '1\\x1c'"}
+{"k": "intparse", "in": ["_+46\u181465737", 0], "err": "ValueError: invalid literal for int() with base 0: '_+46\u181465737'"}
+{"k": "intparse", "in": ["-0xE36D8Dd", 36], "out": "-2616684461473"}
+{"k": "intparse", "in": ["_0o", 10], "err": "ValueError: invalid literal for int() with base 10: '_0o'"}
+{"k": "intparse", "in": ["6C\u0d6af3b", 36], "out": "383158631"}
+{"k": "intparse", "in": ["+\u3000 48416098037365479844", 0], "err": "ValueError: invalid literal for int() with base 0: '+\\u3000 48416098037365479844'"}
+{"k": "intparse", "in": ["6", 10], "out": "6"}
+{"k": "intparse", "in": ["37cdecD9", 16], "out": "936242393"}
+{"k": "intparse", "in": ["0o58248289230294630585", 10], "err": "ValueError: invalid literal for int() with base 10: '0o58248289230294630585'"}
+{"k": "intparse", "in": ["e480Ff38e6D206Cb5bfe\u2000", 16], "out": "1079079132038582030261246"}
+{"k": "intparse", "in": ["ad", 16], "out": "173"}
+{"k": "intparse", "in": ["40-8\u001f", 3], "err": "ValueError: invalid literal for int() with base 3: '40-8\\x1f'"}
+{"k": "intparse", "in": [" 430746230173042288187", 0], "out": "430746230173042288187"}
+{"k": "intparse", "in": ["0b", 7], "err": "ValueError: invalid literal for int() with base 7: '0b'"}
+{"k": "intparse", "in": ["\u0662c", 16], "out": "44"}
+{"k": "intparse", "in": ["-\ud81a\ude636", 10], "out": "-36"}
+{"k": "intparse", "in": ["\ud835\udfcex", 7], "err": "ValueError: invalid literal for int() with base 7: '\ud835\udfcex'"}
+{"k": "intparse", "in": ["0o51", 16], "err": "ValueError: invalid literal for int() with base 16: '0o51'"}
+{"k": "intparse", "in": ["083483837203_39933876", 10], "out": "8348383720339933876"}
+{"k": "intparse", "in": ["817315645295092x92728784736958501242254122568195649\u0085", 0], "err": "ValueError: invalid literal for int() with base 0: '817315645295092x92728784736958501242254122568195649\\x85'"}
+{"k": "intparse", "in": ["05c", 16], "out": "92"}
+{"k": "intparse", "in": ["f", 16], "out": "15"}
+{"k": "intparse", "in": ["195", 10], "out": "195"}
+{"k": "intparse", "in": ["+o", 0], "err": "ValueError: invalid literal for int() with base 0: '+o'"}
+{"k": "intparse", "in": [" 0b\ua9d8", 0], "err": "ValueError: invalid literal for int() with base 0: ' 0b\ua9d8'"}
+{"k": "intparse", "in": ["\u1815", 10], "out": "5"}
+{"k": "intparse", "in": ["0o131", 2], "err": "ValueError: invalid literal for int() with base 2: '0o131'"}
+{"k": "intparse", "in": ["-5\ud803\udd32", 10], "out": "-52"}
+{"k": "intparse", "in": ["19860685433374350771", 0], "out": "19860685433374350771"}
+{"k": "intparse", "in": ["6", 10], "out": "6"}
+{"k": "intparse", "in": [" 0o6b", 16], "err": "ValueError: invalid literal for int() with base 16: ' 0o6b'"}
+{"k": "intparse", "in": ["236", 10], "out": "236"}
+{"k": "intparse", "in": ["b501", 3], "err": "ValueError: invalid literal for int() with base 3: 'b501'"}
+{"k": "intparse", "in": ["e5", 7], "err": "ValueError: invalid literal for int() with base 7: 'e5'"}
+{"k": "intparse", "in": ["+0x17_", 0], "err": "ValueError: invalid literal for int() with base 0: '+0x17_'"}
+{"k": "intparse", "in": ["0X378", 8], "err": "ValueError: invalid literal for int() with base 8: '0X378'"}
+{"k": "intparse", "in": ["7", 8], "out": "7"}
+{"k": "intparse", "in": ["0\u1a962", 10], "out": "62"}
+{"k": "intparse", "in": ["\u001f\uabf4", 3], "err": "ValueError: invalid literal for int() with base 3: '\\x1f\uabf4'"}
+{"k": "intparse", "in": [" -\u200269028322027277919072", 0], "err": "ValueError: invalid literal for int() with base 0: ' -\\u200269028322027277919072'"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["\u2009B7EAA80fb8eD43114EaC", 16], "out": "868521714579645303705260"}
+{"k": "intparse", "in": ["868B39864 223813267243351152951400516355924127029286", 7], "err": "ValueError: invalid literal for int() with base 7: '868B39864 223813267243351152951400516355924127029286'"}
+{"k": "intparse", "in": ["0b7", 16], "out": "183"}
+{"k": "intparse", "in": ["5", 10], "out": "5"}
+{"k": "intparse", "in": ["0x96040622", 0], "out": "2516846114"}
+{"k": "intparse", "in": ["23067824776847717490 ", 0], "out": "23067824776847717490"}
+{"k": "intparse", "in": ["-daaECfFfBde659bCD4cF", 36], "out": "-4933274340566064261522115182399"}
+{"k": "intparse", "in": ["0", 16], "out": "0"}
+{"k": "intparse", "in": ["83912383364472745678152707324605274267350735664534", 10], "out": "83912383364472745678152707324605274267350735664534"}
+{"k": "intparse", "in": [" 0X3_4", 3], "err": "ValueError: invalid literal for int() with base 3: ' 0X3_4'"}
+{"k": "intparse", "in": ["FEc2_40DBC912EC\uabf7bFdD3", 36], "out": "5717646283852449448750478366823"}
+{"k": "intparse", "in": ["", 2], "err": "ValueError: invalid literal for int() with base 2: ''"}
+{"k": "intparse", "in": [" +2", 3], "out": "2"}
+{"k": "intparse", "in": ["\u20063", 3], "err": "ValueError: invalid literal for int() with base 3: '\\u20063'"}
+{"k": "intparse", "in": ["+18603089505910915241868974680392959077291375382242", 10], "out": "18603089505910915241868974680392959077291375382242"}
+{"k": "intparse", "in": ["04889939196378203_51\u001e", 2], "err": "ValueError: invalid literal for int() with base 2: '04889939196378203_51\\x1e'"}
+{"k": "intparse", "in": ["e\ud835\udff0A", 16], "out": "3658"}
+{"k": "intparse", "in": ["-465", 7], "out": "-243"}
+{"k": "intparse", "in": ["59669083", 10], "out": "59669083"}
+{"k": "intparse", "in": ["40971888629031556597029581831232395355123983573255", 0], "out": "40971888629031556597029581831232395355123983573255"}
+{"k": "intparse", "in": [" 066804000153281_29155976209852\u181678764264918736554096", 3], "err": "ValueError: invalid literal for int() with base 3: ' 066804000153281_29155976209852\u181678764264918736554096'"}
+{"k": "intparse", "in": ["00B+08cbdA0C21DdEaDB3E9", 36], "err": "ValueError: invalid literal for int() with base 36: '00B+08cbdA0C21DdEaDB3E9'"}
+{"k": "intparse", "in": ["F_", 36], "err": "ValueError: invalid literal for int() with base 36: 'F_'"}
+{"k": "intparse", "in": ["67958529429928557853595231455362253970565444420169", 2], "err": "ValueError: invalid literal for int() with base 2: '67958529429928557853595231455362253970565444420169'"}
+{"k": "intparse", "in": ["0x", 10], "err": "ValueError: invalid literal for int() with base 10: '0x'"}
+{"k": "intparse", "in": ["0o64169\u00e92\u1bb39", 0], "err": "ValueError: invalid literal for int() with base 0: '0o64169\u00e92\u1bb39'"}
+{"k": "intparse", "in": ["", 3], "err": "ValueError: invalid literal for int() with base 3: ''"}
+{"k": "intparse", "in": ["\u200855822718351563976823", 8], "err": "ValueError: invalid literal for int() with base 8: '\\u200855822718351563976823'"}
+{"k": "intparse", "in": [" 31", 8], "out": "25"}
+{"k": "intparse", "in": ["901329334876797252\ud835\udfe52075-821246561842537800a109702038", 2], "err": "ValueError: invalid literal for int() with base 2: '901329334876797252\ud835\udfe52075-821246561842537800a109702038'"}
+{"k": "intparse", "in": ["61344779585310063307575957590307766873470814517125\u2006", 3], "err": "ValueError: invalid literal for int() with base 3: '61344779585310063307575957590307766873470814517125\\u2006'"}
+{"k": "intparse", "in": ["_2443361_", 0], "err": "ValueError: invalid literal for int() with base 0: '_2443361_'"}
+{"k": "intparse", "in": ["0X_\u001c82c\u1680", 16], "err": "ValueError: invalid literal for int() with base 16: '0X_\\x1c82c\\u1680'"}
+{"k": "intparse", "in": ["0X45033195296993275843726063935958850158685217537454", 10], "err": "ValueError: invalid literal for int() with base 10: '0X45033195296993275843726063935958850158685217537454'"}
+{"k": "intparse", "in": ["4", 2], "err": "ValueError: invalid literal for int() with base 2: '4'"}
+{"k": "intparse", "in": ["0o59666941", 10], "err": "ValueError: invalid literal for int() with base 10: '0o59666941'"}
+{"k": "intparse", "in": ["4664733\ud803\udd33006839504269", 3], "err": "ValueError: invalid literal for int() with base 3: '4664733\ud803\udd33006839504269'"}
+{"k": "intparse", "in": ["001416945467\ud804\udd3f239899031", 0], "err": "ValueError: invalid literal for int() with base 0: '001416945467\ud804\udd3f239899031'"}
+{"k": "intparse", "in": ["0X30881494", 3], "err": "ValueError: invalid literal for int() with base 3: '0X30881494'"}
+{"k": "intparse", "in": ["3497O56\ud807\udda50432_459841439", 3], "err": "ValueError: invalid literal for int() with base 3: '3497O56\ud807\udda50432_459841439'"}
+{"k": "intparse", "in": ["\u0be6", 7], "out": "0"}
+{"k": "intparse", "in": ["43434368153806383835036307761344147957084483277683", 0], "out": "43434368153806383835036307761344147957084483277683"}
+{"k": "intparse", "in": ["005f7\u0085", 16], "out": "1527"}
+{"k": "intparse", "in": ["\uaa54\u2008", 10], "out": "4"}
+{"k": "intparse", "in": ["033338422937868\u10455648", 10], "out": "3333842293786855648"}
+{"k": "intparse", "in": ["0X8\u2008", 10], "err": "ValueError: invalid literal for int() with base 10: '0X8\\u2008'"}
+{"k": "intparse", "in": ["_", 2], "err": "ValueError: invalid literal for int() with base 2: '_'"}
+{"k": "intparse", "in": ["2", 36], "out": "2"}
+{"k": "intparse", "in": ["-0xd48eadF0edFF7a8c5d7_0", 36], "out": "-445998134095518024547812349435404"}
+{"k": "intparse", "in": [" 5081504769988796435090288910660063271187_1384554152", 10], "out": "50815047699887964350902889106600632711871384554152"}
+{"k": "intparse", "in": ["95\u1949", 2], "err": "ValueError: invalid literal for int() with base 2: '95\u1949'"}
+{"k": "intparse", "in": ["a07CCd9C", 36], "out": "784085636640"}
+{"k": "intparse", "in": ["B4", 36], "out": "400"}
+{"k": "intparse", "in": ["44190658523482357866\u2005", 10], "out": "44190658523482357866"}
+{"k": "intparse", "in": ["00364", 3], "err": "ValueError: invalid literal for int() with base 3: '00364'"}
+{"k": "intparse", "in": ["_23373448", 7], "err": "ValueError: invalid literal for int() with base 7: '_23373448'"}
+{"k": "intparse", "in": ["6969bb?D", 16], "err": "ValueError: invalid literal for int() with base 16: '6969bb?D'"}
+{"k": "intparse", "in": ["_0_x7\u2003", 0], "err": "ValueError: invalid literal for int() with base 0: '_0_x7\\u2003'"}
+{"k": "intparse", "in": ["5019\ud807\udc5936", 7], "err": "ValueError: invalid literal for int() with base 7: '5019\ud807\udc5936'"}
+{"k": "intparse", "in": ["0b\u2002", 0], "err": "ValueError: invalid literal for int() with base 0: '0b\\u2002'"}
+{"k": "intparse", "in": ["dC50\ud835\udfeaa4", 36], "out": "29032173292"}
+{"k": "intparse", "in": ["\ud81a\ude60F", 16], "out": "15"}
+{"k": "intparse", "in": ["87201854", 7], "err": "ValueError: invalid literal for int() with base 7: '87201854'"}
+{"k": "intparse", "in": ["07 ", 3], "err": "ValueError: invalid literal for int() with base 3: '07 '"}
+{"k": "intparse", "in": ["\u20290078", 36], "out": "260"}
+{"k": "intparse", "in": ["9_4", 0], "out": "94"}
+{"k": "intparse", "in": ["3_", 8], "err": "ValueError: invalid literal for int() with base 8: '3_'"}
+{"k": "intparse", "in": ["7 ", 36], "out": "7"}
+{"k": "intparse", "in": ["870552026773661166939884319626421939211.223558945\u096b0", 10], "err": "ValueError: invalid literal for int() with base 10: '870552026773661166939884319626421939211.223558945\u096b0'"}
+{"k": "intparse", "in": ["_\u200a", 10], "err": "ValueError: invalid literal for int() with base 10: '_\\u200a'"}
+{"k": "intparse", "in": ["30", 0], "out": "30"}
+{"k": "intparse", "in": ["67920866806644292031446530860926022146849772559094", 0], "out": "67920866806644292031446530860926022146849772559094"}
+{"k": "intparse", "in": ["a\u0000", 10], "err": "ValueError: invalid literal for int() with base 10: 'a\\x00'"}
+{"k": "intparse", "in": ["0079441203671054400000362161833659675029241157791500", 2], "err": "ValueError: invalid literal for int() with base 2: '0079441203671054400000362161833659675029241157791500'"}
+{"k": "intparse", "in": ["0X49a2dAc4\u3000", 36], "out": "93430283284372"}
+{"k": "intparse", "in": ["0", 3], "out": "0"}
+{"k": "intparse", "in": ["0981", 10], "out": "981"}
+{"k": "intparse", "in": ["x0b", 8], "err": "ValueError: invalid literal for int() with base 8: 'x0b'"}
+{"k": "intparse", "in": ["cD", 16], "out": "205"}
+{"k": "intparse", "in": ["_", 10], "err": "ValueError: invalid literal for int() with base 10: '_'"}
+{"k": "intparse", "in": ["0x9", 7], "err": "ValueError: invalid literal for int() with base 7: '0x9'"}
+{"k": "intparse", "in": ["71047206", 3], "err": "ValueError: invalid literal for int() with base 3: '71047206'"}
+{"k": "intparse", "in": ["\u2003719", 3], "err": "ValueError: invalid literal for int() with base 3: '\\u2003719'"}
+{"k": "intparse", "in": ["+", 10], "err": "ValueError: invalid literal for int() with base 10: '+'"}
+{"k": "intparse", "in": ["0_0\uff16", 0], "err": "ValueError: invalid literal for int() with base 0: '0_0\uff16'"}
+{"k": "intparse", "in": ["\u2008\t0o2\t", 8], "out": "2"}
+{"k": "intparse", "in": ["57", 10], "out": "57"}
+{"k": "intparse", "in": ["a\u0969\u2028", 36], "out": "363"}
+{"k": "intparse", "in": ["6", 3], "err": "ValueError: invalid literal for int() with base 3: '6'"}
+{"k": "intparse", "in": ["d", 36], "out": "13"}
+{"k": "intparse", "in": ["001329994764103140782169445051760415819792435937839", 0], "err": "ValueError: invalid literal for int() with base 0: '001329994764103140782169445051760415819792435937839'"}
+{"k": "intparse", "in": ["0+68", 7], "err": "ValueError: invalid literal for int() with base 7: '0+68'"}
+{"k": "intparse", "in": ["007", 8], "out": "7"}
+{"k": "intparse", "in": ["_", 10], "err": "ValueError: invalid literal for int() with base 10: '_'"}
+{"k": "intparse", "in": ["0b87348311356783149275", 10], "err": "ValueError: invalid literal for int() with base 10: '0b87348311356783149275'"}
+{"k": "intparse", "in": ["1367632920183353128804142339874080521846537687917", 0], "out": "1367632920183353128804142339874080521846537687917"}
+{"k": "intparse", "in": ["2924490628428085126_0291763272718300853001462345458", 10], "out": "29244906284280851260291763272718300853001462345458"}
+{"k": "intparse", "in": ["o", 0], "err": "ValueError: invalid literal for int() with base 0: 'o'"}
+{"k": "intparse", "in": ["9AdDC095DE4_AFc3bf6fa", 16], "out": "731335046044455626602234"}
+{"k": "intparse", "in": ["05", 8], "out": "5"}
+{"k": "intparse", "in": ["03?", 0], "err": "ValueError: invalid literal for int() with base 0: '03?'"}
+{"k": "intparse", "in": ["\u200a0e4", 36], "out": "508"}
+{"k": "intparse", "in": ["00176672972404778621609169263846688133783\u1b579711562783", 10], "out": "17667297240477862160916926384668813378379711562783"}
+{"k": "intparse", "in": ["_", 2], "err": "ValueError: invalid literal for int() with base 2: '_'"}
+{"k": "intparse", "in": ["0\u19d99", 10], "out": "99"}
+{"k": "intparse", "in": ["0X428\ud807\udd5076484665787_84643", 3], "err": "ValueError: invalid literal for int() with base 3: '0X428\ud807\udd5076484665787_84643'"}
+{"k": "intparse", "in": ["55", 0], "out": "55"}
+{"k": "intparse", "in": ["_", 3], "err": "ValueError: invalid literal for int() with base 3: '_'"}
+{"k": "intparse", "in": ["0357", 0], "err": "ValueError: invalid literal for int() with base 0: '0357'"}
+{"k": "intparse", "in": ["15_\u0085E", 16], "err": "ValueError: invalid literal for int() with base 16: '15_\\x85E'"}
+{"k": "intparse", "in": ["1\u202f", 16], "out": "1"}
+{"k": "intparse", "in": ["4", 2], "err": "ValueError: invalid literal for int() with base 2: '4'"}
+{"k": "intparse", "in": ["92312051889819703760981042941014596938852189089609", 2], "err": "ValueError: invalid literal for int() with base 2: '92312051889819703760981042941014596938852189089609'"}
+{"k": "intparse", "in": ["D0_7", 36], "out": "16855"}
+{"k": "intparse", "in": ["920402398921295178322b9929008360_9466938644419267282", 8], "err": "ValueError: invalid literal for int() with base 8: '920402398921295178322b9929008360_9466938644419267282'"}
+{"k": "intparse", "in": ["da6D8318f23a39F33c2d", 36], "out": "4932119374297308876041257168597"}
+{"k": "intparse", "in": ["81", 0], "out": "81"}
+{"k": "intparse", "in": ["_\f7", 36], "err": "ValueError: invalid literal for int() with base 36: '_\\x0c7'"}
+{"k": "intparse", "in": ["\uff101", 0], "err": "ValueError: invalid literal for int() with base 0: '\uff101'"}
+{"k": "intparse", "in": ["-06", 2], "err": "ValueError: invalid literal for int() with base 2: '-06'"}
+{"k": "intparse", "in": ["0b16B4a438", 16], "out": "47625577528"}
+{"k": "intparse", "in": ["0o2258540429580659895340291\u109357947480386372738890000", 3], "err": "ValueError: invalid literal for int() with base 3: '0o2258540429580659895340291\u109357947480386372738890000'"}
+{"k": "intparse", "in": ["", 2], "err": "ValueError: invalid literal for int() with base 2: ''"}
+{"k": "intparse", "in": ["608", 0], "out": "608"}
+{"k": "intparse", "in": ["0x\u0bee3E88f93A4\u001c9f0bfecAe9", 16], "err": "ValueError: invalid literal for int() with base 16: '0x\u0bee3E88f93A4\\x1c9f0bfecAe9'"}
+{"k": "intparse", "in": ["81427732995310851914", 8], "err": "ValueError: invalid literal for int() with base 8: '81427732995310851914'"}
+{"k": "intparse", "in": ["0059c", 16], "out": "1436"}
+{"k": "intparse", "in": ["c2A", 36], "out": "15634"}
+{"k": "intparse", "in": ["x_", 3], "err": "ValueError: invalid literal for int() with base 3: 'x_'"}
+{"k": "intparse", "in": ["9 ", 3], "err": "ValueError: invalid literal for int() with base 3: '9 '"}
+{"k": "intparse", "in": ["00035\ud83a\udd5610B0", 3], "err": "ValueError: invalid literal for int() with base 3: '00035\ud83a\udd5610B0'"}
+{"k": "intparse", "in": [" \ud839\udcf431", 0], "out": "431"}
+{"k": "intparse", "in": [" \u0ed01", 0], "err": "ValueError: invalid literal for int() with base 0: ' \u0ed01'"}
+{"k": "intparse", "in": ["16\u1a9831039827477827603258204616969875628947900413752", 10], "out": "16831039827477827603258204616969875628947900413752"}
+{"k": "intparse", "in": ["", 3], "err": "ValueError: invalid literal for int() with base 3: ''"}
+{"k": "intparse", "in": ["0X0", 7], "err": "ValueError: invalid literal for int() with base 7: '0X0'"}
+{"k": "intparse", "in": ["0079857612246651345295", 10], "out": "79857612246651345295"}
+{"k": "intparse", "in": ["0o7b", 36], "out": "31367"}
+{"k": "intparse", "in": ["0xaB7350_5CAAe426_2c0c45", 16], "out": "809651834830303691279429"}
+{"k": "intparse", "in": ["9AC", 16], "out": "2476"}
+{"k": "intparse", "in": ["9_8", 0], "out": "98"}
+{"k": "intparse", "in": ["05242362b84741609724608130545274933310772153903821", 10], "err": "ValueError: invalid literal for int() with base 10: '05242362b84741609724608130545274933310772153903821'"}
+{"k": "intparse", "in": ["9", 10], "out": "9"}
+{"k": "intparse", "in": ["\u200aX69", 2], "err": "ValueError: invalid literal for int() with base 2: '\\u200aX69'"}
+{"k": "intparse", "in": ["7530702_5", 10], "out": "75307025"}
+{"k": "intparse", "in": ["83864502", 0], "out": "83864502"}
+{"k": "intparse", "in": ["+062", 10], "out": "62"}
+{"k": "intparse", "in": ["0x63", 3], "err": "ValueError: invalid literal for int() with base 3: '0x63'"}
+{"k": "intparse", "in": ["05316134714865401144_9504888286217659945529726878107", 8], "err": "ValueError: invalid literal for int() with base 8: '05316134714865401144_9504888286217659945529726878107'"}
+{"k": "intparse", "in": ["\ua9d3D", 16], "out": "61"}
+{"k": "intparse", "in": ["3", 8], "out": "3"}
+{"k": "intparse", "in": ["843164640533365935458675806306183953\ud81a\udf577718494942950 ", 10], "out": "84316464053336593545867580630618395377718494942950"}
+{"k": "intparse", "in": ["\u00a041093111876004968522", 2], "err": "ValueError: invalid literal for int() with base 2: '\\xa041093111876004968522'"}
+{"k": "intparse", "in": ["42216100_ ", 10], "err": "ValueError: invalid literal for int() with base 10: '42216100_ '"}
+{"k": "intparse", "in": ["0aX3", 2], "err": "ValueError: invalid literal for int() with base 2: '0aX3'"}
+{"k": "intparse", "in": [" c14FBA88D5fEdfB0\u00e9bfE4", 36], "err": "ValueError: invalid literal for int() with base 36: ' c14FBA88D5fEdfB0\u00e9bfE4'"}
+{"k": "intparse", "in": ["0oe_4Xc", 16], "err": "ValueError: invalid literal for int() with base 16: '0oe_4Xc'"}
+{"k": "intparse", "in": ["0X1fAcE319eAbaDEc7bDf7", 16], "out": "149582565318446394359287"}
+{"k": "intparse", "in": ["44517937\uaa552948183742", 0], "out": "4451793752948183742"}
+{"k": "intparse", "in": ["-0X2_33", 10], "err": "ValueError: invalid literal for int() with base 10: '-0X2_33'"}
+{"k": "intparse", "in": ["3a0", 10], "err": "ValueError: invalid literal for int() with base 10: '3a0'"}
+{"k": "intparse", "in": ["0x75824786", 2], "err": "ValueError: invalid literal for int() with base 2: '0x75824786'"}
+{"k": "intparse", "in": [" ", 10], "err": "ValueError: invalid literal for int() with base 10: ' '"}
+{"k": "intparse", "in": ["0x302_6_035X6", 0], "err": "ValueError: invalid literal for int() with base 0: '0x302_6_035X6'"}
+{"k": "intparse", "in": [" 0b80", 10], "err": "ValueError: invalid literal for int() with base 10: ' 0b80'"}
+{"k": "intparse", "in": ["77_0_63179", 10], "out": "77063179"}
+{"k": "intparse", "in": ["bD0-eAbe2", 16], "err": "ValueError: invalid literal for int() with base 16: 'bD0-eAbe2'"}
+{"k": "intparse", "in": ["0o35053534842242191518598197608643482407942618990745", 2], "err": "ValueError: invalid literal for int() with base 2: '0o35053534842242191518598197608643482407942618990745'"}
+{"k": "intparse", "in": ["\u200892640520", 2], "err": "ValueError: invalid literal for int() with base 2: '\\u200892640520'"}
+{"k": "intparse", "in": ["\u001c_916\u001c", 10], "err": "ValueError: invalid literal for int() with base 10: '\\x1c_916\\x1c'"}
+{"k": "intparse", "in": ["0o0", 8], "out": "0"}
+{"k": "intparse", "in": ["", 0], "err": "ValueError: invalid literal for int() with base 0: ''"}
+{"k": "intparse", "in": ["0.0", 36], "err": "ValueError: invalid literal for int() with base 36: '0.0'"}
+{"k": "intparse", "in": ["26286019376447024104", 10], "out": "26286019376447024104"}
+{"k": "intparse", "in": ["4", 2], "err": "ValueError: invalid literal for int() with base 2: '4'"}
+{"k": "intparse", "in": ["978\u0085", 3], "err": "ValueError: invalid literal for int() with base 3: '978\\x85'"}
+{"k": "intparse", "in": ["0o5", 10], "err": "ValueError: invalid literal for int() with base 10: '0o5'"}
+{"k": "intparse", "in": ["-84577007541007636576\u000b", 3], "err": "ValueError: invalid literal for int() with base 3: '-84577007541007636576\\x0b'"}
+{"k": "intparse", "in": [" 280\u0b6b581620718203801b5", 0], "err": "ValueError: invalid literal for int() with base 0: ' 280\u0b6b581620718203801b5'"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["8559184850144\u0cee208256", 8], "err": "ValueError: invalid literal for int() with base 8: '8559184850144\u0cee208256'"}
+{"k": "intparse", "in": ["2", 10], "out": "2"}
+{"k": "intparse", "in": ["b53\u2007", 16], "out": "2899"}
+{"k": "intparse", "in": [" _", 8], "err": "ValueError: invalid literal for int() with base 8: ' _'"}
+{"k": "intparse", "in": ["_", 0], "err": "ValueError: invalid literal for int() with base 0: '_'"}
+{"k": "intparse", "in": ["", 16], "err": "ValueError: invalid literal for int() with base 16: ''"}
+{"k": "intparse", "in": ["00", 3], "out": "0"}
+{"k": "intparse", "in": ["71E7", 10], "err": "ValueError: invalid literal for int() with base 10: '71E7'"}
+{"k": "intparse", "in": ["-06", 7], "out": "-6"}
+{"k": "intparse", "in": ["-\u000b6", 10], "err": "ValueError: invalid literal for int() with base 10: '-\\x0b6'"}
+{"k": "intparse", "in": ["\u202933694614234372903506591678602668884499639130087165", 8], "err": "ValueError: invalid literal for int() with base 8: '\\u202933694614234372903506591678602668884499639130087165'"}
+{"k": "intparse", "in": ["06546650520902867036249566238625\u0dea53061137925920585 ", 10], "out": "6546650520902867036249566238625453061137925920585"}
+{"k": "intparse", "in": ["633 ", 16], "out": "1587"}
+{"k": "intparse", "in": ["5369871", 8], "err": "ValueError: invalid literal for int() with base 8: '5369871'"}
+{"k": "intparse", "in": ["\r3646724159558762e5_305", 0], "err": "ValueError: invalid literal for int() with base 0: '\\r3646724159558762e5_305'"}
+{"k": "intparse", "in": ["03034\ud835\udfcf855\u2009", 10], "out": "30341855"}
+{"k": "intparse", "in": ["6_bf", 36], "out": "8187"}
+{"k": "intparse", "in": [" 07243691149580109165417195994382912897755300241673", 10], "out": "7243691149580109165417195994382912897755300241673"}
+{"k": "intparse", "in": [" 63886163582697973894825758697045587872531034564383", 7], "err": "ValueError: invalid literal for int() with base 7: ' 63886163582697973894825758697045587872531034564383'"}
+{"k": "intparse", "in": ["+3", 36], "out": "3"}
+{"k": "intparse", "in": ["", 2], "err": "ValueError: invalid literal for int() with base 2: ''"}
+{"k": "intparse", "in": ["0\u1810F", 16], "out": "15"}
+{"k": "intparse", "in": ["X", 10], "err": "ValueError: invalid literal for int() with base 10: 'X'"}
+{"k": "intparse", "in": ["064683473", 3], "err": "ValueError: invalid literal for int() with base 3: '064683473'"}
+{"k": "intparse", "in": ["\u2002826_", 2], "err": "ValueError: invalid literal for int() with base 2: '\\u2002826_'"}
+{"k": "intparse", "in": ["01", 8], "out": "1"}
+{"k": "intparse", "in": ["0b93", 16], "out": "2963"}
+{"k": "intparse", "in": ["-49", 10], "out": "-49"}
+{"k": "intparse", "in": ["741", 0], "out": "741"}
+{"k": "intparse", "in": ["x", 10], "err": "ValueError: invalid literal for int() with base 10: 'x'"}
+{"k": "intparse", "in": ["2\u2001", 10], "out": "2"}
+{"k": "intparse", "in": ["57292957213262204136", 0], "out": "57292957213262204136"}
+{"k": "intparse", "in": ["c_A", 16], "out": "202"}
+{"k": "intparse", "in": ["\u200181539335144430\u181612778", 10], "out": "81539335144430612778"}
+{"k": "intparse", "in": ["FA5EfC301C6eAdc3dd43", 16], "out": "1182343786716098128502083"}
+{"k": "intparse", "in": ["0o883508484754092616032277643924910235701\u000007391935809", 3], "err": "ValueError: invalid literal for int() with base 3: '0o883508484754092616032277643924910235701\\x0007391935809'"}
+{"k": "intparse", "in": ["\ud806\udce9EC", 16], "out": "2540"}
+{"k": "intparse", "in": ["00431", 10], "out": "431"}
+{"k": "intparse", "in": ["_406", 3], "err": "ValueError: invalid literal for int() with base 3: '_406'"}
+{"k": "intparse", "in": ["00Ac", 36], "out": "372"}
+{"k": "intparse", "in": ["4ecaFF8F", 16], "out": "1321926543"}
+{"k": "intparse", "in": ["+7460796936211363231", 3], "err": "ValueError: invalid literal for int() with base 3: '+7460796936211363231'"}
+{"k": "intparse", "in": ["018839759812253548132", 8], "err": "ValueError: invalid literal for int() with base 8: '018839759812253548132'"}
+{"k": "intparse", "in": ["5", 7], "out": "5"}
+{"k": "intparse", "in": ["8_64\u10495848583437497062", 0], "out": "86495848583437497062"}
+{"k": "intparse", "in": ["2eE", 16], "out": "750"}
+{"k": "intparse", "in": ["fbAC4743", 36], "out": "1200032080131"}
+{"k": "intparse", "in": ["0o93950163", 10], "err": "ValueError: invalid literal for int() with base 10: '0o93950163'"}
+{"k": "intparse", "in": ["91640859261850022843", 2], "err": "ValueError: invalid literal for int() with base 2: '91640859261850022843'"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["_", 3], "err": "ValueError: invalid literal for int() with base 3: '_'"}
+{"k": "intparse", "in": ["_0x0\ud804\udc66", 0], "err": "ValueError: invalid literal for int() with base 0: '_0x0\ud804\udc66'"}
+{"k": "intparse", "in": ["0X1_\u1a826", 3], "err": "ValueError: invalid literal for int() with base 3: '0X1_\u1a826'"}
+{"k": "intparse", "in": ["\u00a031287667092875216981", 2], "err": "ValueError: invalid literal for int() with base 2: '\\xa031287667092875216981'"}
+{"k": "intparse", "in": ["\uabf4AeAbFc", 16], "out": "78556156"}
+{"k": "intparse", "in": ["0b57974775", 10], "err": "ValueError: invalid literal for int() with base 10: '0b57974775'"}
+{"k": "intparse", "in": ["\u2002.", 0], "err": "ValueError: invalid literal for int() with base 0: '\\u2002.'"}
+{"k": "intparse", "in": ["Bb_\u000b", 16], "err": "ValueError: invalid literal for int() with base 16: 'Bb_\\x0b'"}
+{"k": "intparse", "in": ["4 ", 16], "out": "4"}
+{"k": "intparse", "in": ["9", 16], "out": "9"}
+{"k": "intparse", "in": ["fE", 36], "out": "554"}
+{"k": "intparse", "in": ["0XX\u09ef08", 7], "err": "ValueError: invalid literal for int() with base 7: '0XX\u09ef08'"}
+{"k": "intparse", "in": ["9\u2001\u001f", 7], "err": "ValueError: invalid literal for int() with base 7: '9\\u2001\\x1f'"}
+{"k": "intparse", "in": ["0x0424861755812710120160975630683887897956232073068", 3], "err": "ValueError: invalid literal for int() with base 3: '0x0424861755812710120160975630683887897956232073068'"}
+{"k": "intparse", "in": ["0049", 10], "out": "49"}
+{"k": "intparse", "in": ["099\ua9f75423", 10], "out": "9975423"}
+{"k": "intparse", "in": ["0Bx8", 2], "err": "ValueError: invalid literal for int() with base 2: '0Bx8'"}
+{"k": "intparse", "in": ["273", 10], "out": "273"}
+{"k": "intparse", "in": ["6444\ud805\udcd4485", 2], "err": "ValueError: invalid literal for int() with base 2: '6444\ud805\udcd4485'"}
+{"k": "intparse", "in": ["2789653151\ud838\udef1668079909", 7], "err": "ValueError: invalid literal for int() with base 7: '2789653151\ud838\udef1668079909'"}
+{"k": "intparse", "in": ["-92d403BE\ud805\udf33A7Cbbof8713E", 16], "err": "ValueError: invalid literal for int() with base 16: '-92d403BE\ud805\udf33A7Cbbof8713E'"}
+{"k": "intparse", "in": ["7", 36], "out": "7"}
+{"k": "intparse", "in": ["12652938411618206347372\ud804\uddd256813579437398825904771121", 7], "err": "ValueError: invalid literal for int() with base 7: '12652938411618206347372\ud804\uddd256813579437398825904771121'"}
+{"k": "intparse", "in": ["\u3000D\u0000", 16], "err": "ValueError: invalid literal for int() with base 16: '\\u3000D\\x00'"}
+{"k": "intparse", "in": ["0_X", 3], "err": "ValueError: invalid literal for int() with base 3: '0_X'"}
+{"k": "intparse", "in": ["0039969041", 10], "out": "39969041"}
+{"k": "intparse", "in": ["05\u1bb1\ud807\udf54", 2], "err": "ValueError: invalid literal for int() with base 2: '05\u1bb1\ud807\udf54'"}
+{"k": "intparse", "in": ["+0o72", 3], "err": "ValueError: invalid literal for int() with base 3: '+0o72'"}
+{"k": "intparse", "in": ["66\u000b", 2], "err": "ValueError: invalid literal for int() with base 2: '66\\x0b'"}
+{"k": "intparse", "in": ["-", 36], "err": "ValueError: invalid literal for int() with base 36: '-'"}
+{"k": "intparse", "in": [" ", 2], "err": "ValueError: invalid literal for int() with base 2: ' '"}
+{"k": "intparse", "in": [" 9", 2], "err": "ValueError: invalid literal for int() with base 2: ' 9'"}
+{"k": "intparse", "in": ["o ", 8], "err": "ValueError: invalid literal for int() with base 8: 'o '"}
+{"k": "intparse", "in": ["0x951_42878", 3], "err": "ValueError: invalid literal for int() with base 3: '0x951_42878'"}
+{"k": "intparse", "in": ["84FA2cFE\u205f", 36], "out": "636544340330"}
+{"k": "intparse", "in": ["21918513", 8], "err": "ValueError: invalid literal for int() with base 8: '21918513'"}
+{"k": "intparse", "in": ["3", 8], "out": "3"}
+{"k": "intparse", "in": [" 0o43", 0], "out": "35"}
+{"k": "intparse", "in": ["Bf", 16], "out": "191"}
+{"k": "intparse", "in": ["0o7", 2], "err": "ValueError: invalid literal for int() with base 2: '0o7'"}
+{"k": "intparse", "in": ["_", 0], "err": "ValueError: invalid literal for int() with base 0: '_'"}
+{"k": "intparse", "in": ["23584670928354426657052002092672_786852031118703221\u2004", 10], "out": "23584670928354426657052002092672786852031118703221"}
+{"k": "intparse", "in": ["", 7], "err": "ValueError: invalid literal for int() with base 7: ''"}
+{"k": "intparse", "in": ["o\u300063\ud807\udc51", 10], "err": "ValueError: invalid literal for int() with base 10: 'o\\u300063\ud807\udc51'"}
+{"k": "intparse", "in": ["+00389644968452882305421374217538322151148E7469594227", 0], "err": "ValueError: invalid literal for int() with base 0: '+00389644968452882305421374217538322151148E7469594227'"}
+{"k": "intparse", "in": [" 04019469954920459538", 10], "out": "4019469954920459538"}
+{"k": "intparse", "in": ["\f3", 7], "out": "3"}
+{"k": "intparse", "in": ["0b_3", 7], "err": "ValueError: invalid literal for int() with base 7: '0b_3'"}
+{"k": "intparse", "in": ["722", 2], "err": "ValueError: invalid literal for int() with base 2: '722'"}
+{"k": "intparse", "in": ["+0x572", 10], "err": "ValueError: invalid literal for int() with base 10: '+0x572'"}
+{"k": "intparse", "in": ["328544 0551505581722", 0], "err": "ValueError: invalid literal for int() with base 0: '328544 0551505581722'"}
+{"k": "intparse", "in": ["_", 0], "err": "ValueError: invalid literal for int() with base 0: '_'"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["61485891", 0], "out": "61485891"}
+{"k": "intparse", "in": ["", 8], "err": "ValueError: invalid literal for int() with base 8: ''"}
+{"k": "intparse", "in": ["", 2], "err": "ValueError: invalid literal for int() with base 2: ''"}
+{"k": "intparse", "in": ["89553966169137350289997776350171673697871664\ud807\udd531941\u2004", 10], "out": "8955396616913735028999777635017167369787166431941"}
+{"k": "intparse", "in": ["_5\ua628", 0], "err": "ValueError: invalid literal for int() with base 0: '_5\ua628'"}
+{"k": "intparse", "in": ["28dE70_D98074fFC6ab45", 16], "out": "192997968170991518919493"}
+{"k": "intparse", "in": ["98697529", 7], "err": "ValueError: invalid literal for int() with base 7: '98697529'"}
+{"k": "intparse", "in": ["0bab", 36], "out": "14627"}
+{"k": "intparse", "in": ["\u194a", 10], "out": "4"}
+{"k": "intparse", "in": ["23255584\u2009", 10], "out": "23255584"}
+{"k": "intparse", "in": ["0A0ed4f15", 16], "out": "2699906837"}
+{"k": "intparse", "in": [" -155", 7], "out": "-89"}
+{"k": "intparse", "in": ["5", 16], "out": "5"}
+{"k": "intparse", "in": ["dcFa8aDD", 16], "out": "3707407069"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["D_34", 36], "out": "16960"}
+{"k": "intparse", "in": ["03926905", 10], "out": "3926905"}
+{"k": "intparse", "in": [" -11", 10], "out": "-11"}
+{"k": "intparse", "in": ["+_+798", 0], "err": "ValueError: invalid literal for int() with base 0: '+_+798'"}
+{"k": "intparse", "in": ["3673e0608", 10], "err": "ValueError: invalid literal for int() with base 10: '3673e0608'"}
+{"k": "intparse", "in": ["61\u2008", 10], "out": "61"}
+{"k": "intparse", "in": ["0o46868328785775268397802696463362339170104285228924", 0], "err": "ValueError: invalid literal for int() with base 0: '0o46868328785775268397802696463362339170104285228924'"}
+{"k": "intparse", "in": ["+5_", 3], "err": "ValueError: invalid literal for int() with base 3: '+5_'"}
+{"k": "intparse", "in": ["0_", 0], "err": "ValueError: invalid literal for int() with base 0: '0_'"}
+{"k": "intparse", "in": ["_005_\uff110", 2], "err": "ValueError: invalid literal for int() with base 2: '_005_\uff110'"}
+{"k": "intparse", "in": ["057__", 0], "err": "ValueError: invalid literal for int() with base 0: '057__'"}
+{"k": "intparse", "in": ["e31Af48c", 16], "out": "3810194572"}
+{"k": "intparse", "in": ["981fB1C2", 16], "out": "2552213954"}
+{"k": "intparse", "in": ["78069364", 0], "out": "78069364"}
+{"k": "intparse", "in": ["933", 0], "out": "933"}
+{"k": "intparse", "in": ["073103828336877396456476131595004445949926690851_08\u1680", 10], "out": "7310382833687739645647613159500444594992669085108"}
+{"k": "intparse", "in": ["0xA1", 36], "out": "43129"}
+{"k": "intparse", "in": ["\u00e90o9\u1a89", 10], "err": "ValueError: invalid literal for int() with base 10: '\u00e90o9\u1a89'"}
+{"k": "intparse", "in": ["x", 10], "err": "ValueError: invalid literal for int() with base 10: 'x'"}
+{"k": "intparse", "in": ["0b5Eae5\ua622AA", 16], "out": "48833122986"}
+{"k": "intparse", "in": ["983987290168275684\ua8d08712297854899500554434139286240", 2], "err": "ValueError: invalid literal for int() with base 2: '983987290168275684\ua8d08712297854899500554434139286240'"}
+{"k": "intparse", "in": ["\u001c7", 0], "err": "ValueError: invalid literal for int() with base 0: '\\x1c7'"}
+{"k": "intparse", "in": ["6\u1099\u202f", 10], "out": "69"}
+{"k": "intparse", "in": ["\n1", 2], "out": "1"}
+{"k": "intparse", "in": ["0x56919723563078249467235801111841889104504166591575", 3], "err": "ValueError: invalid literal for int() with base 3: '0x56919723563078249467235801111841889104504166591575'"}
+{"k": "intparse", "in": ["0X", 3], "err": "ValueError: invalid literal for int() with base 3: '0X'"}
+{"k": "intparse", "in": ["\u1c40", 10], "out": "0"}
+{"k": "intparse", "in": ["0X43108565584345529118372347003012951444492188054393", 8], "err": "ValueError: invalid literal for int() with base 8: '0X43108565584345529118372347003012951444492188054393'"}
+{"k": "intparse", "in": ["34", 16], "out": "52"}
+{"k": "intparse", "in": ["49126164", 2], "err": "ValueError: invalid literal for int() with base 2: '49126164'"}
+{"k": "intparse", "in": ["\n25512875\u001c", 10], "err": "ValueError: invalid literal for int() with base 10: '\\n25512875\\x1c'"}
+{"k": "intparse", "in": ["0X62380160430446274782", 7], "err": "ValueError: invalid literal for int() with base 7: '0X62380160430446274782'"}
+{"k": "intparse", "in": ["0X08\u0000653567529462522451665761993678311810147671057546", 10], "err": "ValueError: invalid literal for int() with base 10: '0X08\\x00653567529462522451665761993678311810147671057546'"}
+{"k": "intparse", "in": ["-D99", 36], "out": "-17181"}
+{"k": "intparse", "in": ["+03755236", 7], "err": "ValueError: invalid literal for int() with base 7: '+03755236'"}
+{"k": "intparse", "in": ["0x94742952\u2007", 10], "err": "ValueError: invalid literal for int() with base 10: '0x94742952\\u2007'"}
+{"k": "intparse", "in": ["\u200105\u0cee\u2007", 8], "err": "ValueError: invalid literal for int() with base 8: '\\u200105\u0cee\\u2007'"}
+{"k": "intparse", "in": ["0b92384804", 2], "err": "ValueError: invalid literal for int() with base 2: '0b92384804'"}
+{"k": "intparse", "in": ["+709", 10], "out": "709"}
+{"k": "intparse", "in": ["-057979030", 10], "out": "-57979030"}
+{"k": "intparse", "in": ["49302410307435073411633883772918109536090752230984", 7], "err": "ValueError: invalid literal for int() with base 7: '49302410307435073411633883772918109536090752230984'"}
+{"k": "intparse", "in": ["9B0D8300 6aC78fAe4E01", 16], "err": "ValueError: invalid literal for int() with base 16: '9B0D8300 6aC78fAe4E01'"}
+{"k": "intparse", "in": ["0b7", 10], "err": "ValueError: invalid literal for int() with base 10: '0b7'"}
+{"k": "intparse", "in": ["0o92", 0], "err": "ValueError: invalid literal for int() with base 0: '0o92'"}
+{"k": "intparse", "in": [" 6", 0], "out": "6"}
+{"k": "intparse", "in": ["4625143372066601983", 10], "out": "4625143372066601983"}
+{"k": "intparse", "in": ["-2610830", 10], "out": "-2610830"}
+{"k": "intparse", "in": ["952", 10], "out": "952"}
+{"k": "intparse", "in": ["0_", 10], "err": "ValueError: invalid literal for int() with base 10: '0_'"}
+{"k": "intparse", "in": [" bD", 16], "out": "189"}
+{"k": "intparse", "in": ["\u200490", 10], "out": "90"}
+{"k": "intparse", "in": ["", 3], "err": "ValueError: invalid literal for int() with base 3: ''"}
+{"k": "intparse", "in": ["61801357", 0], "out": "61801357"}
+{"k": "intparse", "in": ["_", 7], "err": "ValueError: invalid literal for int() with base 7: '_'"}
+{"k": "intparse", "in": ["d", 16], "out": "13"}
+{"k": "intparse", "in": ["0o042", 10], "err": "ValueError: invalid literal for int() with base 10: '0o042'"}
+{"k": "intparse", "in": ["0o_", 10], "err": "ValueError: invalid literal for int() with base 10: '0o_'"}
+{"k": "intparse", "in": ["0x9883990943734931273_4883013536488287330378559534234", 10], "err": "ValueError: invalid literal for int() with base 10: '0x9883990943734931273_4883013536488287330378559534234'"}
+{"k": "intparse", "in": ["\u20000AF3\u00a0", 16], "out": "2803"}
+{"k": "intparse", "in": ["64", 36], "out": "220"}
+{"k": "intparse", "in": ["0X8", 10], "err": "ValueError: invalid literal for int() with base 10: '0X8'"}
+{"k": "intparse", "in": ["98304917896308519783", 2], "err": "ValueError: invalid literal for int() with base 2: '98304917896308519783'"}
+{"k": "intparse", "in": ["0X63", 10], "err": "ValueError: invalid literal for int() with base 10: '0X63'"}
+{"k": "intparse", "in": ["0b", 3], "err": "ValueError: invalid literal for int() with base 3: '0b'"}
+{"k": "intparse", "in": ["_32124308", 0], "err": "ValueError: invalid literal for int() with base 0: '_32124308'"}
+{"k": "intparse", "in": ["004883_0971", 10], "out": "48830971"}
+{"k": "intparse", "in": ["0630391645875841271596526631468827323028400479698", 0], "err": "ValueError: invalid literal for int() with base 0: '0630391645875841271596526631468827323028400479698'"}
+{"k": "intparse", "in": ["28467716137831237801", 2], "err": "ValueError: invalid literal for int() with base 2: '28467716137831237801'"}
+{"k": "intparse", "in": ["9 ", 0], "out": "9"}
+{"k": "intparse", "in": [" 0oCD26eC0f", 36], "out": "68675437597263"}
+{"k": "intparse", "in": ["\ua905.", 10], "err": "ValueError: invalid literal for int() with base 10: '\ua905.'"}
+{"k": "intparse", "in": ["+0o", 10], "err": "ValueError: invalid literal for int() with base 10: '+0o'"}
+{"k": "intparse", "in": ["0c_\u2029", 16], "err": "ValueError: invalid literal for int() with base 16: '0c_\\u2029'"}
+{"k": "intparse", "in": ["b0E3DBe4DbCd1f374a7B", 16], "out": "835339756920852660570747"}
+{"k": "intparse", "in": ["8", 0], "out": "8"}
+{"k": "intparse", "in": ["6EEBCbae045edEDE1278", 16], "out": "523809974646023877694072"}
+{"k": "intparse", "in": ["\u0ed0o_882", 7], "err": "ValueError: invalid literal for int() with base 7: '\u0ed0o_882'"}
+{"k": "intparse", "in": ["\ua9d4_", 8], "err": "ValueError: invalid literal for int() with base 8: '\ua9d4_'"}
+{"k": "intparse", "in": ["-58083401908574838267840532625616811991177009155697", 0], "out": "-58083401908574838267840532625616811991177009155697"}
+{"k": "intparse", "in": ["142", 8], "out": "98"}
+{"k": "intparse", "in": ["\u200746\ud83e\udff562578", 8], "err": "ValueError: invalid literal for int() with base 8: '\\u200746\ud83e\udff562578'"}
+{"k": "intparse", "in": ["0o78334055093447733019", 0], "err": "ValueError: invalid literal for int() with base 0: '0o78334055093447733019'"}
+{"k": "intparse", "in": ["", 7], "err": "ValueError: invalid literal for int() with base 7: ''"}
+{"k": "intparse", "in": ["\ff4CAc3AFE3B99B98f015", 16], "out": "1155997764862427400826901"}
+{"k": "intparse", "in": ["_8\u001c3\u0000", 7], "err": "ValueError: invalid literal for int() with base 7: '_8\\x1c3\\x00'"}
+{"k": "intparse", "in": ["6B09cCfd", 16], "out": "1795804413"}
+{"k": "intparse", "in": ["66949\uabf621095101235117", 10], "out": "66949621095101235117"}
+{"k": "intparse", "in": ["07", 8], "out": "7"}
+{"k": "intparse", "in": ["2_06", 10], "out": "206"}
+{"k": "intparse", "in": ["fbe", 36], "out": "19850"}
+{"k": "intparse", "in": ["68295456312133509412459337531557155522020942132225", 7], "err": "ValueError: invalid literal for int() with base 7: '68295456312133509412459337531557155522020942132225'"}
+{"k": "intparse", "in": [" ", 10], "err": "ValueError: invalid literal for int() with base 10: ' '"}
+{"k": "intparse", "in": ["30469459829127281019173484629362749358230756805893", 7], "err": "ValueError: invalid literal for int() with base 7: '30469459829127281019173484629362749358230756805893'"}
+{"k": "intparse", "in": ["2Fe", 36], "out": "3146"}
+{"k": "intparse", "in": ["6", 2], "err": "ValueError: invalid literal for int() with base 2: '6'"}
+{"k": "intparse", "in": ["14208169700731130654777678472123188611980948075927", 0], "out": "14208169700731130654777678472123188611980948075927"}
+{"k": "intparse", "in": [" \u001c09", 0], "err": "ValueError: invalid literal for int() with base 0: ' \\x1c09'"}
+{"k": "intparse", "in": ["0o3", 36], "out": "867"}
+{"k": "intparse", "in": ["07119129688758267011", 10], "out": "7119129688758267011"}
+{"k": "intparse", "in": ["80dfcd3F", 36], "out": "627725144139"}
+{"k": "intparse", "in": ["-33\ua9f965\ua9d432", 10], "out": "-33965432"}
+{"k": "intparse", "in": ["731", 8], "out": "473"}
+{"k": "intparse", "in": ["", 10], "err": "ValueError: invalid literal for int() with base 10: ''"}
+{"k": "intparse", "in": ["+E", 16], "out": "14"}
+{"k": "intparse", "in": ["0x2", 3], "err": "ValueError: invalid literal for int() with base 3: '0x2'"}
+{"k": "intparse", "in": ["\u00a095497452632463861693426183384352863\ud804\udef788427710978375", 0], "out": "95497452632463861693426183384352863788427710978375"}
+{"k": "intparse", "in": ["010540352745197054619356410974104753432\ud805\udc5723530295585", 0], "err": "ValueError: invalid literal for int() with base 0: '010540352745197054619356410974104753432\ud805\udc5723530295585'"}
+{"k": "intparse", "in": ["", 0], "err": "ValueError: invalid literal for int() with base 0: ''"}
+{"k": "intparse", "in": ["\u001e8\u001e", 2], "err": "ValueError: invalid literal for int() with base 2: '\\x1e8\\x1e'"}
+{"k": "intparse", "in": [" 0b99", 0], "err": "ValueError: invalid literal for int() with base 0: ' 0b99'"}
+{"k": "intparse", "in": [" 0b\ud835\udffe90833o42293991309668203863727149736667168197938098", 0], "err": "ValueError: invalid literal for int() with base 0: ' 0b\ud835\udffe90833o42293991309668203863727149736667168197938098'"}
+{"k": "intparse", "in": ["+0o926", 10], "err": "ValueError: invalid literal for int() with base 10: '+0o926'"}
+{"k": "intparse", "in": ["ae", 16], "out": "174"}
+{"k": "intparse", "in": ["+\u0be66", 0], "err": "ValueError: invalid literal for int() with base 0: '+\u0be66'"}
+{"k": "intparse", "in": ["0022377423816342704575385134164893622756302137765695", 10], "out": "22377423816342704575385134164893622756302137765695"}
+{"k": "intparse", "in": ["0o1_ _", 3], "err": "ValueError: invalid literal for int() with base 3: '0o1_ _'"}
+{"k": "intparse", "in": ["0o", 3], "err": "ValueError: invalid literal for int() with base 3: '0o'"}
+{"k": "intparse", "in": ["\u001cBb ", 36], "err": "ValueError: invalid literal for int() with base 36: '\\x1cBb '"}
+{"k": "intparse", "in": ["78623066051049\u109462759", 0], "out": "78623066051049462759"}
+{"k": "intparse", "in": ["fFB9fde2dbbC5fdCCdf3", 36], "out": "5727732419252193528048230325999"}
+{"k": "intparse", "in": ["1114123181452826957845970947307678349479846946823", 10], "out": "1114123181452826957845970947307678349479846946823"}
+{"k": "intparse", "in": ["\n0bX", 10], "err": "ValueError: invalid literal for int() with base 10: '\\n0bX'"}
+{"k": "intparse", "in": ["487852216062438159\ud803\udd309473435464978035_989116165046037", 7], "err": "ValueError: invalid literal for int() with base 7: '487852216062438159\ud803\udd309473435464978035_989116165046037'"}
+{"k": "intparse", "in": ["ca\u200a", 16], "out": "202"}
+{"k": "intparse", "in": ["41\ud838\udd43", 0], "out": "413"}
+{"k": "intparse", "in": ["20561901", 7], "err": "ValueError: invalid literal for int() with base 7: '20561901'"}
+{"k": "intparse", "in": ["0oac86cC05", 16], "err": "ValueError: invalid literal for int() with base 16: '0oac86cC05'"}
+{"k": "intparse", "in": [" \u00e9300", 0], "err": "ValueError: invalid literal for int() with base 0: ' \u00e9300'"}
+{"k": "intparse", "in": ["A", 16], "out": "10"}
+{"k": "intparse", "in": ["2\u07c37", 7], "err": "ValueError: invalid literal for int() with base 7: '2\u07c37'"}
+{"k": "intparse", "in": ["58156969-", 3], "err": "ValueError: invalid literal for int() with base 3: '58156969-'"}
+{"k": "intparse", "in": ["0o82511434\ud835\udffc93377627188", 7], "err": "ValueError: invalid literal for int() with base 7: '0o82511434\ud835\udffc93377627188'"}
+{"k": "intparse", "in": ["2", 10], "out": "2"}
+{"k": "intparse", "in": ["076846900806344195155428074374768820814668\u0ce9894738", 0], "err": "ValueError: invalid literal for int() with base 0: '076846900806344195155428074374768820814668\u0ce9894738'"}
+{"k": "intparse", "in": ["24\u2029  ", 2], "err": "ValueError: invalid literal for int() with base 2: '24\\u2029  '"}
+{"k": "intparse", "in": ["2\ud807\udc53", 0], "out": "23"}
+{"k": "intparse", "in": ["33222843829564499842-11012738181126008285612841918", 2], "err": "ValueError: invalid literal for int() with base 2: '33222843829564499842-11012738181126008285612841918'"}
+{"k": "intparse", "in": ["762", 16], "out": "1890"}
+{"k": "intparse", "in": ["_o3", 0], "err": "ValueError: invalid literal for int() with base 0: '_o3'"}
+{"k": "intparse", "in": ["_81f05a5B", 16], "err": "ValueError: invalid literal for int() with base 16: '_81f05a5B'"}
+{"k": "intparse", "in": ["0bo4", 10], "err": "ValueError: invalid literal for int() with base 10: '0bo4'"}
+{"k": "intparse", "in": ["1341902045\u09e9325876580", 0], "out": "13419020453325876580"}
+{"k": "intparse", "in": ["57", 10], "out": "57"}
+{"k": "intparse", "in": ["\u20080b497_90990328336642891\u2003", 7], "err": "ValueError: invalid literal for int() with base 7: '\\u20080b497_90990328336642891\\u2003'"}
+{"k": "intparse", "in": ["71364972688274701860", 10], "out": "71364972688274701860"}
+{"k": "intparse", "in": ["0_7_", 10], "err": "ValueError: invalid literal for int() with base 10: '0_7_'"}
+{"k": "intparse", "in": ["+0", 0], "out": "0"}
+{"k": "intparse", "in": ["4583004445545236004", 10], "out": "4583004445545236004"}
+{"k": "intparse", "in": ["-15875929610468198764558376154061949632220391872538", 10], "out": "-15875929610468198764558376154061949632220391872538"}
+{"k": "intparse", "in": ["EC", 16], "out": "236"}
+{"k": "intparse", "in": ["B9c\u2002", 16], "out": "2972"}
+{"k": "intparse", "in": ["+", 10], "err": "ValueError: invalid literal for int() with base 10: '+'"}
+{"k": "intparse", "in": ["-8\ud81a\ude684", 3], "err": "ValueError: invalid literal for int() with base 3: '-8\ud81a\ude684'"}
+{"k": "intparse", "in": ["_\u0000", 10], "err": "ValueError: invalid literal for int() with base 10: '_\\x00'"}
+{"k": "intparse", "in": ["_", 7], "err": "ValueError: invalid literal for int() with base 7: '_'"}
+{"k": "intparse", "in": ["_60Cca1F0", 16], "err": "ValueError: invalid literal for int() with base 16: '_60Cca1F0'"}
+{"k": "intparse", "in": ["\u2006B", 0], "err": "ValueError: invalid literal for int() with base 0: '\\u2006B'"}
+{"k": "intparse", "in": ["bb", 36], "out": "407"}
+{"k": "intparse", "in": ["96928912436396800385", 0], "out": "96928912436396800385"}
+{"k": "intparse", "in": ["4", 7], "out": "4"}
+{"k": "intparse", "in": ["12_6", 0], "out": "126"}
+{"k": "intparse", "in": ["\u00a0871\u0bee3271", 2], "err": "ValueError: invalid literal for int() with base 2: '\\xa0871\u0bee3271'"}
+{"k": "intparse", "in": ["4c", 16], "out": "76"}
+{"k": "intparse", "in": ["\u200279194490299430098\ud835\udfda8627983\u0cef018521450111493125982950", 10], "out": "79194490299430098286279839018521450111493125982950"}
+{"k": "intparse", "in": ["O", 10], "err": "ValueError: invalid literal for int() with base 10: 'O'"}
+{"k": "intparse", "in": ["51", 10], "out": "51"}
+{"k": "intparse", "in": ["-0X3046\ud805\udf39231532_459579911", 10], "err": "ValueError: invalid literal for int() with base 10: '-0X3046\ud805\udf39231532_459579911'"}
+{"k": "intparse", "in": ["0x4A3400bb\u001e", 36], "err": "ValueError: invalid literal for int() with base 36: '0x4A3400bb\\x1e'"}
+{"k": "intparse", "in": ["\u200051705768632102958251", 10], "out": "51705768632102958251"}
+{"k": "intparse", "in": ["7.8", 8], "err": "ValueError: invalid literal for int() with base 8: '7.8'"}
+{"k": "intparse", "in": ["+44778941\u001d", 3], "err": "ValueError: invalid literal for int() with base 3: '+44778941\\x1d'"}
+{"k": "intparse", "in": ["2\n", 7], "out": "2"}
+{"k": "intparse", "in": ["780\u2004", 10], "out": "780"}
+{"k": "intparse", "in": ["724", 0], "out": "724"}
+{"k": "intparse", "in": [" 43 ", 0], "out": "43"}
+{"k": "intparse", "in": ["", 2], "err": "ValueError: invalid literal for int() with base 2: ''"}
+{"k": "intparse", "in": ["10_11494", 3], "err": "ValueError: invalid literal for int() with base 3: '10_11494'"}
+{"k": "intparse", "in": ["57", 3], "err": "ValueError: invalid literal for int() with base 3: '57'"}
+{"k": "intparse", "in": [" _ ", 10], "err": "ValueError: invalid literal for int() with base 10: ' _ '"}
+{"k": "intparse", "in": ["0E1\u001c", 16], "err": "ValueError: invalid literal for int() with base 16: '0E1\\x1c'"}
+{"k": "intparse", "in": ["e", 36], "out": "14"}
+{"k": "intparse", "in": ["31668859110202369632950256930029145474999978905990", 2], "err": "ValueError: invalid literal for int() with base 2: '31668859110202369632950256930029145474999978905990'"}
+{"k": "intparse", "in": ["83104021", 0], "out": "83104021"}
+{"k": "intparse", "in": ["0598B6ABBdBC9f80A83c", 16], "out": "26428900336505825830972"}
+{"k": "intparse", "in": ["\u07c8\t", 3], "err": "ValueError: invalid literal for int() with base 3: '\u07c8\\t'"}
+{"k": "intparse", "in": ["_E2d", 16], "err": "ValueError: invalid literal for int() with base 16: '_E2d'"}
+{"k": "intparse", "in": ["", 8], "err": "ValueError: invalid literal for int() with base 8: ''"}
+{"k": "intparse", "in": [" F3bAafF7\n", 36], "out": "1182675219091"}
+{"k": "intparse", "in": ["\r365+", 2], "err": "ValueError: invalid literal for int() with base 2: '\\r365+'"}
+{"k": "intparse", "in": ["0o74", 8], "out": "60"}
+{"k": "intparse", "in": ["015", 2], "err": "ValueError: invalid literal for int() with base 2: '015'"}
+{"k": "intparse", "in": ["940\u3000", 7], "err": "ValueError: invalid literal for int() with base 7: '940\\u3000'"}
+{"k": "intparse", "in": ["+O", 3], "err": "ValueError: invalid literal for int() with base 3: '+O'"}
+{"k": "intparse", "in": ["\u1bb0x", 3], "err": "ValueError: invalid literal for int() with base 3: '\u1bb0x'"}
+{"k": "intparse", "in": ["-53064\ud805\udf37916422e31286565", 10], "err": "ValueError: invalid literal for int() with base 10: '-53064\ud805\udf37916422e31286565'"}
+{"k": "intparse", "in": ["_\u2029", 0], "err": "ValueError: invalid literal for int() with base 0: '_\\u2029'"}
+{"k": "intparse", "in": [" 6165286758580627373230993399212349612346218x2784374", 3], "err": "ValueError: invalid literal for int() with base 3: ' 6165286758580627373230993399212349612346218x2784374'"}
+{"k": "intparse", "in": ["\u2009-0XF", 36], "out": "-1203"}
+{"k": "intparse", "in": ["9", 16], "out": "9"}
+{"k": "intparse", "in": ["981", 10], "out": "981"}
+{"k": "intparse", "in": ["+6\u194f", 0], "out": "69"}
+{"k": "intparse", "in": ["260600\ud803\udd368", 0], "out": "26060068"}
+{"k": "intparse", "in": ["6_", 2], "err": "ValueError: invalid literal for int() with base 2: '6_'"}
+{"k": "intparse", "in": ["67015241684185890214", 10], "out": "67015241684185890214"}
+{"k": "intparse", "in": ["91197490", 0], "out": "91197490"}
+{"k": "intparse", "in": ["73", 7], "err": "ValueError: invalid literal for int() with base 7: '73'"}
+{"k": "intparse", "in": ["fDa", 16], "out": "4058"}
+{"k": "intparse", "in": ["62_", 10], "err": "ValueError: invalid literal for int() with base 10: '62_'"}
+{"k": "intparse", "in": ["\ud805\udc50xa", 16], "out": "10"}
+{"k": "intparse", "in": ["e4", 36], "out": "508"}
+{"k": "intparse", "in": ["\u1680a5 ", 0], "err": "ValueError: invalid literal for int() with base 0: '\\u1680a5 '"}
+{"k": "intparse", "in": ["4_7395446", 0], "out": "47395446"}
+{"k": "intparse", "in": [" AA", 16], "out": "170"}
+{"k": "intparse", "in": ["3", 16], "out": "3"}
+{"k": "intparse", "in": ["59211060", 3], "err": "ValueError: invalid literal for int() with base 3: '59211060'"}
+{"k": "intparse", "in": ["", 7], "err": "ValueError: invalid literal for int() with base 7: ''"}
+{"k": "intparse", "in": ["\u000b0_", 10], "err": "ValueError: invalid literal for int() with base 10: '\\x0b0_'"}
+{"k": "intparse", "in": ["\u0000", 2], "err": "ValueError: invalid literal for int() with base 2: '\\x00'"}
+{"k": "intparse", "in": ["026095831815789953083680718938709537273821180906738", 2], "err": "ValueError: invalid literal for int() with base 2: '026095831815789953083680718938709537273821180906738'"}
+{"k": "intparse", "in": ["\ud805\udf32", 16], "out": "2"}
+{"k": "intparse", "in": ["0o35919440", 3], "err": "ValueError: invalid literal for int() with base 3: '0o35919440'"}
+{"k": "intparse", "in": ["9\ud803\udd367", 8], "err": "ValueError: invalid literal for int() with base 8: '9\ud803\udd367'"}
+{"k": "intparse", "in": [" \ud835\udfd14", 0], "out": "34"}
+{"k": "intparse", "in": ["0o4\u0aed", 8], "out": "39"}
+{"k": "intparse", "in": ["E", 16], "out": "14"}
+{"k": "intparse", "in": ["0o937986\u096a066130\ud806\udd530426311746406826077140034360\ud803\udd358026417", 10], "err": "ValueError: invalid literal for int() with base 10: '0o937986\u096a066130\ud806\udd530426311746406826077140034360\ud803\udd358026417'"}
+{"k": "intparse", "in": ["976696686451421167570795676606463630_66150847172427", 3], "err": "ValueError: invalid literal for int() with base 3: '976696686451421167570795676606463630_66150847172427'"}
+{"k": "intparse", "in": ["0\u008520717709982976373496", 7], "err": "ValueError: invalid literal for int() with base 7: '0\\x8520717709982976373496'"}
+{"k": "intparse", "in": [" 4f", 36], "out": "159"}
+{"k": "intparse", "in": ["\u20090X", 0], "err": "ValueError: invalid literal for int() with base 0: '\\u20090X'"}
+{"k": "intparse", "in": ["73c44fC5", 16], "out": "1942245317"}
+{"k": "intparse", "in": ["_", 0], "err": "ValueError: invalid literal for int() with base 0: '_'"}
+{"k": "intparse", "in": ["b53eA0Bd8dE9Ed9DB8fcC", 16], "out": "13694457825629252737535948"}
+{"k": "intparse", "in": ["\u168086980539", 10], "out": "86980539"}
+{"k": "intparse", "in": [" \u1a951", 7], "out": "36"}
+{"k": "intparse", "in": ["0b816", 3], "err": "ValueError: invalid literal for int() with base 3: '0b816'"}
+{"k": "intparse", "in": ["26893410068363915123501936875966395567917443194204", 7], "err": "ValueError: invalid literal for int() with base 7: '26893410068363915123501936875966395567917443194204'"}
+{"k": "intparse", "in": ["0xd", 16], "out": "13"}
+{"k": "intparse", "in": ["_", 10], "err": "ValueError: invalid literal for int() with base 10: '_'"}
+{"k": "intparse", "in": ["6ba793fa", 36], "out": "494746433686"}
+{"k": "intparse", "in": ["0f", 16], "out": "15"}
+{"k": "intparse", "in": ["7130\u1815793", 7], "err": "ValueError: invalid literal for int() with base 7: '7130\u1815793'"}
+{"k": "intparse", "in": ["+371", 8], "out": "249"}
+{"k": "intparse", "in": ["0", 10], "out": "0"}
+{"k": "intparse", "in": ["72679157", 0], "out": "72679157"}
+{"k": "intparse", "in": ["_+", 10], "err": "ValueError: invalid literal for int() with base 10: '_+'"}
+{"k": "intparse", "in": ["70926130771317069638681697538511812097146566997845", 7], "err": "ValueError: invalid literal for int() with base 7: '70926130771317069638681697538511812097146566997845'"}
+{"k": "intparse", "in": ["0x28635306", 10], "err": "ValueError: invalid literal for int() with base 10: '0x28635306'"}
+{"k": "intparse", "in": ["0o928", 10], "err": "ValueError: invalid literal for int() with base 10: '0o928'"}
+{"k": "intparse", "in": ["0022390899190168883802", 10], "out": "22390899190168883802"}
+{"k": "intparse", "in": ["\u30000", 7], "out": "0"}
+{"k": "intparse", "in": [" b0x9", 10], "err": "ValueError: invalid literal for int() with base 10: ' b0x9'"}
+{"k": "intparse", "in": ["76820673556613299844162954600714780554940534967200 ", 10], "out": "76820673556613299844162954600714780554940534967200"}
+{"k": "intparse", "in": ["B4", 36], "out": "400"}
+{"k": "intparse", "in": ["90\u1c58_", 0], "err": "ValueError: invalid literal for int() with base 0: '90\u1c58_'"}
+{"k": "intparse", "in": ["889", 3], "err": "ValueError: invalid literal for int() with base 3: '889'"}
+{"k": "intparse", "in": ["\u001fc5\u0cef", 16], "err": "ValueError: invalid literal for int() with base 16: '\\x1fc5\u0cef'"}
+{"k": "intparse", "in": ["+Dc", 36], "out": "480"}
+{"k": "intparse", "in": ["9", 10], "out": "9"}
+{"k": "intparse", "in": ["2", 8], "out": "2"}
+{"k": "intparse", "in": ["0Dx", 16], "err": "ValueError: invalid literal for int() with base 16: '0Dx'"}
+{"k": "intparse", "in": ["\uaa54", 36], "out": "4"}
